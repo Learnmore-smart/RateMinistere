@@ -8,7 +8,9 @@ A collaborative platform where students can rate and review professors and schoo
 
 This project was created by PowerTeddy and Learnmore_smart over 6 months of hard work. As our first major project, it has a really messy UI, and the features are not well organized. We truly believe that the future of education must be transparent, where students can leave unharmful feedback without feeling shame.
 
-Personal story: I created this, and my school got mad at me, so they cancelled my graduation speech in my high school.
+**Personal Story:** A teacher discovered the website and informed the school, which then cancelled Learnmore_Smart's graduation speech.
+
+We also tried to create an AstrArena, where we hoped to combine games and learning together. Learnmore_Smart crafted all the images, and it had a Clash Royale feeling. However, we discontinued it because the game was impossible and the logic was not aligning with a teacher rating platform - our first project is a mess.
 
 If you can, please help and build it better. Contributions are welcome!
 
@@ -122,6 +124,9 @@ If you can, please help and build it better. Contributions are welcome!
 ## Known Issues and TODOs
 
 ### High Priority
+- **Users can't delete their comments**: Critical functionality bug preventing users from managing their own content.
+- **UI is very unfriendly with all colors**: Poor color scheme and design makes the interface difficult to use.
+- **Home page is not professional**: The main landing page lacks a professional appearance and user experience.
 - **ESLint Warnings**: Many React Hook dependency warnings need to be fixed for better performance and to avoid potential bugs.
 - **Image Optimization**: Replace `<img>` tags with Next.js `<Image>` component for better performance.
 - **Environment Variables**: Ensure all sensitive data is properly secured and not hardcoded.

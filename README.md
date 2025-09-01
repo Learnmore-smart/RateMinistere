@@ -1,4 +1,4 @@
-# RateMinistereSite
+# Teacher Rating Platform
 
 A collaborative platform where students can rate and review professors and schools. Built with Next.js, this app provides an easy-to-use interface for students to share their experiences and help others choose courses.
 

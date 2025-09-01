@@ -152,7 +152,22 @@ If you can, please help and build it better. Contributions are welcome!
 
 ## License
 
-This project is open source. Please check the license file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+### Apache License 2.0 Summary
+
+The Apache License 2.0 is a permissive open source license that allows you to:
+- ✅ Use the software for any purpose
+- ✅ Modify and distribute the software
+- ✅ Use patents granted by contributors
+- ✅ Include the software in proprietary products
+
+**Requirements:**
+- Include a copy of the license in any redistribution
+- State any changes made to the original files
+- Include copyright and license notices in derivative works
+
+For the full license text, please see the [LICENSE](LICENSE) file in the root directory.
 
 ## Support
 

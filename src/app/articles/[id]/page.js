@@ -24,7 +24,7 @@ export default function ArticlePage() {
             <div className={styles.topContainer}>
                 <div className={styles.topText}>
                     <h3>{t('articles.topSection.text')}</h3>
-                    <Link href="https://www.rateministere.com" passHref legacyBehavior>
+                    <Link href="https://www.your-url" passHref legacyBehavior>
                         <button className={styles.tryButton}>
                             <p>{t('articles.topSection.button')}</p>
                         </button>
@@ -56,7 +56,7 @@ export default function ArticlePage() {
                 <div className={styles.bottomContent}>
                     <h2>{t('articles.bottomSection.title')}</h2>
                     <span>{t('articles.bottomSection.text')}</span>
-                    <Link href="https://www.rateministere.com" passHref legacyBehavior>
+                    <Link href="https://www.your-url" passHref legacyBehavior>
                         <button className={styles.tryButton2}>
                             <p>{t('articles.topSection.button')}</p>
                         </button>

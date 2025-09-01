@@ -614,8 +614,8 @@
       "listItem4": "Engage with us in other related ways, including any sales, marketing, or events",
       "links": [
         {
-          "name": "https://www.rateministere.com",
-          "url": "https://www.rateministere.com"
+          "name": "https://www.your-url",
+          "url": "https://www.your-url"
         }
       ]
     },
@@ -707,8 +707,8 @@
         "cookies-end": ".",
         "links": [
           {
-            "name": "https://www.rateministere.com/cookie-policy",
-            "url": "https://www.rateministere.com/cookie-policy"
+            "name": "https://www.your-url/cookie-policy",
+            "url": "https://www.your-url/cookie-policy"
           }
         ]
       },
@@ -757,8 +757,8 @@
       "targetedAdvertising-1": ".",
       "links": [
         {
-          "name": "https://www.rateministere.com/cookie-policy",
-          "url": "https://www.rateministere.com/cookie-policy"
+          "name": "https://www.your-url/cookie-policy",
+          "url": "https://www.your-url/cookie-policy"
         }
       ],
       "testimonials": "To post testimonials. We post testimonials on our Services that may contain personal information.",
@@ -806,8 +806,8 @@
       "cookieNotice-1": ".",
       "links": [
         {
-          "name": "https://www.rateministere.com/cookie-policy",
-          "url": "https://www.rateministere.com/cookie-policy"
+          "name": "https://www.your-url/cookie-policy",
+          "url": "https://www.your-url/cookie-policy"
         }
       ]
     },
@@ -899,8 +899,8 @@
         "details-1": ".",
         "links": [
           {
-            "name": "https://www.rateministere.com/cookie-policy",
-            "url": "https://www.rateministere.com/cookie-policy"
+            "name": "https://www.your-url/cookie-policy",
+            "url": "https://www.your-url/cookie-policy"
           }
         ],
         "question": "If you have questions or comments about your privacy rights, you may email us at "
@@ -940,12 +940,12 @@
     "agreementToLegalTermsBody2-1": " and any other related products and services that refer or link to these legal terms (the \"Legal Terms\") (collectively, the \"Services\").",
     "links": [
       {
-        "name": "https://www.rateministere.com",
-        "url": "https://www.rateministere.com"
+        "name": "https://www.your-url",
+        "url": "https://www.your-url"
       },
       {
-        "name": "https://www.rateministere.com/privacy-policy",
-        "url": "https://www.rateministere.com/privacy-policy"
+        "name": "https://www.your-url/privacy-policy",
+        "url": "https://www.your-url/privacy-policy"
       }
     ],
     "agreementToLegalTermsBody3": "We are a platform revolutionizing teacher and school ratings. In ordre to help every student to reach a higher grade, we use strict guidelines and advanced algorithms to ensure only constructive and respectful comments are published.",

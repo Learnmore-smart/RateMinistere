@@ -19,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  metadataBase: new URL(`https://www.rateministere.com`),
+  metadataBase: new URL(`https://www.your-url`),
   title: 'Rate Ministère',
   description: "RateMinstere is a innovative teacher rating platform where students can compete in AstrArena challenges, connect with peers in AstrAlumna forums, and follow teacher competitions. Together, let's help every student to reach a higher grade",
   icons: {

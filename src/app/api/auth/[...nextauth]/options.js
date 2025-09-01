@@ -85,7 +85,7 @@ export const options = {
             sessionToken: {
                 name: `__Secure-next-auth.session-token`,
                 options: {
-                    domain: ".rateministere.com", // Set to your main domain
+                    domain: ".your-url", // Set to your main domain
                     path: '/',
                     httpOnly: true,
                     secure: true,

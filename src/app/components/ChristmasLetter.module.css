@@ -1,0 +1,202 @@
+@keyframes fluide {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.fullscreenOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg,
+            rgba(255, 65, 65, 0.7),
+            rgba(255, 150, 65, 0.7),
+            rgba(255, 239, 65, 0.7),
+            rgba(90, 255, 65, 0.7),
+            rgba(67, 255, 239, 0.7),
+            rgba(65, 90, 255, 0.7),
+            rgba(150, 64, 255, 0.7));
+    display: flex;
+    background-size: 400% 400%;
+    animation: fluide 16s ease infinite;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.pageContainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navigationIcon {
+    padding: 2rem;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+.navigationIconDown {
+    composes: navigationIcon;
+    /*Ignore the problem @Kendrick */
+    animation: bounce 2s ease infinite;
+}
+
+.navigationIconUp {
+    composes: navigationIcon;
+}
+
+.navigationIcon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.navigationIcon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.closeIcon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+    z-index: 1001;
+}
+
+.closeIcon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.pageContent {
+    position: absolute;
+    width: 100%;
+    height: 400vh;
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: calc(100vh * var(--page-index));
+    left: 0;
+}
+
+.page[data-page="0"] {
+    --page-index: 0;
+}
+
+.page[data-page="1"] {
+    --page-index: 1;
+}
+
+.page[data-page="2"] {
+    --page-index: 2;
+}
+
+.page[data-page="3"] {
+    --page-index: 3;
+}
+
+.contentWrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    margin: -110px auto 0;
+    /* Add negative top margin */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleText {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.subtitleText {
+    font-size: 1.2rem;
+    color: #666;
+    -webkit-text-stroke: 1px solid #ccc;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.animating {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.badgeContainer {
+    margin: 2rem 0;
+}
+
+.badgeImageWrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+}
+
+.badgeImage {
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

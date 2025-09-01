@@ -1,0 +1,152 @@
+@keyframes popOut {
+    0% {
+        transform: translate(-50%, -50%) scale(0.7);
+        opacity: 0;
+    }
+    60% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes dropIn {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.overlay.show {
+    animation: fadeIn 0.3s ease-in-out forwards;
+    pointer-events: all;
+}
+
+.modal {
+    position: fixed; /* Changed from absolute to fixed */
+    background-color: rgba(240, 238, 231, 255);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0;
+}
+
+.modal.showing {
+    animation: popOut 0.5s ease forwards;
+}
+
+.modal.closing {
+    animation: dropIn 0.3s;
+}
+
+.message {
+    margin-bottom: 24px;
+    color: #2d3748;
+    line-height: 1.5;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.cancelButton,
+.confirmButton {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.cancelButton {
+    color: rgba(64, 62, 52, 255);
+    background-color: rgba(196, 196, 196, 0.4);
+}
+
+.confirmButton {
+    color: rgb(255, 255, 255);
+    background-color: rgba(154, 49, 35, 255);
+}
+
+.cancelButton:active {
+    transform: scale(0.95);
+    background-color: rgba(196, 196, 196, 0.8);
+}
+
+.confirmButton:active {
+    transform: scale(0.95);
+    background-color: rgba(188, 109, 99, 255);
+}
+
+@media (min-width: 769px) {
+    .cancelButton:hover {
+        background-color: rgba(196, 196, 196, 0.8);
+    }
+
+    .confirmButton:hover {
+        background-color: rgba(188, 109, 99, 255);
+    }
+}
+
+@media (max-width: 768px) {
+    .modal {
+        padding: 18px 14px;
+        max-width: 340px;
+    }
+    .message {
+        font-size: 14px;
+    }
+}

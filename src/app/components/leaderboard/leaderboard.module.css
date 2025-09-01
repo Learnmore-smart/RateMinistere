@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.leaderboardContainer {
+  color: #fff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+}
+
+.leaderboardSection {
+  width: 100%;
+  min-width: fit-content;
+  max-width: 310px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 0 10px;
+  border: 0.1em solid rgba(255, 255, 255, 0.1);
+  height: calc(80vh - 40px);
+  max-height: fit-content;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(199, 199, 199, 0.8);
+    border-radius: 5px;
+  }
+}
+
+.leaderboardSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: -30px;
+  letter-spacing: 4px;
+  background: linear-gradient(45deg, #00ffcc, #33ccff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: 'Exo', serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 15px rgba(51, 204, 255, 0.4),
+    -1px -1px 0 rgba(0, 255, 204, 0.2),
+    1px -1px 0 rgba(0, 255, 204, 0.2),
+    -1px 1px 0 rgba(0, 255, 204, 0.2),
+    1px 1px 0 rgba(0, 255, 204, 0.2);
+}
+
+.leaderboardContent {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding: 0 10px;
+  margin: 0 -10px;
+}
+
+.leaderboardCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  max-height: 30px;
+  transition: background-color 0.2s ease;
+}
+
+.studentInfo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.rank {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Audiowide';
+  font-weight: bold;
+  margin-left: -8px;
+  padding: 4px;
+}
+
+.studentInfo h3 {
+  font-size: 12px;
+  margin: 0;
+  background: linear-gradient(45deg, #fff, #ccc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: 'Exo', sans-serif;
+}
+
+.pointsDisplay {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 3px 5px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #00ffcc;
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+}
+
+.pointsDisplay::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #00ffcc;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ffcc;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #ff4444;
+  background: rgba(255, 68, 68, 0.1);
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+.trophyRowContainer {
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+}
+
+.trophyRow {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: max-content;
+  height: 100%;
+  pointer-events: none;
+  transform: translateX(calc(-50% + (var(--offset, 0) - 7) * 70px));
+  transition: transform 0.3s ease-out;
+}
+
+.trophyWrapper {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible; /* Allow content to overflow */
+}
+
+.trophy {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transform: translateY(var(--image-offset, 0));
+}
+
+.activeTrophy {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.2) translateY(calc(-0.1em + var(--image-offset, 0))); /* Add -0.1em offset for active trophy and apply the image offset*/
+  animation: glow 2s infinite;
+}
+
+.unlockedTrophy {
+  filter: none;
+  opacity: 1;
+}
+
+.lockedTrophy {
+  filter: grayscale(100%) blur(2px);
+  opacity: 0.5;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+  }
+}
+
+@media (max-width: 768px) {
+  .leaderboardSection h2 {
+    font-size: 30px;
+    margin-top: -20px;
+  }
+}

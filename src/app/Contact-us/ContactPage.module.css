@@ -1,0 +1,100 @@
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(120deg, #d8f3ff, #9ed3ff, #0084ff);
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 1.8rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter var', system-ui, -apple-system, sans-serif;
+    border-radius: 30px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.06),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    color: #111827;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: -0.025em;
+    margin-bottom: 2rem;
+}
+
+.formGroup {
+    margin-bottom: 1.75rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.625rem;
+    color: #374151;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+}
+
+.input {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: 1.5px solid #c0d0e8;
+    box-shadow: 0 0 10px rgba(53, 141, 255, 0.2);
+    border-radius: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1F2937;
+    background: #FFFFFF;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:hover {
+    border-color: #71aaff;
+    box-shadow: 0 0 10px rgba(53, 141, 255, 0.4);
+}
+
+.input:focus {
+    outline: none;
+    border-color: rgb(1, 128, 255);
+    box-shadow: 0 0 0px 0px rgba(37, 100, 235, 0.2);
+    background: #FFFFFF;
+}
+
+.textarea {
+    composes: input;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 160px;
+    line-height: 1.6;
+    resize: none;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    background: linear-gradient(145deg, rgba(0, 110, 255, 0.8), rgba(0, 81, 255, 0.8));
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+    opacity: 0.7;
+    box-shadow:
+        0 4px 12px rgba(37, 99, 235, 0.25),
+        0 2px 4px rgba(37, 99, 235, 0.1);
+}
+
+.button:active {
+    transform: scale(0.95);
+}

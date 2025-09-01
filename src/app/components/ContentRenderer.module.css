@@ -1,0 +1,94 @@
+.articleContent {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.articleText {
+    margin-bottom: 1.5rem;
+    color: #444;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.comparisonIntro {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    padding: 0 100px;
+}
+
+.conclusion {
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.conclusion h2 {
+    margin-top: 0;
+    color: rgb(33, 144, 255);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.conclusion p {
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .articleContent {
+        font-size: 1rem;
+    }
+
+    .articleText {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+    }
+
+    .comparisonIntro {
+        padding: 0.5rem;
+    }
+
+    .conclusion {
+        padding: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .conclusion h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .articleContent {
+        color: #ddd;
+    }
+
+    .articleText {
+        color: #ccc;
+    }
+
+    .comparisonIntro {
+        color: #aaa;
+    }
+
+    .conclusion {
+        background: #333;
+        border-color: #444;
+    }
+
+    .conclusion h3 {
+        color: #fff;
+    }
+
+    .conclusion p {
+        color: #ddd;
+    }
+}

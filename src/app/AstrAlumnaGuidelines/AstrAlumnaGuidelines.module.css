@@ -1,0 +1,262 @@
+/* AstrAlumnaGuidelines.module.css */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  color: #2c3e50;
+}
+
+.container p{
+  line-height: 1.3;
+}
+
+
+.title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.intro {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.subheading {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  height: fit-content;
+  margin: 0 0 1.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.subheading::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: calc(50% + 2px);
+  transform: translateY(-50%);
+  height: 80%;
+  width: 5px;
+  background: #3498db;
+  border-radius: 3px;
+}
+
+.rulesList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.rulesList li {
+  flex: 1 1 300px;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+  padding-left: 3rem;
+  transition: all 0.3s ease;
+}
+
+.rulesList li::before {
+  content: '✓';
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  color: #3498db;
+  font-size: 1.2rem;
+}
+
+.rulesList li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.contactSection {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.contactHeading {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.address a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.address a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.recommendations {
+  margin: 2rem 0;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.recommendationsList {
+  list-style-type: circle;
+  padding-left: 2rem;
+  color: #4a5568;
+}
+
+.recommendationsList li {
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.subsection {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 6px;
+  border-left: 3px solid #3498db;
+}
+
+.subsubheading {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.philosophy {
+  font-style: italic;
+  color: #4a5568;
+  border-left: 4px solid #3498db;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+}
+
+.warningList {
+  list-style: '⚠️' inside;
+  padding-left: 1rem;
+  color: #c53030;
+}
+
+.warningList li {
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.importantNote {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #fff3cd;
+  border-radius: 8px;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.noteIcon {
+  background: #ffd700;
+  color: #000;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.externalLinkIcon::after {
+  content: '↗';
+  font-size: 0.8em;
+  margin-left: 0.3em;
+  vertical-align: super;
+}
+
+.undo-button {
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  background: rgba(75, 75, 75, 0.3);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+  box-shadow:
+    5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.8),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease;
+}
+
+.undo-button svg {
+  color: white;
+  transition: all 0.3s;
+}
+
+.undo-button:hover svg{
+  transform: rotate(20deg) scale(1.1);
+  transform-origin: center;
+}
+
+.undo-button:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1.5rem;
+  }
+
+  .rulesList li {
+    flex: 1 1 100%;
+  }
+}

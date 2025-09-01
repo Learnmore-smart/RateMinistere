@@ -1,0 +1,664 @@
+@keyframes bellRing {
+
+    0%,
+    100% {
+        transform-origin: top;
+    }
+
+    15% {
+        transform: rotateZ(10deg);
+    }
+
+    30% {
+        transform: rotateZ(-10deg);
+    }
+
+    45% {
+        transform: rotateZ(5deg);
+    }
+
+    60% {
+        transform: rotateZ(-5deg);
+    }
+
+    75% {
+        transform: rotateZ(2deg);
+    }
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    unicode-bidi: isolate;
+    width: 100%;
+}
+
+.container {
+    -webkit-backdrop-filter: blur(15px) saturate(130%);
+    backdrop-filter: blur(15px) saturate(130%);
+    background-color: rgba(255, 255, 255, 0.517);
+    border-radius: 999pt;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25pt;
+    height: 40pt;
+    margin: 15pt 0 0;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15pt;
+    position: relative;
+    top: 0;
+    width: calc(100% - 15pt* 2);
+
+    &>* {
+        z-index: 15;
+    }
+
+    &:after {
+        background-image: url('/noise.png');
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: .1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        border-radius: inherit;
+    }
+
+    .left-group {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 8pt;
+        flex: 1;
+    }
+
+    .right-group {
+        display: flex;
+        align-items: center;
+        gap: 8pt;
+    }
+}
+
+.homeIcon,
+.rankingIcon,
+.Bell {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
+.rankingButton,
+.home-button,
+.notificationButton {
+    height: 50px;
+    padding: 8px 12px;
+}
+
+.rankingButton {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(224, 179, 18, 0.5);
+    background-color: rgb(255, 183, 152);
+    text-decoration: none;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(255, 179, 64, 0.5);
+    transition: all .3s;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+.rankingIcon {
+    color: rgb(255, 60, 0);
+}
+
+.rankingButton svg {
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.play {
+    transition: all 0.5s ease;
+    text-shadow: 2px 2px rgb(255, 134, 77);
+    color: white;
+}
+
+.now {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    z-index: 2;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 81, 0);
+}
+
+
+.rankingButton:hover {
+    box-shadow: 0 0 10px rgba(255, 179, 64, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.searchbar input {
+    width: 100%;
+    display: inline-flex;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 auto;
+}
+
+.searchbar input:focus {
+    text-overflow: clip;
+    width: 100%;
+    overflow: visible;
+}
+
+.home-button {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(207, 207, 207);
+    box-shadow: 0 4px 6px rgba(233, 233, 233, 0.5);
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.homeIcon {
+    color: #ffffff;
+    filter: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+
+.home-button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.notificationButton {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 208, 0, 0.5);
+    background: linear-gradient(120deg, rgb(255, 241, 93), rgb(255, 189, 83));
+    box-shadow: 0 4px 6px rgba(251, 255, 127, 0.5);
+    cursor: pointer;
+    border-radius: 25px;
+    transform: scale(1);
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+.notificationButton:hover {
+    box-shadow: 0 0 10px rgba(251, 255, 127, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notificationModal {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 10%;
+    width: 300px;
+    background: rgb(236, 246, 255);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    max-height: 500px;
+    overflow-y: auto;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: all 0.3s ease;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.unreadnumber {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    right: -5px;
+    top: -5px;
+    width: 21px;
+    height: 21px;
+    background: linear-gradient(120deg,
+            rgb(255, 230, 0),
+            rgb(255, 153, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgb(255, 190, 70);
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(255, 187, 0, 0.5),
+        2px 2px 5px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.4),
+        inset 1px 1px 2px rgba(255, 255, 255, 0.15),
+        inset -1px -1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+}
+
+.notificationButton:hover .Bell {
+    animation: bellRing 0.9s both;
+}
+
+.notificationButton:hover .unreadnumber {
+    animation: bellRing 0.9s both;
+    animation-delay: 200ms;
+    box-shadow: 0 0 10px rgba(255, 187, 0, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.markAsReadButton {
+    position: absolute;
+    right: 5px;
+    margin-top: 10%;
+    transform: translateY(-50%);
+    background: none;
+    display: flex;
+    color: rgb(0, 102, 255);
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.markAsReadButton:hover {
+    color: rgb(0, 143, 0);
+}
+
+.notificationItem:first-child {
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.notificationItem:last-child {
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    margin-bottom: 0;
+}
+
+.notificationItem {
+    left: 0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+.unread {
+    border-left: 4px solid #3b82f6;
+    background-color: #c0e6ff;
+}
+
+.unread:hover {
+    background-color: #a4dbff;
+}
+
+.read {
+    color: rgb(255, 254, 239);
+    border-left: 4px solid rgb(229, 151, 16);
+    background: rgb(255, 195, 0);
+}
+
+.read:hover {
+    background: rgb(255, 205, 0);
+}
+
+.read .notificationTimestamp {
+    color: rgb(255, 245, 199);
+}
+
+.unread .CommentPreview {
+    color: rgb(0, 29, 194);
+    font-size: 13px;
+}
+
+.read .CommentPreview {
+    color: rgb(255, 249, 200);
+    font-size: 13px;
+}
+
+.notificationRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notificationHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.notificationTimestamp {
+    display: flex;
+    color: #4c5463;
+}
+
+.points-badge {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    gap: 2px;
+    color: white;
+    background: linear-gradient(120deg, rgb(90, 142, 255), rgb(54, 209, 220));
+    border: 1px solid rgb(90, 175, 255);
+    box-shadow: 0 4px 6px rgba(90, 142, 255, 0.3),
+        2px 2px 5px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.4),
+        inset 1px 1px 2px rgba(255, 255, 255, 0.15),
+        inset -1px -1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    right: 10px;
+    top: 8px;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.points-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 238, 0);
+    z-index: 10;
+}
+
+.signout {
+    border-radius: 50%;
+}
+
+.signout:hover .points-badge {
+    box-shadow: 0 0 10px rgba(90, 142, 255, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    transition-delay: 200ms;
+}
+
+.readAllButton {
+    position: relative;
+    background: rgba(94, 169, 255, 0.1);
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #0077ff;
+    border: 2px dashed rgb(0, 179, 255);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    transition: color .1s ease, transform .3s ease;
+}
+
+.readAllButton:hover {
+    background: rgba(94, 169, 255, 0.2);
+}
+
+.readAllButton:active {
+    transform: translateX(-50%) scale(0.9);
+}
+
+@media screen and (min-width: 769px) {
+    .home-button {
+        width: 50px;
+    }
+
+    .notificationButton:active,
+    .notificationButton:active,
+    .signout:active .points-badge,
+    .rankingButton:active,
+    .home-button:active {
+        transform: scale(0.9);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .markAsReadButton:active {
+        transform: scale(0.9) translateY(-50%);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .signout:active .points-badge {
+        transform-origin: left bottom;
+    }
+
+    .rankingButton:hover svg {
+        transform: scale(2) translate(170%);
+    }
+
+    .rankingButton:hover .now {
+        transform: translateX(20px);
+        transition-delay: 100ms;
+    }
+
+    .rankingButton:hover .play {
+        transform: translateX(150%);
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .container {
+        width: calc(100% - 20pt* 2);
+    }
+}
+
+@media screen and (max-width: 1303px) {
+    .container {
+        border-radius: 0;
+        width: calc(100% - 15pt* 2);
+        margin: 0;
+        border: none !important;
+        border-bottom: 1px solid rgb(211, 211, 211) !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-group {
+        gap: 4pt;
+    }
+
+    .right-group {
+        gap: 4pt;
+    }
+
+    .rankingButton,
+    .home-button,
+    .notificationButton {
+        width: 40px;
+        height: 40px;
+        padding: 6px 9px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .homeIcon,
+    .rankingIcon,
+    .Bell {
+        width: 20px;
+        height: 20px;
+        transform: scale(1);
+        transition: all 0.2s ease;
+    }
+
+    .markAsReadButton:active,
+    .notificationButton:active .Bell,
+    .homeIcon:active,
+    .rankingIcon:active {
+        transform: scale(0.8);
+    }
+
+    .unreadnumber {
+        font-size: 10px;
+        right: -3px;
+        top: -3px;
+        width: 15px;
+        height: 15px;
+        border: 0.7px solid rgb(255, 190, 70);
+    }
+
+    .notificationModal {
+        right: 5%;
+        width: 300px;
+        max-height: 400px;
+    }
+
+    .container {
+        align-items: center;
+        gap: 8pt;
+        padding: 8px 15pt;
+
+    }
+
+    .active-container {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        z-index: 100;
+    }
+
+    .home-button>span,
+    .rankingButton>span {
+        display: none;
+    }
+
+    .rankingButton .now,
+    .rankingButton .play {
+        display: none;
+    }
+
+    .points-badge {
+        font-size: 7px;
+        font-weight: 600;
+        gap: 1px;
+        padding: 2px;
+        right: 5px;
+        top: 11px;
+    }
+
+    .points-icon {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        padding: 4pt 6pt;
+        width: calc(100% - 6pt* 2);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .notificationModal {
+        background: rgba(30, 30, 30, 0.95);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .unread {
+        border-left-color: #1d4ed8;
+        background-color: rgba(30, 58, 138, 0.3);
+    }
+
+    .unread:hover {
+        background-color: rgba(30, 58, 138, 0.5);
+    }
+
+    .read {
+        border-left-color: #2e8d54;
+        background: rgba(20, 83, 45, 0.6);
+    }
+
+    .read:hover {
+        background: rgba(20, 83, 45, 0.9);
+    }
+
+    .notificationTimestamp {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .unread .CommentPreview {
+        color: rgba(165, 180, 252, 0.9);
+    }
+
+    .read .CommentPreview {
+        color: rgba(167, 243, 208, 0.9);
+    }
+
+    .markAsReadButton {
+        color: rgba(96, 165, 250, 0.9);
+    }
+
+    .markAsReadButton:hover {
+        color: rgba(52, 211, 153, 0.9);
+    }
+
+    .container {
+        background-color: rgba(30, 30, 30, 0.5);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+}

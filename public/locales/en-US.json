@@ -1,0 +1,2201 @@
+{
+  "Home": {
+    "title": "your teacher?",
+    "subtitle": "RateMinistère fan? Join us and make it official!",
+    "status": {
+      "Loving": "Loving",
+      "Wondering about": "Wondering about",
+      "Complaints about": "Complaints about",
+      "Issues with": "Issues with",
+      "Happy with": "Happy with",
+      "Dislike": "Dislike",
+      "Frustrated by": "Frustrated by",
+      "Impressed by": "Impressed by",
+      "Satisfied by": "Satisfied by",
+      "Amazed by": "Amazed by",
+      "Worried about": "Worried about",
+      "Bothered by": "Bothered by",
+      "Disappointed in": "Disappointed in"
+    },
+    "privacy": "Your <special>privacy</special>,<br>our priority",
+    "matters": "Your opinion<br><special>matters</special>",
+    "control": "Your reviews,<br>your <special>control</special>",
+    "redefiningExcellence": "Redefining Excellence",
+    "p1": "We are the <special>first</special> and <special>only</special> platform developed by two high school students in Canada to revolutionize teacher and school ratings with sleek design, organized tools, and detailed classifications.",
+    "p2-1": "We use <special>strict</special> <special>guidelines</special> and <special>advanced</special> <special>algorithms</special> to ensure that only constructive and respectful comments are published, while banning inappropriate or harmful feedback. We are setting the standard for <special>reliable</special> and <special>innovative</special> educational platforms.",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "signup-1": "Sign Up Today"
+  },
+  "SearchBar": {
+    "placeholder": "Search {{searchType}}...",
+    "searchTypes": {
+      "teachers": "teacher",
+      "schools": "school"
+    },
+    "toggleSearchType": "Toggle search type",
+    "resultHeader": {
+      "teachers": "Teacher Results",
+      "schools": "School Results"
+    },
+    "selectedSchool": "Selected School",
+    "notAvailable": "N/A",
+    "errorMessages": [
+      "Oops, our bad! This one's totally on us, not you.",
+      "Yikes, that's on us! Don't worry about it.",
+      "Whoops, our mistake! We've got it covered.",
+      "Our fault, not yours. We'll get this sorted!",
+      "Sorry about that! It's on us, not you.",
+      "Uh-oh, that's our blunder. Hang tight, we'll fix it.",
+      "Well, that's embarrassing—our error, not yours.",
+      "This one's on us. Apologies for the slip-up!",
+      "Our mistake here, no stress on your end.",
+      "We dropped the ball on this one, but we've got it."
+    ],
+    "noResultsMessages": [
+      "Despite our best efforts, we couldn't dig up anything for '{query}'.",
+      "Alas, even our deepest dives into the data trenches came up empty for '{query}'.",
+      "We scoured the internet and found zilch for '{query}'.",
+      "Unfortunately, '{query}' eluded our search.",
+      "Our search wizards couldn't conjure up anything for '{query}'.",
+      "Sorry, but '{query}' remains a mystery to us.",
+      "We hunted high and low, but nothing for '{query}' was found.",
+      "No luck finding results for '{query}'.",
+      "Our search elves came up empty for '{query}'.",
+      "It seems '{query}' is hiding from us."
+    ],
+    "loadingMessages": [
+      "Digging deep at 3,1415km/s for the best results...",
+      "Traveling through space to gather information...",
+      "Racing against the clock to get this done...",
+      "Riding the waves of data to bring you the best...",
+      "Exploring digital landscapes for hidden gems...",
+      "Uncovering hidden treasures just for you...",
+      "Navigating through code like a pro...",
+      "Venturing into the unknown to find what you need...",
+      "Climbing the information peak to get there...",
+      "Gathering all the bits and bytes just for you..."
+    ],
+    "schoollist": "School List"
+  },
+  "subjects": {
+    "unknown": "Unknown",
+    "academic_counseling": "Academic Counseling",
+    "academic_services": "Academic Services",
+    "accounting": "Accounting",
+    "addictions_counseling": "Addictions Counseling",
+    "administration_of_justice": "Administration of Justice",
+    "advanced_manufacturing": "Advanced Manufacturing",
+    "aerospace_engineering": "Aerospace Engineering",
+    "african_american_studies": "African American Studies",
+    "african_studies": "African Studies",
+    "agricultural_engineering": "Agricultural Engineering",
+    "agricultural_science": "Agricultural Science",
+    "agriculture": "Agriculture",
+    "airline_and_airport_management": "Airline and Airport Management",
+    "american_studies": "American Studies",
+    "anthropology": "Anthropology",
+    "applied_arts": "Applied Arts",
+    "applied_economics": "Applied Economics",
+    "applied_mathematics": "Applied Mathematics",
+    "applied_sciences": "Applied Sciences",
+    "applied_statistics": "Applied Statistics",
+    "archaeology": "Archaeology",
+    "architecture": "Architecture",
+    "art": "Art",
+    "art_history": "Art History",
+    "arts_and_sciences": "Arts and Sciences",
+    "artificial_intelligence": "Artificial Intelligence",
+    "astronomy": "Astronomy",
+    "astronomy_and_earth_sciences": "Astronomy and Earth Sciences",
+    "athletic_training": "Athletic Training",
+    "automotive_engineering": "Automotive Engineering",
+    "biochemistry": "Biochemistry",
+    "biological_sciences": "Biological Sciences",
+    "biology": "Biology",
+    "biomedical_engineering": "Biomedical Engineering",
+    "biomedical_sciences": "Biomedical Sciences",
+    "biotechnology": "Biotechnology",
+    "business": "Business",
+    "business_analytics": "Business Analytics",
+    "business_law": "Business Law",
+    "chemical_engineering": "Chemical Engineering",
+    "chemistry": "Chemistry",
+    "classics": "Classics",
+    "climate_science": "Climate Science",
+    "cognitive_science": "Cognitive Science",
+    "communication": "Communication",
+    "communications": "Communications",
+    "community_health": "Community Health",
+    "comparative_literature": "Comparative Literature",
+    "composition": "Composition",
+    "computer_engineering": "Computer Engineering",
+    "computer_information_systems": "Computer Information Systems",
+    "computer_science": "Computer Science",
+    "core_curriculum": "Core Curriculum",
+    "counseling": "Counseling",
+    "creative_media": "Creative Media",
+    "creative_writing": "Creative Writing",
+    "criminal_justice": "Criminal Justice",
+    "criminology": "Criminology",
+    "culinary_arts": "Culinary Arts",
+    "cybersecurity": "Cybersecurity",
+    "dance": "Dance",
+    "data_science": "Data Science",
+    "design": "Design",
+    "digital_marketing": "Digital Marketing",
+    "dramatic_arts": "Dramatic Arts",
+    "early_childhood_education": "Early Childhood Education",
+    "earth_and_atmospheric_sciences": "Earth and Atmospheric Sciences",
+    "ecology": "Ecology",
+    "economics": "Economics",
+    "education": "Education",
+    "educational_leadership": "Educational Leadership",
+    "educational_psychology": "Educational Psychology",
+    "electrical_and_comp_engineering": "Electrical and Comp. Engineering",
+    "electrical_engineering": "Electrical Engineering",
+    "electronic_engineering_technology": "Electronic Engineering Technology",
+    "engineering": "Engineering",
+    "english": "English",
+    "english_and_foreign_languages": "English and Foreign Languages",
+    "ensemble": "Ensemble",
+    "environmental_design": "Environmental Design",
+    "environmental_engineering": "Environmental Engineering",
+    "environmental_science": "Environmental Science",
+    "epidemiology": "Epidemiology",
+    "equity_studies": "Equity Studies",
+    "ethnic_studies": "Ethnic Studies",
+    "exercise_and_sport_science": "Exercise and Sport Science",
+    "faculty_of_extension": "Faculty of Extension",
+    "film": "Film",
+    "finance": "Finance",
+    "fine_arts": "Fine Arts",
+    "food_science": "Food Science",
+    "forensic_science": "Forensic Science",
+    "french": "French",
+    "french-spanish": "French and Spanish",
+    "game_design": "Game Design",
+    "geography": "Geography",
+    "geography_and_history": "Geography and History",
+    "geology": "Geology",
+    "german": "German",
+    "germanic_languages_literature": "Germanic Languages/Literature",
+    "global_studies": "Global Studies",
+    "government": "Government",
+    "graphic_arts": "Graphic Arts",
+    "graphic_design": "Graphic Design",
+    "health_administration": "Health Administration",
+    "health_informatics": "Health Informatics",
+    "health_science": "Health Science",
+    "history": "History",
+    "homeland_security": "Homeland Security",
+    "honors": "Honors",
+    "hospitality_management": "Hospitality Management",
+    "hotel_and_restaurant_management": "Hotel and Restaurant Management",
+    "human_science": "Human Science",
+    "human_development_and_family_sciences": "Human Development and Family Sciences",
+    "humanities": "Humanities",
+    "industrial_design": "Industrial Design",
+    "information_science": "Information Science",
+    "information_security": "Information Security",
+    "interdisciplinary_studies": "Interdisciplinary Studies",
+    "international_business": "International Business",
+    "international_relations": "International Relations",
+    "international_studies": "International Studies",
+    "journalism": "Journalism",
+    "justice_studies": "Justice Studies",
+    "kinesiology": "Kinesiology",
+    "languages": "Languages",
+    "latin_american_studies": "Latin American Studies",
+    "law": "Law",
+    "law_and_society": "Law and Society",
+    "legal_studies": "Legal Studies",
+    "linguistics": "Linguistics",
+    "literature": "Literature",
+    "management": "Management",
+    "manufacturing_engineering": "Manufacturing Engineering",
+    "marketing": "Marketing",
+    "marine_biology": "Marine Biology",
+    "materials_science": "Materials Science",
+    "mathematics": "Mathematics",
+    "mechanical_engineering": "Mechanical Engineering",
+    "media_studies": "Media Studies",
+    "medical_technology": "Medical Technology",
+    "medicine": "Medicine",
+    "microbiology": "Microbiology",
+    "middle_eastern_studies": "Middle Eastern Studies",
+    "modern_and_classical_languages": "Modern and Classical Languages",
+    "modern_languages": "Modern Languages",
+    "mortuary_science": "Mortuary Science",
+    "music": "Music",
+    "nanotechnology": "Nanotechnology",
+    "nursing": "Nursing",
+    "nutrition": "Nutrition",
+    "oceanography": "Oceanography",
+    "petroleum_engineering": "Petroleum Engineering",
+    "philosophy": "Philosophy",
+    "photography": "Photography",
+    "physical_and_health_education": "Physical and Health Education",
+    "physical_education": "Physical Education",
+    "physics": "Physics",
+    "physiology": "Physiology",
+    "political_science": "Political Science",
+    "process_technology": "Process Technology",
+    "psychology": "Psychology",
+    "public_administration": "Public Administration",
+    "public_health": "Public Health",
+    "rehabilitation_counseling": "Rehabilitation Counseling",
+    "religion": "Religion",
+    "renewable_energy": "Renewable Energy",
+    "robotics": "Robotics",
+    "science": "Science",
+    "social_entrepreneurship": "Social Entrepreneurship",
+    "social_science": "Social Science",
+    "social_work": "Social Work",
+    "sociology": "Sociology",
+    "software_engineering": "Software Engineering",
+    "space_studies": "Space Studies",
+    "spanish": "Spanish",
+    "speech": "Speech",
+    "speech_communication": "Speech Communication",
+    "sports_management": "Sports Management",
+    "statistics": "Statistics",
+    "statistics_and_actuarial_science": "Statistics and Actuarial Science",
+    "stem_education": "STEM Education",
+    "student_success": "Student Success",
+    "sustainable_design": "Sustainable Design",
+    "technology": "Technology",
+    "telecommunications": "Telecommunications",
+    "theater": "Theater",
+    "urban_planning": "Urban Planning",
+    "urban_studies": "Urban Studies",
+    "virtual_reality": "Virtual Reality",
+    "womens_studies": "Women's Studies",
+    "world_and_finance": "World and Finance",
+    "world_religions": "World Religions",
+    "writing": "Writing",
+    "zoology": "Zoology"
+  },
+  "AdminPage": {
+    "addTeacher": "Add teacher",
+    "addTeachers": "Add teachers",
+    "selectSchool": "Select school",
+    "selectSubject": "Select Subject",
+    "selectRole": "Select Role",
+    "addSchool": "Add school"
+  },
+  "TeacherCardDetail": {
+    "watchOut": "Pro Tips for Exams",
+    "noWatchOut": "Be the first to help others with your experience!",
+    "totalRating": "Based on {{numRatings}} évaluations",
+    "recentComments": "Top Comments",
+    "firstComment": "Be the first to comment!",
+    "submit": "Submit",
+    "placeholder": {
+      "reply": "Share your thoughts..."
+    },
+    "commentdetails": "Comment Details"
+  },
+  "TeacherPage": {
+    "teacherRatings": "Teacher Ratings for {{schoolName}}",
+    "addTeacher": "Add a Teacher",
+    "name": "Name",
+    "selectSubject": "Select a subject",
+    "secondSubjectOptional": "Second Subject (Optional)",
+    "selectSubjectOptional": "Select a subject (optional)",
+    "school": "School",
+    "addNow": "Add now!",
+    "noTeachersFound": "No teachers found",
+    "seeteachers": "See the professors",
+    "seeschools": "See the school",
+    "renovation": "We are innovating this page! Shhhh... It's a secret.🤫",
+    "teacherAdded": "🎉 Teacher added! We'll review your submission and add it soon. Thank you!",
+    "evaluations": "{{teachers}} teachers based on {{count}} evaluations",
+    "order": {
+      "alphabetic": "Alphabetic Order",
+      "competition": "Competition"
+    },
+    "scoreMeaningTitle": "Score Meaning",
+    "scoreMeanings": {
+      "1": "Bad",
+      "2": "Acceptable",
+      "3": "Good",
+      "4": "Excellent"
+    }
+  },
+  "TeacherRatingModal": {
+    "rateTeacher": "Rate {{teacherName}}",
+    "ratings": {
+      "1": "1 - Terrible",
+      "2": "2 - Poor",
+      "3": "3 - Acceptable",
+      "4": "4 - Great",
+      "5": "5 - Excellent"
+    },
+    "successRating": "Successfully rated {{teacherName}}!",
+    "failedRating": "Failed to rate teacher: {{message}}",
+    "errorRating": "An error occurred while rating the teacher",
+    "guidelinesIntro": "Before you comment, keep these things in mind:",
+    "guidelinesPoints": [
+      "Avoid profanity and derogatory language.",
+      "Be specific and constructive.",
+      "Proofread your comment before submitting!",
+      "Ratings with inappropriate language will be removed.",
+      "Read our guidelines to guide your feedback."
+    ],
+    "commentPlaceholder": "Share your thoughts (optional - but we know that your voice matters!❤️)",
+    "submitRating": "Submit Rating",
+    "ratealready": "Oops, it seems like you have already rated {{teacherName}}. Modify your comments in your profile!",
+    "moderateComments": "Our RateGorithm™ is moderating your comment..."
+  },
+  "ratingCriteria": {
+    "Teaching Quality": {
+      "name": "Teaching Quality",
+      "description": "How effectively does the teacher explain concepts?",
+      "icon": "📚"
+    },
+    "Engagement": {
+      "name": "Engagement",
+      "description": "How interactive and motivating are the classes?",
+      "icon": "🤝"
+    },
+    "Fairness": {
+      "name": "Fairness",
+      "description": "Are assessments and grading fair and transparent?",
+      "icon": "⚖️"
+    },
+    "Support": {
+      "name": "Support",
+      "description": "How supportive is the teacher outside of class?",
+      "icon": "❤️"
+    },
+    "Ease": {
+      "name": "Ease",
+      "description": "How easy is the course content?",
+      "icon": "🧩"
+    }
+  },
+  "schoolRatingCriteria": {
+    "Academic-Focus": {
+      "name": "Academic Focus",
+      "description": "How strong are the programs, subject offerings, and college preparation?",
+      "icon": "🎯"
+    },
+    "Support-System": {
+      "name": "Support System",
+      "description": "Are guidance counseling, tutoring, and special education resources available?",
+      "icon": "❤️"
+    },
+    "School-Culture": {
+      "name": "School Culture",
+      "description": "Is the environment positive, inclusive, and free from bullying?",
+      "icon": "🌈"
+    },
+    "Extracurriculars": {
+      "name": "Extracurriculars",
+      "description": "Are sports, clubs, arts, and robotics programs varied and high quality?",
+      "icon": "⭐"
+    },
+    "Surveillant-Attitude": {
+      "name": "Surveillant Attitude",
+      "description": "Are staff interactions respectful, supportive, and fair?",
+      "icon": "👀"
+    },
+    "Teacher-Quality": {
+      "name": "Teacher Quality",
+      "description": "How effectively do teachers explain concepts and support students?",
+      "icon": "🍎"
+    },
+    "Class-Quality": {
+      "name": "Class Quality",
+      "description": "Are classes personalized enough for attention and learning?",
+      "icon": "📊"
+    },
+    "Club": {
+      "name": "Club",
+      "description": "Are the clubs diverse and engaging for students?",
+      "icon": "📢"
+    },
+    "Location": {
+      "name": "Location",
+      "description": "Is the school's location convenient with good transport options?",
+      "icon": "🚌"
+    }
+  },
+  "guidelines": {
+    "title": "RateMinistère Official Site Guidelines",
+    "preamble": "RateMinistère is an online platform dedicated to providing a secure and constructive environment for students to share educational experiences and insights regarding educators.",
+    "platformPrinciples": {
+      "title": "Platform Principles",
+      "scopeOfParticipation": {
+        "title": "Scope of Participation",
+        "points": [
+          "Comments must be submitted exclusively by students who:",
+          "Have directly attended a course.",
+          "Are currently enrolled in the specific course.",
+          "Users are permitted one (1) comment per course.",
+          "Feedback must be grounded in personal, first-hand experience."
+        ]
+      },
+      "prohibitedContent": {
+        "title": "Prohibited Content Specifications",
+        "unacceptableCommentary": {
+          "title": "Unacceptable Commentary Includes:",
+          "points": [
+            "Profanity, vulgarity, or derogatory language.",
+            "Remarks concerning personal characteristics.",
+            "Discriminatory statements referencing:",
+            "Ethnicity",
+            "Religion",
+            "Gender",
+            "Age",
+            "Physical appearance",
+            "Disability status"
+          ]
+        },
+        "strictlyForbidden": {
+          "title": "Strictly Forbidden Submissions:",
+          "points": [
+            "Personal contact information.",
+            "References to familial or personal circumstances.",
+            "Sexual innuendos.",
+            "Allegations of professional misconduct.",
+            "Claims of illegal activities.",
+            "Hyperlinks or external references."
+          ]
+        }
+      }
+    },
+    "moderationProtocol": {
+      "title": "Moderation Protocol",
+      "contentEvaluation": "Advanced algorithmic systems will comprehensively review all submissions. Comments contravening established guidelines will be systematically flagged for immediate review.",
+      "progressiveDisciplinary": {
+        "title": "Progressive Disciplinary Framework",
+        "infractions": [
+          {
+            "level": "Initial Infraction:",
+            "description": "One-week suspension of commenting privileges. Reinstatement following 30 days of compliant behavior."
+          },
+          {
+            "level": "Secondary Violation:",
+            "description": "One-month suspension of commenting privileges. Reinstatement following 90 days of compliant behavior."
+          },
+          {
+            "level": "Tertiary Violation:",
+            "description": "Three-month suspension of commenting privileges. Reinstatement following 365 days of compliant behavior."
+          }
+        ]
+      },
+      "reviewMechanism": "Users may submit formal appeals through designated review channels. Independent evaluation of potential moderation discrepancies will be conducted."
+    },
+    "constructiveFeedback": {
+      "title": "Constructive Feedback Guidelines",
+      "acceptableCommentary": {
+        "title": "Acceptable Commentary Characteristics",
+        "points": [
+          "Specific, factual observations.",
+          "Professional and respectful language.",
+          "Focus on educational experience and pedagogical effectiveness.",
+          "Balanced perspective supporting informed academic decision-making."
+        ]
+      }
+    },
+    "consequences": {
+      "title": "Consequences of Non-Compliance",
+      "content": "Persistent violation of established guidelines may result in permanent account termination."
+    },
+    "legalReservation": {
+      "title": "Legal Reservation of Rights",
+      "content": "RateMinistère reserves comprehensive discretion to modify guidelines and implement appropriate actions to maintain platform integrity and user experience."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "These guidelines are provided for informational purposes and do not constitute legal counsel. Users are encouraged to exercise discretion and professional judgment when submitting commentary."
+    }
+  },
+  "cookiePolicy": {
+    "title": "COOKIE POLICY",
+    "lastUpdated": "Last updated December 01, 2024",
+    "introduction": {
+      "paragraph1": "This Cookie Policy explains how RateMinistère (\"Company,\" \"we,\" \"us,\" and \"our\") uses cookies and similar technologies to recognize you when you visit our website at ",
+      "paragraph1-1": ". It explains what these technologies are and why we use them, as well as your rights to control our use of them.",
+      "paragraph2": "In some cases we may use cookies to collect personal information, or that becomes personal information if we combine it with other information."
+    },
+    "whatAreCookies": {
+      "title": "What are cookies?",
+      "paragraph1": "Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information.",
+      "paragraph2": "Cookies set by the website owner (in this case, RateMinistère) are called \"first-party cookies.\" Cookies set by parties other than the website owner are called \"third-party cookies.\" Third-party cookies enable third-party features or functionality to be provided on or through the website (e.g., advertising, interactive content, and analytics). The parties that set these third-party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites."
+    },
+    "whyUseCookies": {
+      "title": "Why do we use cookies?",
+      "paragraph": "We use first- and third-party cookies for several reasons. Some cookies are required for technical reasons in order for our Website to operate, and we refer to these as \"essential\" or \"strictly necessary\" cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Online Properties. Third parties serve cookies through our Website for advertising, analytics, and other purposes. This is described in more detail below."
+    },
+    "controlCookies": {
+      "title": "How can I control cookies?",
+      "paragraph1": "You have the right to decide whether to accept or reject cookies. You can exercise your cookie rights by setting your preferences in the Cookie Consent Manager. The Cookie Consent Manager allows you to select which categories of cookies you accept or reject. Essential cookies cannot be rejected as they are strictly necessary to provide you with services.",
+      "paragraph2": "The Cookie Consent Manager can be found in the notification banner and on our Website. If you choose to reject cookies, you may still use our Website though your access to some functionality and areas of our Website may be restricted. You may also set or amend your web browser controls to accept or refuse cookies."
+    },
+    "cookieTable": {
+      "title": "Cookie Types",
+      "description": "The specific types of first- and third-party cookies served through our Website and the purposes they perform are described in the table below."
+    },
+    "browserControl": {
+      "title": "How can I control cookies on my browser?",
+      "paragraph": "As the means by which you can refuse cookies through your web browser controls vary from browser to browser, you should visit your browser's help menu for more information.",
+      "browsers": [
+        "Chrome",
+        "Internet Explorer",
+        "Firefox",
+        "Safari",
+        "Edge",
+        "Opera"
+      ],
+      "advertisingNetworks": {
+        "title": "Additional Opt-Out Resources",
+        "links": [
+          {
+            "name": "Digital Advertising Alliance",
+            "url": "https://digitaladvertisingalliance.org/"
+          },
+          {
+            "name": "Digital Advertising Alliance of Canada",
+            "url": "https://youradchoices.ca/"
+          },
+          {
+            "name": "European Interactive Digital Advertising Alliance",
+            "url": "https://www.edaa.eu/"
+          }
+        ]
+      }
+    },
+    "otherTrackingTechnologies": {
+      "title": "What about other tracking technologies, like web beacons?",
+      "paragraph1": "Cookies are not the only way to recognize or track visitors to a website. We may use other, similar technologies from time to time, like web beacons (sometimes called \"tracking pixels\" or \"clear gifs\"). These are tiny graphics files that contain a unique identifier that enables us to recognize when someone has visited our Website or opened an email including them.",
+      "paragraph2": "This allows us, for example, to monitor the traffic patterns of users from one page within a website to another, to deliver or communicate with cookies, to understand whether you have come to the website from an online advertisement displayed on a third-party website, to improve site performance, and to measure the success of email marketing campaigns.",
+      "paragraph3": "In many instances, these technologies are reliant on cookies to function properly, and so declining cookies will impair their functioning."
+    },
+    "flashCookies": {
+      "title": "Do you use Flash cookies or Local Shared Objects?",
+      "paragraph1": "Websites may also use so-called \"Flash Cookies\" (also known as Local Shared Objects or \"LSOs\") to, among other things, collect and store information about your use of our services, fraud prevention, and for other site operations.",
+      "paragraph2": "If you do not want Flash Cookies stored on your computer, you can adjust the settings of your Flash player to block Flash Cookies storage using the tools contained in the Website Storage Settings Panel.",
+      "paragraph3": "Please note that setting the Flash Player to restrict or limit acceptance of Flash Cookies may reduce or impede the functionality of some Flash applications, including, potentially, Flash applications used in connection with our services or online content."
+    },
+    "targetedAdvertising": {
+      "title": "Do you serve targeted advertising?",
+      "paragraph": "Third parties may serve cookies on your computer or mobile device to serve advertising through our Website. These companies may use information about your visits to this and other websites in order to provide relevant advertisements about goods and services that you may be interested in."
+    },
+    "policyUpdates": {
+      "title": "How often will you update this Cookie Policy?",
+      "paragraph1": "We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal, or regulatory reasons.",
+      "paragraph2": "Please therefore revisit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.",
+      "paragraph3": "The date at the top of this Cookie Policy indicates when it was last updated."
+    },
+    "contact": {
+      "title": "Where can I get further information?",
+      "description": "If you have any questions about our use of cookies or other technologies, please contact us at:",
+      "address": {
+        "company": "RateMinistère.inc",
+        "street": "40 Cherry-Lane",
+        "city": "Montreal, Quebec",
+        "country": "Canada",
+        "email": "rateministere@gmail.com"
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "PRIVACY POLICY",
+    "lastUpdated": "Last updated December 01, 2024",
+    "introduction": {
+      "paragraph1": "This Privacy Notice for RateMinistère.inc (\"we,\" \"us,\" or \"our\"), describes how and why we might access, collect, store, use, and/or share (\"process\") your personal information when you use our services (\"Services\"), including when you:",
+      "listItem1": "Visit our website at ",
+      "listItem1.1": " or any website of ours that links to this Privacy Notice",
+      "listItem2": "Download and use our mobile application (RateMinistère), or any other application of ours that links to this Privacy Notice",
+      "listItem3": "Use RateMinistère. We are a platform revolutionizing teacher and school ratings. In ordre to help every student to reach a higher grade, we use strict guidelines and advanced algorithms to ensure only constructive and respectful comments are published.",
+      "listItem4": "Engage with us in other related ways, including any sales, marketing, or events",
+      "links": [
+        {
+          "name": "https://www.rateministere.com",
+          "url": "https://www.rateministere.com"
+        }
+      ]
+    },
+    "questionsConcerns": "Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at ",
+    "questionsConcerns.1": " .",
+    "summary": {
+      "title": "SUMMARY OF KEY POINTS",
+      "description": "This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below.",
+      "keyPoint1": "What personal information do we process?",
+      "keyPoint2": "Do we process any sensitive personal information?",
+      "keyPoint3": "Do we collect any information from third parties?",
+      "keyPoint4": "How do we process your information?",
+      "keyPoint5": "In what situations and with which parties do we share personal information?",
+      "keyPoint6": "How do we keep your information safe?",
+      "keyPoint7": "What are your rights?",
+      "keyPoint8": "How do you exercise your rights?"
+    },
+    "tableOfContents": {
+      "title": "TABLE OF CONTENTS",
+      "item1": " WHAT INFORMATION DO WE COLLECT?",
+      "item2": " HOW DO WE PROCESS YOUR INFORMATION?",
+      "item3": " WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?",
+      "item4": " WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?",
+      "item5": " WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?",
+      "item6": " DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?",
+      "item7": " DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?",
+      "item8": " HOW DO WE HANDLE YOUR SOCIAL LOGINS?",
+      "item9": " HOW LONG DO WE KEEP YOUR INFORMATION?",
+      "item10": " HOW DO WE KEEP YOUR INFORMATION SAFE?",
+      "item11": " WHAT ARE YOUR PRIVACY RIGHTS?",
+      "item12": " CONTROLS FOR DO-NOT-TRACK FEATURES",
+      "item13": " DO WE MAKE UPDATES TO THIS NOTICE?",
+      "item14": " HOW CAN YOU CONTACT US ABOUT THIS NOTICE?",
+      "item15": " HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
+    },
+    "informationWeCollect": {
+      "title": "1. WHAT INFORMATION DO WE COLLECT?",
+      "personalInformation": {
+        "title": "Personal information you disclose to us",
+        "short": "In Short: We collect personal information that you provide to us.",
+        "details": "We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us."
+      },
+      "sensitiveInformation": {
+        "title": "Sensitive Information",
+        "item1": "student data"
+      },
+      "paymentData": {
+        "title": "Payment Data",
+        "details": "We may collect data necessary to process your payment if you choose to make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is handled and stored by E-Transfer, MasterCard, Visa and American Express. You may find their privacy notice link(s) here: ",
+        "details-coma": " ,",
+        "details-and": " and ",
+        "details-end": " .",
+        "links": [
+          {
+            "name": "Interac",
+            "url": "https://www.interac.ca/en/privacy-policy/"
+          },
+          {
+            "name": "Mastercard",
+            "url": "https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy.html"
+          },
+          {
+            "name": "Visa",
+            "url": "https://www.visa.ca/en_CA/legal/global-privacy-notice.html"
+          },
+          {
+            "name": "American Express",
+            "url": "https://www.americanexpress.com/en-ca/company/legal/privacy-centre/privacy-statement/"
+          }
+        ]
+      },
+      "socialMediaLoginData": {
+        "title": "Social Media Login Data",
+        "details": "We may provide you with the option to register with us using your existing social media account details, like your Facebook, X, or other social media account. If you choose to register in this way, we will collect certain profile information about you from the social media provider, as described in the section called \"HOW DO WE HANDLE YOUR SOCIAL LOGINS?\" below."
+      },
+      "applicationData": {
+        "title": "Application Data",
+        "geolocation": "Geolocation Information: We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services. If you wish to change our access or permissions, you may do so in your device's settings.",
+        "mobileDeviceAccess": "Mobile Device Access: We may request access or permission to certain features from your mobile device, including your mobile device's camera, microphone, calendar, social media accounts, and other features. If you wish to change our access or permissions, you may do so in your device's settings.",
+        "mobileDeviceData": "Mobile Device Data: We automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model Internet service provider and/or mobile carrier, and Internet Protocol (IP) address (or proxy server). If you are using our application(s), we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID, and information about the features of our application(s) you accessed.",
+        "pushNotifications": "Push Notifications: We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device's settings.",
+        "usage": "This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes."
+      },
+      "automaticallyCollected": {
+        "title": "Information automatically collected",
+        "short": "In Short: Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services.",
+        "details": "We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.",
+        "cookies": "Like many businesses, we also collect information through cookies and similar technologies. You can find out more about this in our Cookie Notice: ",
+        "cookies-end": ".",
+        "links": [
+          {
+            "name": "https://www.rateministere.com/cookie-policy",
+            "url": "https://www.rateministere.com/cookie-policy"
+          }
+        ]
+      },
+      "logAndUsageData": {
+        "title": "Log and Usage Data",
+        "details": "Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called \"crash dumps\"), and hardware settings)."
+      },
+      "deviceData": {
+        "title": "Device Data",
+        "details": "We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information."
+      },
+      "locationData": {
+        "title": "Location Data",
+        "details": "We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services."
+      },
+      "googleAPI": {
+        "title": "Google API",
+        "details": "Our use of information received from Google APIs will adhere to ",
+        "details-1": ", including the Limited Use requirements.",
+        "links": [
+          {
+            "name": "Google's Privacy Policy",
+            "url": "https://policies.google.com/privacy?hl=en"
+          }
+        ]
+      },
+      "informationFromOtherSources": {
+        "title": "Information collected from other sources",
+        "short": "In Short: We may collect limited data from public databases, marketing partners, social media platforms, and other outside sources.",
+        "details": "In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion.",
+        "socialMediaDetails": "If you interact with us on a social media platform using your social media account (e.g., Facebook or X), we receive personal information about you from such platforms such as your name, email address, and gender. You may have the right to withdraw your consent to processing your personal information. Learn more about withdrawing your consent. Any personal information that we collect from your social media account depends on your social media account's privacy settings. Please note that their own use of your information is not governed by this Privacy Notice."
+      }
+    },
+    "howWeProcess": {
+      "title": "2. HOW DO WE PROCESS YOUR INFORMATION?",
+      "short": "In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.",
+      "accountManagement": "To facilitate account creation and authentication and otherwise manage user accounts. We may process your information so you can create and log in to your account, as well as keep your account in working order.",
+      "serviceDelivery": "To deliver and facilitate delivery of services to the user. We may process your information to provide you with the requested service.",
+      "userSupport": "To respond to user inquiries/offer support to users. We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.",
+      "administrativeInfo": "To send administrative information to you. We may process your information to send you details about our products and services, changes to our terms and policies, and other similar information.",
+      "orderManagement": "To fulfill and manage your orders. We may process your information to fulfill and manage your orders, payments, returns, and exchanges made through the Services.",
+      "userCommunication": "To enable user-to-user communications. We may process your information if you choose to use any of our offerings that allow for communication with another user.",
+      "feedback": "To request feedback. We may process your information when necessary to request feedback and to contact you about your use of our Services.",
+      "marketing": "To send you marketing and promotional communications. We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see \"WHAT ARE YOUR PRIVACY RIGHTS?\" below.",
+      "targetedAdvertising": "To deliver targeted advertising to you. We may process your information to develop and display personalized content and advertising tailored to your interests, location, and more. For more information see our Cookie Notice: ",
+      "targetedAdvertising-1": ".",
+      "links": [
+        {
+          "name": "https://www.rateministere.com/cookie-policy",
+          "url": "https://www.rateministere.com/cookie-policy"
+        }
+      ],
+      "testimonials": "To post testimonials. We post testimonials on our Services that may contain personal information.",
+      "security": "To protect our Services. We may process your information as part of our efforts to keep our Services safe and secure, including fraud monitoring and prevention.",
+      "prizeDraws": "To administer prize draws and competitions. We may process your information to administer prize draws and competitions.",
+      "evaluation": "To evaluate and improve our Services, products, marketing, and your experience. We may process your information when we believe it is necessary to identify usage trends, determine the effectiveness of our promotional campaigns, and to evaluate and improve our Services, products, marketing, and your experience.",
+      "marketingEffectiveness": "To determine the effectiveness of our marketing and promotional campaigns. We may process your information to better understand how to provide marketing and promotional campaigns that are most relevant to you.",
+      "legalObligations": "To comply with our legal obligations. We may process your information to comply with our legal obligations, respond to legal requests, and exercise, establish, or defend our legal rights."
+    },
+    "legalBases": {
+      "title": "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?",
+      "short": "In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.",
+      "permission": "We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time."
+    },
+    "sharingInformation": {
+      "title": "4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?",
+      "short": "In Short: We may share information in specific situations described in this section and/or with the following third parties.",
+      "thirdParties": "Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (\"third parties\") who perform services for us or on our behalf and require access to such information to do that work. We have contracts in place with our third parties, which are designed to help safeguard your personal information. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will also not share your personal information with any organization apart from us. They also commit to protect the data they hold on our behalf and to retain it for the period we instruct.",
+      "vendors": "Advertising, Direct Marketing, and Lead Generation: Google AdSense",
+      "aiProviders": "AI Service Providers: Groq",
+      "allowUsersToConnect": "Allow Users to Connect to Their Third-Party Accounts: Google account and Microsoft account",
+      "cloudServices": "Cloud Computing Services: Amazon Web Services (AWS)",
+      "communication": "Communicate and Chat with Users: discourse",
+      "socialMedia": "Social Media Sharing and Advertising: YouTube social plugins",
+      "userAccountRegistration": "User Account Registration and Authentication: Google OAuth 2.0, Google Sign-In, Microsoft Sign-in and Microsoft OAuth 2.0",
+      "analytics": "Web and Mobile Analytics: Google Ads and Google Analytics",
+      "hosting": "Website Hosting: AWS",
+      "situations": [
+        "Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.",
+        "Affiliates. We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Notice. Affiliates include our parent company and any subsidiaries, joint venture partners, or other companies that we control or that are under common control with us.",
+        "Business Partners. We may share your information with our business partners to offer you certain products, services, or promotions.",
+        "Offer Wall. Our application(s) may display a third-party hosted \"offer wall.\" Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward."
+      ]
+    },
+    "thirdPartyWebsites": {
+      "title": "5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?",
+      "short": "In Short: We are not responsible for the safety of any information that you share with third parties that we may link to or who advertise on our Services, but are not affiliated with, our Services."
+    },
+    "cookies": {
+      "title": "6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?",
+      "short": "In Short: We may use cookies and other tracking technologies to collect and store your information.",
+      "details": "We may use cookies and similar tracking technologies (like web beacons and pixels) to gather information when you interact with our Services. Some online tracking technologies help us maintain the security of our Services and your account, prevent crashes, fix bugs, save your preferences, and assist with basic site functions.",
+      "thirdPartyCookies": "We also permit third parties and service providers to use online tracking technologies on our Services for analytics and advertising, including to help manage and display advertisements, to tailor advertisements to your interests, or to send abandoned shopping cart reminders (depending on your communication preferences). The third parties and service providers use their technology to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites.",
+      "cookieNotice": "Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: ",
+      "cookieNotice-1": ".",
+      "links": [
+        {
+          "name": "https://www.rateministere.com/cookie-policy",
+          "url": "https://www.rateministere.com/cookie-policy"
+        }
+      ]
+    },
+    "googleAnalytics": {
+      "title": "Google Analytics",
+      "details": "We may share your information with Google Analytics to track and analyze the use of the Services. The Google Analytics Advertising Features that we may use include: Google Analytics Demographics and Interests Reporting. To opt out of being tracked by Google Analytics across the Services, visit ",
+      "details-1": ". You can opt out of Google Analytics Advertising Features through Ads Settings and Ad Settings for mobile apps. Other opt out means include ",
+      "details-2": " and ",
+      "details-3": ". For more information on the privacy practices of Google, please visit the ",
+      "details-4": ".",
+      "links": [
+        {
+          "name": "Google Analytics Opt-out",
+          "url": "https://tools.google.com/dlpage/gaoptout"
+        },
+        {
+          "name": "NAI Consumer Opt Out",
+          "url": "https://optout.networkadvertising.org/?c=1"
+        },
+        {
+          "name": "Mobile Opt Out",
+          "url": "https://thenai.org/opt-out/mobile-opt-out/"
+        },
+        {
+          "name": "Google's Privacy Policy",
+          "url": "https://policies.google.com/privacy?hl=en"
+        }
+      ]
+    },
+    "aiProducts": {
+      "title": "7. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?",
+      "short": "In Short: We offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies.",
+      "details": "As part of our Services, we offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies (collectively, \"AI Products\"). These tools are designed to enhance your experience and provide you with innovative solutions. The terms in this Privacy Notice govern your use of the AI Products within our Services.",
+      "useOfAITechnologies": {
+        "title": "Use of AI Technologies",
+        "details": "We provide the AI Products through third-party service providers (\"AI Service Providers\"), including Groq. As outlined in this Privacy Notice, your input, output, and personal information will be shared with and processed by these AI Service Providers to enable your use of our AI Products for purposes outlined in \"WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?\" You must not use the AI Products in any way that violates the terms or policies of any AI Service Provider."
+      },
+      "ourAIProducts": {
+        "title": "Our AI Products",
+        "details": "Our AI Products are designed for the following functions:",
+        "functions": [
+          "AI automation",
+          "Text analysis"
+        ]
+      },
+      "howWeProcessDataUsingAI": {
+        "title": "How We Process Your Data Using AI",
+        "details": "All personal information processed using our AI Products is handled in line with our Privacy Notice and our agreement with third parties. This ensures high security and safeguards your personal information throughout the process, giving you peace of mind about your data’s safety."
+      }
+    },
+    "socialLogins": {
+      "title": "8. HOW DO WE HANDLE YOUR SOCIAL LOGINS?",
+      "short": "In Short: If you choose to register or log in to our Services using a social media account, we may have access to certain information about you.",
+      "details": "Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or X logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.",
+      "socialMediaProvider": "We will use the information we receive only for the purposes that are described in this Privacy Notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps."
+    },
+    "dataRetention": {
+      "title": "9. HOW LONG DO WE KEEP YOUR INFORMATION?",
+      "short": "In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.",
+      "details": "We will only keep your personal information for as long as it is necessary for the purposes set out in this Privacy Notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than six (6) months past the termination of the user’s account.",
+      "deletion": "When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible."
+    },
+    "dataSecurity": {
+      "title": "10. HOW DO WE KEEP YOUR INFORMATION SAFE?",
+      "short": "In Short: We aim to protect your personal information through a system of organizational and technical security measures.",
+      "details": "We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment."
+    },
+    "privacyRights": {
+      "title": "11. WHAT ARE YOUR PRIVACY RIGHTS?",
+      "short": "In Short: In some regions, such as Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.",
+      "details": "In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; (iv) if applicable, to data portability; and (v) not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section \"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?\" below.",
+      "consideration": "We will consider and act upon any request in accordance with applicable data protection laws.",
+      "withdrawingConsent": {
+        "title": "Withdrawing your consent:",
+        "details": "If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section \"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?\" below.",
+        "limitations": "However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent."
+      },
+      "accountInformation": {
+        "title": "Account Information",
+        "details": "If you would at any time like to review or change the information in your account or terminate your account, you can:",
+        "options": [
+          "Log in to your account settings and update your user account.",
+          "Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements."
+        ]
+      },
+      "cookiesAndSimilarTechnologies": {
+        "title": "Cookies and similar technologies:",
+        "details": "Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. You may also opt out of interest-based advertising by advertisers on our Services. For further information, please see our Cookie Notice: ",
+        "details-1": ".",
+        "links": [
+          {
+            "name": "https://www.rateministere.com/cookie-policy",
+            "url": "https://www.rateministere.com/cookie-policy"
+          }
+        ],
+        "question": "If you have questions or comments about your privacy rights, you may email us at "
+      }
+    },
+    "doNotTrack": {
+      "title": "12. CONTROLS FOR DO-NOT-TRACK FEATURES",
+      "short": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice."
+    },
+    "updates": {
+      "title": "13. DO WE MAKE UPDATES TO THIS NOTICE?",
+      "short": "In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.",
+      "details": "We may update this Privacy Notice from time to time. The updated version will be indicated by an updated \"Revised\" date at the top of this Privacy Notice. If we make material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Privacy Notice frequently to be informed of how we are protecting your information."
+    },
+    "contact": {
+      "title": "14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?",
+      "description": "If you have questions or comments about this notice, you may email us at rateministere@gmail.com or contact us by post at:",
+      "address": {
+        "company": "RateMinistère.inc",
+        "street": "40 Cherry-Lane",
+        "city": "Montreal, Quebec",
+        "country": "Canada",
+        "email": "rateministere@gmail.com"
+      }
+    },
+    "reviewUpdateDelete": {
+      "title": "15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?",
+      "short": "Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a data subject access request. "
+    }
+  },
+  "termsAndConditions": {
+    "termsAndConditionsTitle": "Terms and Conditions",
+    "lastUpdated": "Last updated: December 1, 2024",
+    "agreementToLegalTermsTitle": "Agreement to Our Legal Terms",
+    "agreementToLegalTermsBody1": "We are RateMinistère.inc (\"Company,\" \"we,\" \"us,\" \"our\"), a company registered in Canada.",
+    "agreementToLegalTermsBody2": "We operate the website ",
+    "agreementToLegalTermsBody2-1": " and any other related products and services that refer or link to these legal terms (the \"Legal Terms\") (collectively, the \"Services\").",
+    "links": [
+      {
+        "name": "https://www.rateministere.com",
+        "url": "https://www.rateministere.com"
+      },
+      {
+        "name": "https://www.rateministere.com/privacy-policy",
+        "url": "https://www.rateministere.com/privacy-policy"
+      }
+    ],
+    "agreementToLegalTermsBody3": "We are a platform revolutionizing teacher and school ratings. In ordre to help every student to reach a higher grade, we use strict guidelines and advanced algorithms to ensure only constructive and respectful comments are published.",
+    "agreementToLegalTermsBody4": "You can contact us by email at ",
+    "agreementToLegalTermsBody4-1": " or by mail to 40 Cherry-Lane, Canada.",
+    "agreementToLegalTermsBody5": "These Legal Terms constitute a legally binding agreement between you and RateMinistère.inc. By accessing the Services, you agree to be bound by these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.",
+    "agreementToLegalTermsBody6": "A pop-up notification will inform users of updates to these terms. All users who are minors must have parental permission and supervision to use the Services. We recommend printing a copy of these Legal Terms for your records.",
+    "ourServicesTitle": "1. Our Services",
+    "ourServicesBody1": "The information provided when using the Services is not intended for distribution where such distribution would be contrary to law or regulation, or subject us to registration requirements. Those accessing the Services from other locations do so on their own initiative and are responsible for compliance with local laws.",
+    "ourServicesBody2": "Compliance with Educational and Privacy Laws: All user-submitted ratings and reviews of teachers must comply with applicable educational standards and privacy laws. Teachers have the right to respond to reviews and request removal of defamatory content. Subscription services must comply with local and federal regulations regarding educational services, consumer protection, and data privacy. Data protection laws (GDPR, COPPA) must be followed. Intellectual property rights must be respected. The platform must be accessible to all users, including those with disabilities. Advertising and marketing must comply with all relevant standards and regulations.",
+    "intellectualPropertyRightsTitle": "2. Intellectual Property Rights",
+    "intellectualPropertyRightsBody1": "We own or license all intellectual property rights in our Services, including the Content (source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics) and Marks (trademarks, service marks, and logos). Our Content and Marks are protected worldwide. The Content and Marks are provided \"AS IS\" for personal, non-commercial use only.",
+    "intellectualPropertyRightsBody2": "Subject to these Legal Terms, we grant you a non-exclusive, non-transferable, revocable license to access the Services and download/print Content for personal, non-commercial use. No part of the Services, Content, or Marks may be copied or exploited commercially without our express written permission.  Requests for permission should be sent to ",
+    "intellectualPropertyRightsBody2-1": ".",
+    "intellectualPropertyRightsBody3": "We reserve all rights not expressly granted. Any breach of these Intellectual Property Rights will terminate your right to use our Services.",
+    "intellectualPropertyRightsBody4": "Submissions (information you send us) are assigned to us. Contributions (publicly posted content) grant us an unrestricted license to use, copy, reproduce, distribute, etc., for any purpose. We do not claim ownership over your Contributions; you retain ownership.",
+    "intellectualPropertyRightsBody5": "You are responsible for ensuring Submissions and Contributions do not violate any laws or third-party rights. We may remove or edit any content we deem harmful or in breach of these terms.",
+    "userRepresentationsTitle": "3. User Representations",
+    "userRepresentationsBody": "By using the Services, you represent and warrant that: (1) your registration information is true, accurate, current, and complete; (2) you will maintain its accuracy; (3) you have the legal capacity to comply with these Legal Terms; (4) you are not a minor, or if a minor, you have parental permission; (5) you will not access the Services through automated means; (6) you will not use the Services for illegal purposes; and (7) your use of the Services will not violate any applicable law or regulation. Failure to comply may result in account suspension or termination.",
+    "userRegistrationTitle": "4. User Registration",
+    "userRegistrationBody": "You may need to register to use the Services. Keep your password confidential. We reserve the right to remove or change inappropriate usernames.",
+    "productsTitle": "5. Products",
+    "productsBody": "We strive for accurate product displays, but we don't guarantee accuracy or that items will be in stock. We reserve the right to discontinue products at any time, and prices are subject to change.",
+    "purchasesAndPaymentTitle": "6. Purchases and Payment",
+    "purchasesAndPaymentBody": "We accept Visa, Mastercard, PayPal, Interac e-Transfer, and American Express. You agree to provide accurate purchase and account information and promptly update it. Sales tax will be added as required. All payments are in Canadian dollars. We reserve the right to correct pricing errors and refuse orders.",
+    "subscriptionsTitle": "7. Subscriptions",
+    "subscriptionsBillingRenewal": "Billing and Renewal: Your subscription automatically renews unless canceled. We will charge your payment method on a recurring basis.",
+    "subscriptionsFreeTrial": "Free Trial: We offer a 7-day free trial. No charge occurs during the trial; the subscription is suspended until upgraded.",
+    "subscriptionsCancellation": "Cancellation: Cancel at any time through your account. Cancellation takes effect at the end of the current paid term.",
+    "subscriptionsFeeChanges": "Fee Changes: We may change the subscription fee and will communicate any price changes to you.",
+    "returnRefundsPolicyTitle": "8. Return/Refunds Policy",
+    "returnRefundsPolicyBody": "All sales are final.  Refunds are not offered except as explicitly stated in our Refund Policy.",
+    "prohibitedActivitiesTitle": "9. Prohibited Activities",
+    "prohibitedActivitiesBody": "You may not use the Services for any purpose other than intended. You agree not to:",
+    "prohibitedActivitiesList0": "Systematically retrieve data without written permission.",
+    "prohibitedActivitiesList1": "Trick, defraud, or mislead us or other users.",
+    "prohibitedActivitiesList2": "Interfere with security features.",
+    "prohibitedActivitiesList3": "Disparage us or the Services.",
+    "prohibitedActivitiesList4": "Use information to harass others.",
+    "prohibitedActivitiesList5": "Make improper use of support services.",
+    "prohibitedActivitiesList6": "Use the Services illegally.",
+    "prohibitedActivitiesList7": "Engage in unauthorized framing or linking.",
+    "prohibitedActivitiesList8": "Transmit viruses or other harmful material.",
+    "prohibitedActivitiesList9": "Engage in automated use of the system (bots, scrapers, etc.).",
+    "prohibitedActivitiesList10": "Delete copyright notices.",
+    "prohibitedActivitiesList11": "Impersonate another user.",
+    "prohibitedActivitiesList12": "Transmit spyware or similar devices.",
+    "prohibitedActivitiesList13": "Interfere with the Services or networks.",
+    "prohibitedActivitiesList14": "Harass our employees or agents.",
+    "prohibitedActivitiesList15": "Attempt to bypass access restrictions.",
+    "prohibitedActivitiesList16": "Copy or adapt the Services' software.",
+    "prohibitedActivitiesList17": "Reverse engineer the software.",
+    "prohibitedActivitiesList18": "Use a buying agent.",
+    "prohibitedActivitiesList19": "Make unauthorized use of the Services (collecting usernames/emails for spam).",
+    "prohibitedActivitiesList20": "Compete with us using the Services.",
+    "prohibitedActivitiesList21": "Use the Services to advertise or sell goods and services.",
+    "prohibitedActivitiesList22": "Sell or transfer your profile.",
+    "prohibitedActivitiesList23": "Post defamatory, obscene, abusive, or offensive content.",
+    "prohibitedActivitiesList24": "Engage in unlawful or fraudulent activity.",
+    "prohibitedActivitiesList25": "Impersonate any person or entity.",
+    "prohibitedActivitiesList26": "Introduce malicious software or harmful code.",
+    "prohibitedActivitiesList27": "Use automated systems to extract data (screen scraping).",
+    "prohibitedActivitiesList28": "Share private information without consent.",
+    "prohibitedActivitiesList29": "Engage in spamming or flooding.",
+    "prohibitedActivitiesList30": "Distribute explicit content.",
+    "prohibitedActivitiesList31": "Engage in hate speech.",
+    "prohibitedActivitiesList32": "Promote or glorify violence.",
+    "prohibitedActivitiesList33": "Exploit or sexualize minors.",
+    "prohibitedActivitiesList34": "Violate intellectual property rights.",
+    "prohibitedActivitiesList35": "Manipulate platform metrics.",
+    "prohibitedActivitiesList36": "Engage in stalking or cyberbullying.",
+    "prohibitedActivitiesList37": "Bypass security measures.",
+    "prohibitedActivitiesList38": "Use the platform for political disinformation.",
+    "prohibitedActivitiesList39": "Solicit or engage in illegal drug transactions.",
+    "prohibitedActivitiesList40": "Share personal financial information.",
+    "prohibitedActivitiesList41": "Circumvent age restrictions.",
+    "prohibitedActivitiesList42": "Use automated bots.",
+    "prohibitedActivitiesList43": "Engage in identity theft.",
+    "prohibitedActivitiesList44": "Promote self-harm or suicide.",
+    "prohibitedActivitiesList45": "Use the platform for terrorist recruitment.",
+    "prohibitedActivitiesList46": "Manipulate algorithms or search results.",
+    "userGeneratedContributionsTitle": "10. User Generated Contributions",
+    "userGeneratedContributionsBody": "The Services may invite you to create and submit Contributions (text, writings, video, audio, etc.). Contributions may be viewable by other users. When submitting Contributions, you represent and warrant that:",
+    "userGeneratedContributionsList0": "Your Contributions do not infringe any proprietary rights.",
+    "userGeneratedContributionsList1": "You own the rights to your Contributions.",
+    "userGeneratedContributionsList2": "You have consent from identifiable individuals in your Contributions.",
+    "userGeneratedContributionsList3": "Your Contributions are not false or misleading.",
+    "userGeneratedContributionsList4": "Your Contributions are not unsolicited advertising, spam, etc.",
+    "userGeneratedContributionsList5": "Your Contributions are not obscene or objectionable.",
+    "userGeneratedContributionsList6": "Your Contributions do not ridicule or abuse anyone.",
+    "userGeneratedContributionsList7": "Your Contributions do not violate any laws.",
+    "userGeneratedContributionsList8": "Your Contributions do not violate privacy or publicity rights.",
+    "userGeneratedContributionsList9": "Your Contributions do not violate laws concerning child pornography.",
+    "userGeneratedContributionsList10": "Your Contributions do not contain offensive comments related to race, etc.",
+    "userGeneratedContributionsList11": "Your Contributions do not violate these Terms and Conditions or any laws.",
+    "contributionLicenseTitle": "11. Contribution License",
+    "contributionLicenseBody": "By posting Contributions, you grant us an unrestricted license to use, copy, reproduce, distribute, etc. This applies to any form, media, or technology and includes our use of your name, company name, etc. You waive all moral rights in your Contributions. We do not assert ownership; you retain ownership. We are not liable for statements in your Contributions. You agree to exonerate us from responsibility for your Contributions. We may edit, redact, or delete Contributions at any time.",
+    "guidelinesForReviewsTitle": "12. Guidelines for Reviews",
+    "guidelinesForReviewsBody": "When posting reviews, you must: (1) have firsthand experience; (2) not use offensive language; (3) not use discriminatory language; (4) not reference illegal activity; (5) not be affiliated with competitors when posting negative reviews; (6) not make conclusions about the legality of conduct; (7) not post false statements; and (8) not organize campaigns to post reviews. We may accept, reject, or remove reviews at our discretion. We assume no liability for reviews.",
+    "advertisersTitle": "13. Advertisers",
+    "advertisersBody": "We allow advertisers to display ads in certain areas. We have no other relationship with advertisers.",
+    "servicesManagementTitle": "14. Services Management",
+    "servicesManagementBody": "We reserve the right to: (1) monitor for violations; (2) take legal action; (3) refuse, restrict access, or disable Contributions; (4) remove excessive files; and (5) manage the Services to protect our rights and facilitate proper functioning.",
+    "privacyPolicyTitle": "15. Privacy Policy",
+    "privacyPolicyTitle-1": "Please review our ",
+    "privacyPolicyTitle-2": ".",
+    "copyrightInfringementsTitle": "16. Copyright Infringements",
+    "copyrightInfringementsBody": "We respect intellectual property rights. If you believe material infringes your copyright, notify us immediately. You may be liable for damages if you make material misrepresentations in a Notification.",
+    "termAndTerminationTitle": "17. Term and Termination",
+    "termAndTerminationBody": "These Legal Terms remain in effect while you use the Services. We reserve the right to deny access or use of the Services at our sole discretion, including for breach of these Legal Terms or applicable law. We may terminate your use of the Services, delete your account, and content at any time without warning. If your account is terminated, you are prohibited from creating a new account.",
+    "modificationsAndInterruptionsTitle": "18. Modifications and Interruptions",
+    "modificationsAndInterruptionsBody": "We reserve the right to change, modify, or remove content at any time without notice. We have no obligation to update information. We are not liable for modifications, price changes, suspension, or discontinuance of the Services. We cannot guarantee Services availability at all times. We are not liable for any loss due to downtime.",
+    "governingLawTitle": "19. Governing Law",
+    "governingLawBody": "These Legal Terms are governed by the laws of Canada. RateMinistère.inc and you consent to the exclusive jurisdiction of the courts of Canada.",
+    "disputeResolutionTitle": "20. Dispute Resolution",
+    "disputeResolutionInformalNegotiations": "Informal Negotiations: The parties agree to attempt informal negotiations for at least 30 days before arbitration.",
+    "disputeResolutionBindingArbitration": "Binding Arbitration: Any dispute will be resolved by {{arbitrationBody}} according to its rules. The seat of arbitration shall be Montreal, Canada. The language shall be English or French. The governing law shall be the substantive law of Canada. Arbitration will be limited to individual Disputes; class actions are not permitted.",
+    "disputeResolutionExceptions": "Exceptions: Disputes concerning intellectual property rights, theft, piracy, invasion of privacy, or unauthorized use are not subject to the above provisions.",
+    "correctionsTitle": "21. Corrections",
+    "correctionsBody": "The Services may contain errors. We reserve the right to correct errors at any time without notice.",
+    "disclaimerTitle": "22. Disclaimer",
+    "disclaimerBody": "THE SERVICES ARE PROVIDED \"AS IS\". YOU USE THE SERVICES AT YOUR OWN RISK. WE DISCLAIM ALL WARRANTIES. WE ASSUME NO LIABILITY FOR ERRORS, MISTAKES, INACCURACIES, PERSONAL INJURY, PROPERTY DAMAGE, UNAUTHORIZED ACCESS, INTERRUPTIONS, BUGS, VIRUSES, OR OMISSIONS. WE DO NOT WARRANT OR ASSUME RESPONSIBILITY FOR THIRD-PARTY PRODUCTS OR SERVICES.",
+    "limitationsOfLiabilityTitle": "23. Limitations of Liability",
+    "limitationsOfLiabilityBody": "WE ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM YOUR USE OF THE SERVICES, EVEN IF ADVISED OF THE POSSIBILITY. OUR LIABILITY IS LIMITED TO {{liabilityLimit}}.",
+    "indemnificationTitle": "24. Indemnification",
+    "indemnificationBody": "You agree to indemnify and hold us harmless from any liability due to your Contributions, use of the Services, breach of these Legal Terms, breach of your warranties, violation of third-party rights, or any harmful act toward another user. We reserve the right to assume the exclusive defense of any matter.",
+    "userDataTitle": "25. User Data",
+    "userDataBody": "We maintain data you transmit and data relating to your use of the Services. While we perform regular backups, you are solely responsible for your data, and we have no liability for loss or corruption of your data.",
+    "electronicCommunicationsTransactionsAndSignaturesTitle": "26. Electronic Communications, Transactions, and Signatures",
+    "electronicCommunicationsTransactionsAndSignaturesBody": "You consent to receive electronic communications. You agree to the use of electronic signatures, contracts, and records. You waive any rights requiring original signatures or non-electronic records.",
+    "californiaUsersAndResidentsTitle": "27. California Users and Residents",
+    "californiaUsersAndResidentsBody": "If any complaint is unresolved, contact the Complaint Assistance Unit of the California Department of Consumer Affairs.",
+    "miscellaneousTitle": "28. Miscellaneous",
+    "miscellaneousBody": "These Legal Terms constitute the entire agreement. Our failure to enforce any right does not constitute a waiver. These Legal Terms operate to the fullest extent permissible by law. We may assign our rights. We are not liable for causes beyond our reasonable control. Unenforceable provisions are severable. No joint venture, partnership, or agency relationship is created. These Legal Terms will not be construed against us. You waive any defenses based on the electronic form of these Legal Terms.",
+    "userGeneratedContentResponsibilityTitle": "29. User-Generated Content Responsibility",
+    "userGeneratedContentResponsibilityBody": "Users are solely responsible for their content. Content must not infringe intellectual property rights, contain offensive material, or violate laws.",
+    "subscriptionPaymentTermsTitle": "30. Subscription Payment Terms",
+    "subscriptionPaymentTermsBody": "Subscriptions automatically renew unless canceled. We reserve the right to adjust subscription fees with prior notice.",
+    "refundPolicyTitle": "31. Refund Policy",
+    "refundPolicyBody": "Refunds may be granted for subscriptions within 7 days of purchase, subject to our discretion and on a case-by-case basis.",
+    "codeOfConductTitle": "32. Code of Conduct",
+    "codeOfConductBody": "Users agree to a code of conduct promoting respectful interactions. This includes refraining from harassment and hate speech.",
+    "liabilityLimitationTitle": "33. Liability Limitation",
+    "liabilityLimitationBody": "The platform is not liable for any indirect, incidental, or consequential damages arising from the use of the services.  This includes, but is not limited to, loss of data, loss of profits, or service interruptions.",
+    "privacyAndDataSecurityTitle": "34. Privacy and Data Security",
+    "privacyAndDataSecurityBody": "We are committed to protecting user privacy and data. Users agree to our data collection policies as outlined in our Privacy Policy. Any breach of data security will be promptly addressed, and affected users will be notified in compliance with applicable laws.",
+    "contactUsTitle": "35. Contact Us",
+    "contactUsBody": "For complaints or further information, contact: ",
+    "address": {
+      "company": "RateMinistère.inc",
+      "street": "40 Cherry-Lane",
+      "city": "Montreal, Québec",
+      "country": "Canada"
+    }
+  },
+  "TeacherCard": {
+    "evaluation": "evaluations"
+  },
+  "Schoolnotfound": {
+    "title": "School not found",
+    "description": "Try looking for another school!"
+  },
+  "signup": {
+    "title": "Join Us Now!",
+    "title-2": "Every Voice Matters!",
+    "socialButtons": {
+      "googleSignUp": "Sign Up with Google"
+    },
+    "terms": {
+      "agreementText": "By continuing, you agree to our",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and",
+      "termsAndConditions": "Terms of Conditions"
+    },
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Log in",
+    "loading": "Loading..."
+  },
+  "SignOutButton": {
+    "logOut": "Log out",
+    "login": "Log In"
+  },
+  "all-comments": {
+    "title": "Join the Comment Party!"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for seems to have taken a detour.",
+    "suggestion": "Let's help you find your way back.",
+    "goHome": "Return to Home Page"
+  },
+  "CommentVote": {
+    "close": "Close"
+  },
+  "SchoolRatingModal": {
+    "allComments": "Here's what everyone's saying!",
+    "noComments": "Be the first to comment!",
+    "noCommentsAvailable": "Oops, it's empty... Your thoughts could be the start of something great! 📝",
+    "ratealready": "Oops, it seems like you have already rated {{schoolName}}.",
+    "seeAllComments": "See all comments"
+  },
+  "Profile": {
+    "deleteMessages": [
+      "Do you want to delete this comment? One less voice will be heard.",
+      "Delete this comment? One less thought to share.",
+      "Are you sure you want to erase this voice?",
+      "Deleting this comment means erasing an idea. Confirm?",
+      "Do you really want to delete this message? A contribution will disappear."
+    ],
+    "saveprofile": "😔 I can't save your profile, perhaps try later?",
+    "savebadge": "😟 I can't save your badge, perhaps try later?",
+    "username_update_wait_days": "TOO FAST!!!🤖 Come back modify your username in {{daysRemaining}} days.",
+    "profile_updated": "🎉 Woohoo! Profile updated!",
+    "profile_updated_error": "😔 Oops, something went wrong while updating your profile.",
+    "loading": "🎇Wait a sec, loading profile...",
+    "appearance": "Appearance",
+    "privacy": "Privacy",
+    "default": "Reset to default",
+    "gradient": {
+      "gradient": "Gradient End Color:",
+      "use_gradient": "Use Gradient Background:"
+    },
+    "bgs": "Backgrounds:",
+    "visibility": "Profile Visibility:",
+    "options": {
+      "public": "Public",
+      "private": "Private",
+      "friends_only": "Friends only"
+    },
+    "messages": {
+      "direct_message": "Allow Direct Messages:",
+      "search_result": "Show in Search Results:"
+    },
+    "comments": {
+      "title": "No comments yet~ Every voice counts - comment today!",
+      "gathering": "Surfing between the comments at 314km/h.",
+      "no_comment": "No comment has been added for this teacher. Click the modify button beside to add one."
+    },
+    "placeholder": {
+      "username": "Let's call me...",
+      "description": "Describe yourself!"
+    },
+    "customCursor": "Custom Cursor"
+  },
+  "Delete": {
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "Crew": {
+    "meet-us": "Join Our Amazing Mission!",
+    "Noah": {
+      "serious": "Transforming the future of education!",
+      "funny": "Wow, I'm such a young CEO!"
+    },
+    "Kendrick": {
+      "serious": "As CTO, I don't tolerate bugs.",
+      "funny": "No worry, the blury effect comes with the picture."
+    },
+    "title": "Together, let's help every student to reach a higher grade!"
+  },
+  "Error": {
+    "comments": {
+      "moderation": "Oops, seem like RateGorithm™ went take a break..."
+    },
+    "ratings": {
+      "teachers": "Whoops! We couldn't save it! Please join our discord and report the bug!"
+    }
+  },
+  "Loadingpage": {
+    "loading": "Loading RateMinistère...<br>Get ready to rate!"
+  },
+  "Notification": {
+    "close": "Close",
+    "read": "Mark as read",
+    "empty": "All caught up! ✨",
+    "ReplyLiked": "{{name}} liked your reply.",
+    "CommentLiked": "{{name}} liked your comment.",
+    "SchoolLiked": "{{name}} liked your comment on the school.",
+    "markAllRead": "Mark all as read"
+  },
+  "reply": {
+    "success": "Congrat!🎉 Your reply was posted!"
+  },
+  "comment": {
+    "success": "Congrat!🎉 Your comment was posted!"
+  },
+  "votes": {
+    "success": "Congrat!🎉 Your vote was recorded!"
+  },
+  "FeaturePage": {
+    "suggestFeature": "Feedback",
+    "category": "Category",
+    "selectCategory": "Select Category",
+    "uiImprovement": "UI Improvement",
+    "newFeature": "New Feature",
+    "bugReport": "Bug Report",
+    "other": "Other",
+    "title": "Title",
+    "description": "Description",
+    "submitSuggestion": "Submit Suggestion",
+    "featureSubmitted": "✨ Awesome suggestion! We've received your feature request and will review it soon."
+  },
+  "Common": {
+    "errorTryAgain": "😟 Something went wrong. Please try again later.",
+    "connectionError": "🚨 Connection error. Please check your network and try again.",
+    "DiscordIT": "Chat live with our IT experts!"
+  },
+  "Contact": {
+    "title": "Contact RateMinistère",
+    "messageSent": "🎉 Your message was sent successfully! We'll get back to you soon.",
+    "name": "Let us know who you are!",
+    "email": "Where can we reach you?",
+    "message": "How can we help?",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "placeholder": {
+      "message": "What would you like to tell us?"
+    }
+  },
+  "footer": {
+    "privacy_policy": "Privacy policy",
+    "terms_and_conditions": "Terms and conditions",
+    "community_guidelines": "Community guidelines"
+  },
+  "AstrAlumnaGuidelines": {
+    "title": "AstrAlumna Community Guidelines",
+    "intro": "Welcome to AstrAlumna, a friendly and respectful space for exchange dedicated to the academic community. Our goal is to create an environment where everyone feels comfortable sharing their knowledge, asking questions, and interacting constructively.",
+    "philosophy": "Please treat this forum with the same respect you would give to a public space. We are a shared community resource - a place to exchange knowledge, skills, and interests through dialogue.",
+    "improveDiscussion": {
+      "title": "Improving Discussions",
+      "desc": "Help us maintain high-quality discussions by always contributing positively, even if your contribution seems small. If you are unsure whether your message adds value to the conversation, take the time to reflect and try again later.",
+      "browse": "Take the time to browse existing topics before replying or starting a new discussion thread. This will allow you to better understand the topics being addressed and meet other members who share your interests.",
+      "positive": "Ensure your message adds value to the discussion and contributes constructively to the exchange.",
+      "relevance": "Keep discussions focused on academic topics and ensure your contributions are relevant to the theme of the discussion thread."
+    },
+    "agreeable": {
+      "title": "Respect in Disagreements",
+      "desc": "It is normal to express disagreement. However, please criticize ideas, not people. Adopt a respectful and constructive tone, even when you disagree with what is being said.",
+      "avoidTitle": "To Avoid",
+      "avoid": {
+        "nameCalling": "Name-calling or insults",
+        "adHominem": "Ad hominem arguments (attacking the person rather than their arguments)",
+        "toneResponses": "Responses based on the tone of the message rather than its content",
+        "contradiction": "Systematic contradictions without constructive argumentation"
+      },
+      "betterTitle": "Recommended Practices",
+      "betterDesc": "Favor constructive criticism of ideas. Offer well-supported arguments and counter-arguments to enrich the discussion."
+    },
+    "yourParticipationCounts": {
+      "title": "Your Participation Matters",
+      "desc": "Each interaction contributes to the overall atmosphere of the forum. By choosing to participate in enriching discussions and avoiding negative behaviors, you help make this forum a pleasant and stimulating space for exchange.",
+      "tools": "Use the tools available to you (favorites, likes, reports, replies, edits) to improve your experience and that of other members."
+    },
+    "ifYouSeeAProblem": {
+      "title": "If You See a Problem, Report It",
+      "desc": "Moderators are here to ensure the forum runs smoothly, but your help is invaluable. If you observe inappropriate behavior, do not respond directly to the user involved. Use the reporting function to alert moderators.",
+      "moderators": "Moderators reserve the right to remove any content and any user account deemed inappropriate, at any time and for any reason. Moderators do not preview new messages and are not responsible for the content posted by the community."
+    },
+    "alwaysBeCivil": {
+      "title": "Always Be Respectful",
+      "desc": "Politeness and respect are essential for healthy and constructive exchanges.",
+      "rules": {
+        "beCivil": "Be courteous and respectful in your interactions.",
+        "keepItClean": "Do not use obscene or sexually explicit language.",
+        "respectEachOther": "Do not harass, bully, or disclose private information about other members.",
+        "respectForum": "Do not post spam or vandalize the forum."
+      },
+      "publicForum": "This forum is public and indexed by search engines. Ensure that the content you post is appropriate for a wide audience."
+    },
+    "keepItTidy": {
+      "title": "Keep the Forum Organized",
+      "desc": "To facilitate navigation and searching, please post your messages in the correct category.",
+      "rules": {
+        "rightCategory": "Choose the most appropriate category for your topic.",
+        "noCrossPosting": "Do not post the same message in multiple topics.",
+        "noContentReplies": "Avoid empty or content-less replies.",
+        "stayOnTopic": "Do not deviate from the initial topic during discussions.",
+        "noSignatures": "It is not necessary to sign your messages, as your profile information is already associated with them."
+      },
+      "alternatives": {
+        "plusOne": "Use the \"Like\" button instead of replying \"+1\" or \"Okay\".",
+        "newTopic": "To address a different topic, use the \"Reply as linked topic\" function."
+      }
+    },
+    "postOnlyYourOwnStuff": {
+      "title": "Post Only Your Own Content",
+      "desc": "Respect copyright and intellectual property. Do not post content belonging to someone else without their permission."
+    },
+    "poweredByYou": {
+      "title": "A Forum Powered by You",
+      "desc": "This forum is managed by a moderation team and by you, the community. If you have questions about how the forum works, feel free to open a new topic in the \"Site Feedback\" category to discuss it.",
+      "contact": "For any urgent questions or problems that cannot be resolved via the forum, contact the moderators."
+    },
+    "moderationNote": "Moderators reserve the right to remove any inappropriate content at any time. Report problematic behavior rather than responding to it directly. Your help is invaluable in maintaining a healthy and respectful environment.",
+    "contactUs": "HOW TO CONTACT US"
+  },
+  "WatchOutModal": {
+    "watchOutFor": "Exam Tips For : {{teacherName}}",
+    "alreadyCommented": "You have already commented on {{teacherName}}.",
+    "commentPlaceholder": "What should students watch out for?",
+    "submitComment": "Submit Comment",
+    "moderateComments": "Moderating comment...",
+    "guidelinesLink": "Guidelines"
+  },
+  "SaveBar": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "unsaved_changes": "Careful — you have unsaved changes!"
+  },
+  "PointsSystem": {
+    "20minutes": "Whoah! You stayed active for 20 minutes! 🎉"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "tutorial": "Full tutorial",
+    "searchPlaceholder": "Search...",
+    "noResults": "No matching questions found",
+    "questions": {
+      "1": "How to rate teachers?",
+      "2": "How to rate schools?",
+      "3": "How to navigate through all the teachers?",
+      "4": "How to navigate in school page?",
+      "5": "How to use the search bar?"
+    },
+    "answers": {
+      "1": "To give your feedback on a teacher, simply click on the rating button at the top right of their teacher card, or the button at the left of the teacher card detail page (accessed by clicking the teacher card). You'll be able to submit your rating using the rating icon, which is the same as our logo in the browser tab.",
+      "2": "To share your opinion on a school, go to the school's dedicated page. Look for the same rating button used to rate teachers (our logo).",
+      "3": "Browse the full list of teachers by searching for the teacher's name in the search bar. Alternatively, you can search for the desired school.  On the school page, there is a button that redirects you to the full list of teachers for that school.  Within teacher lists, you can either scroll through the list or use the search function to find a particular teacher.",
+      "4": "The school page is organized into several criteria containers. On desktop, hovering your mouse over each container will give you a preview of the 3 best comments, alternating between them. On mobile, holding your finger on a container will trigger the comment alternation. Clicking on a criteria container will open a modal where you can see all comments and reply to them. The large container at the bottom cycles through all comments; clicking on it will switch to the next comment. If you think some features are missing, don't hesitate to reach out to us through our Discord server or the feature recommendation button on the teacher list page.",
+      "5": "The search bar allows you to find specific teachers or schools.  The toggle button lets you switch between searching for teachers and schools. When the search bar is set to search for schools, a small icon appears on the right side. Clicking this icon will redirect you to a list of schools, making it easier to find the one you need."
+    },
+    "step": "Step"
+  },
+  "articles": {
+    "title": "Latest Articles",
+    "article1": {
+      "id": "article1",
+      "date": "2024-02-25",
+      "title": "RateMinistère vs Rate My Professor: Similar Concept, More Features",
+      "excerpt": "A detailed comparison between RateMinistère and Rate My Professor, highlighting the unique features of RateMinistère.",
+      "content": [
+        {
+          "type": "text",
+          "value": "Rate My Professor has long been a go-to resource for students looking to get the inside scoop on professors and courses.  RateMinistère takes the same core concept – community-driven ratings and reviews – and expands upon it with a wealth of additional features designed to provide a more comprehensive and user-friendly experience."
+        },
+        {
+          "type": "comparison"
+        }
+      ],
+      "comparison": {
+        "intro": "This comparison table highlights the key differences between RateMinistère and Rate My Professor, demonstrating the added value and comprehensive features offered by RateMinistère.",
+        "platforms": [
+          "RateMinistère",
+          "Rate My Professor"
+        ],
+        "sections": [
+          {
+            "sectionType": "common",
+            "features": [
+              {
+                "label": "Teacher rating",
+                "description": "Rate teachers based on various criteria.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "School rating",
+                "description": "Rate schools based on overall experience.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "Search preview",
+                "description": "Quickly see search results as you type.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "FAQ section",
+                "description": "Find answers to frequently asked questions.",
+                "availability": [
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "sectionType": "exclusive",
+            "features": [
+              {
+                "label": "Search preview loading state",
+                "description": "See a loading indicator while searching.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Search preview no result state",
+                "description": "Get a clear message when no results are found.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Dynamic hover animation",
+                "description": "Enjoy interactive hover effects.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Reduced ads",
+                "description": "Experience up to 13 times fewer ads per page.*",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "School list",
+                "description": "Find your school faster with a dedicated list.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Custom cursor",
+                "description": "Personalize your experience with a custom cursor.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Back button",
+                "description": "Easily navigate back with a prominent back button.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Mission explanation",
+                "description": "Learn about our mission on the home page.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Team transparency",
+                "description": "Meet our team and see who's behind the platform.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Easy-to-find FAQ",
+                "description": "Quickly access the FAQ section.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Full tutorial",
+                "description": "Get started with a comprehensive tutorial.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Contact-us section",
+                "description": "Reach out to us easily through the contact form.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Feature recommendation",
+                "description": "Suggest new features you'd like to see.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Tutorial explanations",
+                "description": "Detailed explanations for each feature.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Comment replies",
+                "description": "Engage in discussions by replying to comments.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "All comments modal",
+                "description": "Read all comments in one convenient place.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Organized comments",
+                "description": "View comments organized by criteria on school pages.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Watch out section",
+                "description": "Students can share important information about teachers.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "AstrAlumna",
+                "description": "A platform for student collaboration and sharing.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "AstrArena",
+                "description": "Ace math while playing a game.",
+                "availability": [
+                  true,
+                  false
+                ]
+              }
+            ]
+          }
+        ],
+        "disclaimer": "Based on RateMinistère research team comparison",
+        "conclusion": "While Rate My Professor provides a basic platform for rating professors, RateMinistère offers a significantly richer and more feature-packed experience.  From improved navigation and a cleaner interface to innovative features like AstrAlumna and AstrArena, RateMinistère is designed to be the ultimate resource for students."
+      }
+    },
+    "topSection": {
+      "text": "RateMinistère : The best teacher rating platform by features",
+      "button": "Try for free"
+    },
+    "bottomSection": {
+      "title": "Ready to give it a try?",
+      "text": "See for yourself! Get started with RateMinistère free and share your voice. No credit card. No commitment. Free forever.",
+      "button": "Try for free"
+    }
+  },
+  "read.more": "Read More",
+  "go_back": "Go Back",
+  "comparison": {
+    "feature": "Features",
+    "conclusionTitle": "Conclusion"
+  },
+  "AstrArena": {
+    "lessons": {
+      "math_1_1_1": {
+        "title": "Explore the World of Math",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 1...</p>",
+            "example": "<p>Example for Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        },
+        "quiz_2": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 2...</p>",
+            "example": "<p>Example for Quiz 2...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        }
+      },
+      "math_1_1_2": {
+        "title": "Discover Algebra Basics",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 1...</p>",
+            "example": "<p>Example for Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        }
+      },
+      "math_2_1_1": {
+        "title": "Advanced Math Concepts",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Advanced Math...</p>",
+            "example": "<p>Example for Advanced Math...</p>"
+          },
+          "exercise1": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise3": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise4": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise5": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise6": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise7": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise8": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          }
+        }
+      },
+      "science_1_1_1": {
+        "title": "Explore the World of Science",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 1...</p>",
+            "example": "<p>Example for Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        },
+        "quiz_2": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 2...</p>",
+            "example": "<p>Example for Quiz 2...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        }
+      },
+      "science_1_1_2": {
+        "title": "Discover Science Basics",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Quiz 1...</p>",
+            "example": "<p>Example for Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "What is 1 + 1?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "What is 2 x 2?",
+            "answer": "4"
+          }
+        }
+      },
+      "science_2_1_1": {
+        "title": "Advanced Science Concepts",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Theory for Advanced Math...</p>",
+            "example": "<p>Example for Advanced Math...</p>"
+          },
+          "exercise1": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise3": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise4": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise5": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise6": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise7": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise8": {
+            "question": "Solve for x: 2x + 3 = 7",
+            "answer": "2"
+          }
+        }
+      }
+    },
+    "select_module": "Select Module",
+    "big_quiz_start": "Start Big Quiz",
+    "big_quiz_correct_needed": "Answer {correct} out of {total} questions correctly to jump.",
+    "big_quiz_question": "Question {number}: {question}",
+    "confirm_jump": "Confirm Jump"
+  },
+  "report": {
+    "success": "Thank you!🎉 We will moderate this ASAP!",
+    "error": "Oops, seem like the system went taking a break.",
+    "tooltip": "Report"
+  },
+  "ReportModal": {
+    "title": "Report Content",
+    "reportedContent": "Reported Content:",
+    "reasonPlaceholder": "Please tell us why you are reporting this content...",
+    "submit": "Submit Report",
+    "minimumWords": "Please write at least 10 characters."
+  },
+  "SplitScreen": {
+    "ESC": "Press ESC to quit"
+  },
+  "changeLogTitle": "Changelog",
+  "what": "What",
+  "why": "Why",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "December 9, 2024",
+      "newFeatures": [
+        "The RateMinistère website launched! It's a place where students can rate their teachers.",
+        "You can now log in using your Google account, making it safe and easy to vote."
+      ],
+      "improvements": [
+        "Problems with the login page were fixed."
+      ],
+      "why": "The initial launch established the core functionality: student-to-teacher rating and secure Google login for ease of use and trust."
+    },
+    {
+      "version": "1.2.4",
+      "date": "December 10, 2024",
+      "improvements": [
+        "Fixed a button that closes the section showing all comments.",
+        "Fixed how background images look on comments when viewed on a phone.",
+        "Made the slant on \"5/5\" comments look better.",
+        "Improved how comments are checked for appropriateness.",
+        "Made comments easier to read with a cool, slightly see-through effect."
+      ],
+      "why": "These improvements focused on enhancing the user experience by addressing visual inconsistencies, improving comment readability, and refining the comment moderation process."
+    },
+    {
+      "version": "1.4.0",
+      "date": "December 22, 2024",
+      "newFeatures": [
+        "Your profile page has a completely new look.",
+        "The way you vote on comments is improved with a clearer voting bar.",
+        "You can now add custom backgrounds to your profile.",
+        "A button was added to easily access the RateMinistère Discord community."
+      ],
+      "improvements": [
+        "The website loads faster.",
+        "Problems with displaying badges were fixed.",
+        "The overall look of the website was updated to be more modern."
+      ],
+      "why": "This update aimed to increase user engagement with a redesigned profile page, better comment voting, and profile customization.  Overall site speed and aesthetics were also prioritized."
+    },
+    {
+      "version": "1.5.0",
+      "date": "January 1, 2025",
+      "newFeatures": [
+        "The \"AstrArena\" (a student competition page) got a visual makeover, but the buttons don't work yet.",
+        "The \"School Page\" also got a new look, but its features are still being added."
+      ],
+      "improvements": [
+        "The website works better on mobile phones."
+      ],
+      "why": "Work began on major new features, AstrArena and School Pages, with an initial focus on visual design.  Mobile responsiveness continued to be improved."
+    },
+    {
+      "version": "1.7.0",
+      "date": "January 16, 2025",
+      "newFeatures": [
+        "The AstrArena page was completely redesigned to look like a game, with a cool background and a better leaderboard.",
+        "You can now edit and delete your comments, and there's a new way to view them.",
+        "You can now vote on schools, and the school pages look better.",
+        "A new \"Crew\" section was added so you can learn about the people who made RateMinistère."
+      ],
+      "improvements": [
+        "The mouse pointer is now customized.",
+        "Teacher information cards look better.",
+        "School pages are laid out more nicely.",
+        "Better experience on mobile: You'll feel a slight vibration when you tap, and things respond better to touch.",
+        "Fixed various problems that made the website unstable, inconsistent, or slow."
+      ],
+      "why": "This was a significant update. AstrArena was fully redesigned, core comment management was added, school pages were improved, and the overall user experience was enhanced through UI customizations, mobile improvements, and bug fixes."
+    },
+    {
+      "version": "1.7.5",
+      "date": "January 17, 2025",
+      "improvements": [
+        "Fixed the \"robot check\" that appears when you sign up.",
+        "Fixed the signup button on mobile phones.",
+        "Made it clearer when you click a button on the top navigation bar.",
+        "Fixed a button in AstrArena that used to bounce twice.",
+        "Cleaned up some unnecessary visual elements in AstrArena.",
+        "Made buttons on the profile page look nicer.",
+        "Fixed how the AstrArena leaderboard looks."
+      ],
+      "why": "This was a bug-fixing release, addressing issues with signup, navigation, and the AstrArena, directly improving user flow and interaction."
+    },
+    {
+      "version": "1.7.15",
+      "date": "February 8, 2025",
+      "newFeatures": [
+        "All the policy pages (like terms of service) now look the same, and there's a back button.",
+        "Some text on the website has a cool 3D effect, and the buttons on the top navigation bar also have a 3D hover effect.",
+        "Pop-up windows now have a fun, game-like animation.",
+        "You can see a preview of a game being added to AstrArena.",
+        "You can now reply to comments, and you can upvote or downvote replies."
+      ],
+      "improvements": [
+        "Fixed how comments on school page looks.",
+        "Website work better on Dark mode and Mobile.",
+        "Your username will be the same with your profile name."
+      ],
+      "why": "This update focused on improving user interaction and visual appeal, adding features like comment replies and enhanced styling, while maintaining consistency across the site."
+    },
+    {
+      "version": "1.7.20",
+      "date": "February 8, 2025",
+      "improvements": [
+        "Fixed some visual problems and how Dark mode works.",
+        "Fixed some translation errors.",
+        "Clarified the website's mission: to help students get better grades."
+      ],
+      "why": "This release addressed visual and translation inconsistencies and explicitly reinforced the website's core mission."
+    },
+    {
+      "version": "1.7.31",
+      "date": "February 13, 2025",
+      "newFeatures": [
+        "The search bar looks nicer and has a toggle button.",
+        "A list of schools was added to make it easier to find yours."
+      ],
+      "improvements": [
+        "The font was updated to look cleaner and more modern.",
+        "Fixed some problems with the AstrArena preview."
+      ],
+      "why": "Search and school browsing were improved to make it easier for users to find what they need.  The font update improved readability and site aesthetics."
+    },
+    {
+      "version": "1.8.7",
+      "date": "March 8, 2025",
+      "newFeatures": [
+        "Improved the practice area in AstrArena.",
+        "Improved the system for earning points.",
+        "Made the school pages more detailed and easier to use.",
+        "Added new icons and badges for teacher competitions.",
+        "Made the search bar animation smoother.",
+        "Improved the bell notifications to show snippets of popular comments.",
+        "You can now upvote and downvote comments on school pages, just like you can for teacher comments.",
+        "Added a \"Watch Out\" section for teachers (the button is still being worked on).",
+        "Added a helpful \"i\" button that explains how to rate teachers.",
+        "Your points now show up on your profile."
+      ],
+      "why": "This was a large feature-focused update.  AstrArena, school pages, and the points system were all significantly improved, and new features were added to enhance user engagement and provide helpful information."
+    },
+    {
+      "version": "1.8.8",
+      "date": "March 9, 2025",
+      "improvements": [
+        "Added a smooth animation to the Frequently Asked Questions (FAQ) section."
+      ],
+      "why": "A small enhancement to improve the user experience within the FAQ section."
+    },
+    {
+      "version": "1.8.12",
+      "date": "March 15, 2025",
+      "improvements": [
+        "Fixed the translation in the signup window.",
+        "Made pop-up windows appear more smoothly.",
+        "Fixed the window that asks if you're sure you want to delete your profile.",
+        "Added a message on your profile to remind you to leave a comment if you rated a teacher.",
+        "Fixed how comments and replies respond when you move your mouse over them."
+      ],
+      "why": "This update addressed various bugs related to translation, UI interactions, and user profile management, improving overall usability."
+    },
+    {
+      "version": "1.8.14",
+      "date": "March 16, 2025",
+      "newFeatures": [
+        "You can now report comments or replies that are inappropriate.",
+        "A new button in your notifications lets you mark all notifications as read.",
+        "The website keeps track of your last 10 notifications."
+      ],
+      "improvements": [
+        "Made the little information boxes that appear when you hover over buttons look better.",
+        "Fixed a problem that showed the same message twice when you voted on a school comment.",
+        "Made the guidelines for rating clearer and more interesting.",
+        "Made the FAQ tutorial open in a new tab so it's easier to navigate."
+      ],
+      "why": "New features were added to improve community moderation (reporting) and notification management.  Usability was improved through better tooltips, clearer guidelines, and improved FAQ access."
+    },
+    {
+      "version": "1.8.23",
+      "date": "March 17, 2025",
+      "newFeatures": [
+        "Split Screen Button: allowing to compare two section easily!",
+        "Dynamic Profile Loading: You will see a spinning circle while your profile load.",
+        "Point History Page: You point history will open in a new page"
+      ],
+      "improvements": [
+        "Fixed problems with displaying tooltips.",
+        "Fixed glitchs in buttons' style.",
+        "Fixed a serious bug which prevent user upvote teachers."
+      ],
+      "bugFixes": [
+        "Many other bug fixes"
+      ],
+      "why": "Major new features, including split-screen comparison, dynamic profile loading, and a dedicated points history page, were introduced. Several bugs, including a critical voting issue, were also resolved."
+    },
+    {
+      "version": "1.8.25",
+      "date": "March 18, 2025",
+      "newFeatures": [
+        "Changelog Page: After testing 16 different styles, we finally have a clean and functional changelog!",
+        "Improved Compare Button: Better logic and a sleeker design for effortless comparisons.",
+        "Profile Page Enhancements: Improved tutorial button and added a direct link to the changelog."
+      ],
+      "why": "This update introduced a dedicated changelog for better transparency, enhanced the compare feature for improved usability, and made it easier for users to access help and updates from their profile page."
+    },
+    {
+      "version": "1.9.0",
+      "date": "March 23, 2025",
+      "newFeatures": [
+        "Compare button is fixed and no longer freezes.",
+        "Usernames and icons now appear beside comments. New users get random usernames (changeable later), and existing users remain anonymous if preferred.",
+        "You can now toggle detailed criteria for comment votes.",
+        "Profile page translations have been improved.",
+        "Replies to comments are now displayed correctly.",
+        "Improved animations, font colors, and dark mode compatibility across the site."
+      ],
+      "improvements": [
+        "Refined mobile styles in the teacher all comments modal",
+        "Smoother and more intuitive navigation bar"
+      ],
+      "why": "This update focused on improving user experience with a more stable compare feature, clearer comment attribution, enhanced profile page, and numerous visual and functional improvements across desktop and mobile."
+    }
+  ]
+}

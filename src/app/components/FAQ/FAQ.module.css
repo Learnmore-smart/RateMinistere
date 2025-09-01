@@ -1,0 +1,508 @@
+/* FAQ.module.css */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 0px;
+    padding: 2rem;
+    position: relative;
+    background: linear-gradient(120deg, rgb(230, 248, 255), rgb(198, 229, 255), rgb(105, 182, 255));
+    border-radius: 30px;
+    box-shadow: 0 0 10px 4px rgba(0, 128, 255, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.searchContainer {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+    -webkit-text-fill-color: rgb(40, 40, 40);
+
+    &:focus-within {
+        outline: none;
+        border-color: rgb(54, 209, 220);
+        box-shadow: 0 0 1px rgba(54, 209, 220, 0.6),
+            5px 5px 10px rgba(0, 0, 0, 0.2),
+            -5px -5px 10px rgba(255, 255, 255, 0.8),
+            inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+            inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.questionsContainer {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.questionItem {
+    padding: 1.25rem;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: background 0.2s ease;
+}
+
+.questionItem:last-child {
+    margin-bottom: 0;
+}
+
+.questionItem:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.questionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.75rem;
+}
+
+.questionHeader h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.caret {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #64748b;
+    width: 20px;
+    height: 20px;
+}
+
+.caretActive {
+    transform: rotate(180deg);
+    color: #38bdf8;
+}
+
+/* Styles for the answer content container */
+.answerContent {
+    padding: 0 0.75rem;
+    max-height: 0;
+    /* Initially hidden */
+    overflow: hidden;
+    /* Hide content that overflows */
+    /* Slower transition */
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out, transform 0.5s ease-out, padding 0.5s ease-out;
+    opacity: 0;
+    /* Initially invisible */
+    transform: translateY(-10px);
+    /* Start slightly above */
+}
+
+/* Class to apply when the answer is expanded */
+.answerExpanded {
+    max-height: 500px;
+    /*  height, adjust as needed */
+    opacity: 1;
+    /* Make visible */
+    transform: translateY(0);
+    /* Move to normal position */
+    padding-bottom: 1rem;
+    /* Restore padding when expanded */
+}
+
+/* Class to apply when collapsing */
+.answerCollapsed {
+    max-height: 0;
+    /* Collapse to 0 height */
+    opacity: 0;
+    /* Fade out */
+    transform: translateY(-10px);
+    /* Move slightly up */
+    padding-bottom: 0;
+    /* Remove padding */
+}
+
+.answerText {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: #475569;
+    font-size: 1.05rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.ratingImage {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 1rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tutorialButton {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba(0, 110, 255, 0.8);
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 68, 255, 0.2);
+    color: white;
+    box-shadow: 0 4px 12px rgba(44, 97, 255, 0.6);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.tutorialButton:hover {
+    box-shadow: 0 4px 12px rgba(44, 97, 255, 0.8),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.tutorialButton:active {
+    transform: scale(0.9);
+}
+
+.tutorialText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    position: relative;
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modalTitle {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+    font-size: 1.5rem;
+}
+
+.modalSearch {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.modalSearch:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
+}
+
+.modalQuestions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modalQuestion {
+    padding: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+.modalQuestion:hover {
+    background: #f8fafc;
+    transform: translateX(4px);
+    border-color: #38bdf8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        margin: 0 auto;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .container::before {
+        height: 15px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .searchInput {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+
+    .questionHeader h3 {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .answerText {
+        font-size: 1rem;
+    }
+
+    .modalContent {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .modalTitle {
+        font-size: 1.3rem;
+    }
+
+    .ratingImage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .caret {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+
+    .title {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .searchContainer {
+        margin-bottom: 1.2rem;
+    }
+
+    .searchInput {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .questionItem {
+        padding: 0.8rem;
+        margin-bottom: 4px;
+    }
+
+    .questionHeader {
+        padding: 0.4rem;
+    }
+
+    .questionHeader h3 {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+        max-width: 85%;
+    }
+
+    .caret {
+        width: 16px;
+        height: 16px;
+    }
+
+    .answerText {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        text-align: left;
+        hyphens: auto;
+        padding: 0 0.4rem;
+    }
+
+    .tutorialButton {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ratingImage {
+        margin: 0.5rem 0;
+    }
+
+    .tutorialContainer {
+        padding: 3rem 1rem 1rem;
+    }
+
+    .tutorialContent {
+        padding: 1rem;
+    }
+
+    .tutorialContent h1 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+    }
+
+    .stepNumber {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+        bottom: 0.5rem;
+        left: 0.5rem;
+    }
+
+    .undo-button {
+        top: 12px;
+        left: 12px;
+        padding: 8px;
+    }
+
+    .undo-button svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background: linear-gradient(120deg, rgba(45, 53, 57, 0.2), rgba(52, 70, 87, 0.25), rgba(16, 58, 94, 0.3));
+        box-shadow: 0 0 10px 4px rgba(0, 128, 255, 0.15);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+    }
+
+    .title {
+        color: #eff6ff;
+    }
+
+    .searchInput {
+        background: rgba(248, 250, 252, 0.1);
+        border-color: rgba(224, 224, 224, 0.2);
+        color: #e2e8f0;
+        -webkit-text-fill-color: #e2e8f0;
+
+        &:focus-within {
+            border-color: rgb(54, 209, 220);
+            box-shadow: 0 0 1px rgba(54, 209, 220, 0.6),
+                5px 5px 10px rgba(0, 0, 0, 0.3),
+                -5px -5px 10px rgba(255, 255, 255, 0.05),
+                inset 2px 2px 4px rgba(0, 0, 0, 0.2),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.05);
+        }
+    }
+
+    .questionItem {
+        background: rgba(62, 74, 94, 0.3);
+    }
+
+    .questionItem:hover {
+        background: rgba(62, 74, 94, 0.6);
+    }
+
+    .questionHeader h3 {
+        color: #f1f7ff;
+    }
+
+    .caret {
+        color: #ffffff;
+    }
+
+    .caretActive {
+        color: #38bdf8;
+    }
+
+    .answerText {
+        color: rgb(235, 244, 255);
+    }
+
+    .modalContent {
+        background: rgba(26, 38, 52, 0.95);
+    }
+
+    .modalTitle {
+        color: #ffffff;
+    }
+
+    .modalSearch {
+        background: rgba(36, 50, 66, 0.8);
+        border-color: rgba(45, 55, 72, 0.8);
+        color: #e2e8f0;
+
+        &:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+        }
+    }
+
+    .modalQuestion {
+        background: rgba(26, 38, 52, 0.6);
+        border-color: rgba(45, 55, 72, 0.8);
+        color: #edf2f8;
+    }
+
+    .modalQuestion:hover {
+        background: rgba(36, 50, 66, 0.8);
+        border-color: #38bdf8;
+    }
+
+    .tutorialButton:hover {
+        background-color: rgba(0, 110, 255, 0.7);
+        box-shadow: 0 4px 12px rgba(44, 97, 255, 0.4),
+            5px 5px 10px rgba(0, 0, 0, 0.3),
+            -5px -5px 10px rgba(255, 255, 255, 0.05),
+            inset 2px 2px 4px rgba(0, 0, 0, 0.2),
+            inset -2px -2px 4px rgba(255, 255, 255, 0.05);
+    }
+
+    .modalOverlay {
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(3px);
+    }
+}

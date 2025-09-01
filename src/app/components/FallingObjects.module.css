@@ -1,0 +1,85 @@
+.falling-objects-container {
+    position: relative;
+    width: 100%;
+    height: var(--container-height);
+    overflow: hidden;
+    background: radial-gradient(circle, #141e30, #243b55);
+    perspective: 1000px;
+}
+
+.falling-object {
+    position: absolute;
+    text-align: center;
+    line-height: 1;
+    opacity: 0;
+    animation: fall 7s linear infinite;
+    animation-delay: calc(var(--delay) * 0.2s);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform-origin: center center;
+}
+
+.falling-object::before,
+.falling-object::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: calc(var(--trail-length) * 1px);
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0.8;
+    filter: blur(2px);
+}
+
+.falling-object::before {
+    top: 100%;
+    transform: translateX(-50%) rotate(-20deg) translateX(5px);
+}
+
+.falling-object::after {
+    top: 100%;
+    transform: translateX(-50%) rotate(20deg) translateX(-5px);
+}
+
+@keyframes fall {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px) rotateX(0deg) scale(1.5);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0) rotateX(360deg) scale(1.5);
+    }
+    90% {
+        opacity: 1;
+        transform: translateY(calc(var(--container-height) - var(--size) * 1px)) rotateX(1080deg) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(calc(var(--container-height) - var(--size) * 1px)) rotateX(1080deg) scale(0.5);
+    }
+}
+
+
+/* Extra animations for my friend Kendrick*/
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

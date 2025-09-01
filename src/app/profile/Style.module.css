@@ -1,0 +1,1192 @@
+@import url(https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap);
+
+@keyframes fluide {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.profile-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #4568DC, #B06AB3, #4568DC);
+    background-size: 300% 300%;
+    z-index: -1000;
+    animation: fluide 30s ease infinite;
+}
+
+.undo-button {
+    position: fixed;
+    top: 130px;
+    left: 28px;
+    z-index: 1;
+    background: rgba(195, 195, 195, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.undo-button svg {
+    color: white;
+    transition: all 0.3s;
+}
+
+.undo-button:hover svg {
+    transform: rotate(20deg) scale(1.1);
+    transform-origin: center;
+}
+
+.undo-button:active {
+    transform: scale(0.9);
+}
+
+.profile-container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    position: relative;
+    background-color: transparent !important;
+    border-radius: 40px;
+    transition: background 0.3s ease;
+    padding: 20px;
+    z-index: 0;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.gradient-background {
+    animation: fluide 20s linear infinite;
+}
+
+.profile-sidebar {
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+@media (min-width: 769px) {
+    .profile-sidebar {
+        position: fixed;
+        left: 15px;
+        top: calc(50vh + 55px);
+        transform: translateY(-50%);
+        width: 80px;
+        border-radius: 20px;
+        padding-right: 30px;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+}
+
+.profile-sidebar button {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(194, 194, 194, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.profile-sidebar button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+}
+
+@media (min-width: 769px) {
+
+    .profile-sidebar button:hover,
+    .profile-sidebar button:focus {
+        background: rgba(255, 255, 255, 0.15);
+    }
+}
+
+.profile-sidebar button:active .profile-icons {
+    transform: scale(0.8);
+    transition: all 0.1s ease;
+}
+
+
+.profile-icons {
+    transform: scale(1);
+    transition: all 0.1s ease;
+}
+
+.profile-sidebar button.active {
+    color: rgb(119, 0, 255);
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(144, 79, 255);
+}
+
+.custom-select {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 17px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 6px 6px rgba(128, 0, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.custom-select:focus-within {
+    outline: none;
+}
+
+.selected-option {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(36, 36, 36);
+    border-radius: 17px;
+    transition: background-color 0.2s ease;
+}
+
+.selected-option:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.chevron-icon {
+    transition: transform 0.3s ease-in-out;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.chevron-icon.open {
+    transform: rotate(180deg);
+}
+
+.options-list {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    border: none;
+    border-radius: 17px;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.option {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.option:hover {
+    background-color: #7300ff;
+    color: white;
+}
+
+.option.selected {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgb(36, 36, 36);
+}
+
+.privacy-setting {
+    margin-bottom: 15px;
+}
+
+.profile-content {
+    flex: 1;
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 100px;
+    justify-content: flex-start;
+    min-height: fit-content;
+    width: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.camera-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.text-white {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-image-container:hover .camera-overlay {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-icon img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(111, 111, 111);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-buttons-background {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-buttons-background button,
+.profile-icon button,
+.username-section button {
+    border: 0.3px solid rgba(194, 194, 194, 0.3);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.appearance-section {
+    position: relative;
+}
+
+
+.appearance-section>button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 0.2px solid rgb(204, 204, 204);
+    position: relative;
+    overflow: hidden;
+    transition: background 0.5s ease-in-out;
+
+    &:hover::before {
+        opacity: 1;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+.color-button-light,
+.color-button-light::before {
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+}
+
+.color-button-dark,
+.color-button-dark::before {
+    background: linear-gradient(135deg, rgba(26, 27, 47, .7), rgba(26, 27, 47, .8), rgba(26, 27, 47, .7));
+}
+
+.color-button-custom,
+.color-button-custom::before {
+    background: linear-gradient(135deg,
+            rgba(255, 65, 65, 0.7),
+            rgba(255, 150, 65, 0.7),
+            rgba(255, 239, 65, 0.7),
+            rgba(90, 255, 65, 0.7),
+            rgba(67, 255, 239, 0.7),
+            rgba(65, 90, 255, 0.7),
+            rgba(150, 64, 255, 0.7));
+}
+
+.appearance-gradient {
+    background: linear-gradient(135deg, rgb(69, 104, 220), rgb(177, 106, 179));
+    margin-top: 20px;
+    font-size: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: block;
+    margin-bottom: 15px;
+    -webkit-text-fill-color: transparent;
+}
+
+.username-section button:hover::before,
+.profile-icon button:focus::before,
+.username-section button:focus::before,
+.profile-icon button:active::before,
+.username-section button:active::before {
+    opacity: 1;
+}
+
+.profile-icon button:hover,
+.username-section button:hover,
+.profile-icon button:focus,
+.username-section button:focus {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.username-section button {
+    padding: 10px 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.profile-description {
+    position: relative;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.profile-description textarea:focus,
+.privacy-section select:focus,
+.appearance-section select:focus,
+.username-section input[type="text"]:focus {
+    outline: none;
+    border-color: #7300ff;
+    box-shadow: 0 0 5px rgba(112, 76, 175, 0.5);
+    transition: all 0.5s ease;
+}
+
+.profile-description textarea,
+.appearance-section select,
+.privacy-section select,
+.username-section input[type="text"] {
+    padding: 8px 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none;
+    color: rgb(36, 36, 36);
+    transition: all 0.3s ease;
+    appearance: none;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 6px 6px rgba(128, 0, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow-y: auto;
+    line-height: 1.5;
+}
+
+.privacy-section select {
+    width: fit-content;
+}
+
+.profile-description textarea {
+    height: 100%;
+    min-height: 90px;
+    max-height: 140px;
+}
+
+.username-section input[type="text"] {
+    margin-bottom: 12px;
+}
+
+.character-count {
+    bottom: 8px;
+    right: 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-description .character-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.username-section {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.username-section .character-count {
+    position: absolute;
+    font-size: 14px;
+    bottom: 12px;
+    right: 10px;
+}
+
+.glassmorphism-container {
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.459), rgba(215, 215, 215, 0.38));
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px) saturate(130%);
+    -webkit-backdrop-filter: blur(10px) saturate(130%);
+    border: 1px solid rgb(183, 183, 183);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.glassmorphism-container h2 {
+    color: white;
+}
+
+@media (max-width: 1220px) {
+    .glassmorphism-container {
+        width: calc(100% - 140px);
+    }
+}
+
+.appearance-section h2,
+.privacy-section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    -webkit-text-stroke: 0.6px rgb(189, 189, 189);
+    margin-bottom: 15px;
+}
+
+.appearance-section label,
+.privacy-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appearance-theme {
+    background-color: rgba(255, 255, 255, 0.212);
+    backdrop-filter: blur(10px) saturate(130%);
+    -webkit-backdrop-filter: blur(10px) saturate(130%);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.appearance-section select,
+.privacy-section select {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.appearance-section input[type="checkbox"],
+.privacy-section input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.background-image-tabs button {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.background-image-tabs button.active,
+.background-image-tabs button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(69, 104, 220, 0.5), rgba(176, 106, 179, 0.5), rgba(69, 104, 220, 0.5));
+    background-size: 400% 400%;
+    animation: fluide 10s ease infinite;
+    transition: all 0.3 ease;
+}
+
+
+.appearance-section .background-image-tabs {
+    margin-bottom: 10px;
+}
+
+.privacy-section div {
+    margin-bottom: 10px;
+}
+
+
+.profile-container.gradient-background {
+    animation: fluide 20s linear infinite;
+}
+
+.chrome-picker {
+    background: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 20px !important;
+    backdrop-filter: blur(10px);
+    box-shadow: none !important;
+    position: relative;
+}
+
+.chrome-picker>div {
+    border-radius: 20px !important;
+    margin-bottom: 10px;
+}
+
+.chrome-picker .flexbox-fix:nth-child(1) {
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.chrome-picker .flexbox-fix:nth-child(2) {
+    background: transparent !important;
+}
+
+.chrome-picker input {
+    background: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 10px !important;
+    color: #333 !important;
+}
+
+.profile-container.competition-page {
+    background-image: linear-gradient(-45deg, #ff9494, #ffbe82, #ff9494);
+}
+
+.profile-container.teacher-page {
+    background-image: linear-gradient(-45deg, rgb(40, 144, 255), rgb(128, 219, 255), rgb(40, 144, 255));
+}
+
+.profile-container.home-page {
+    background-color: white;
+}
+
+.comment-organise {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.comment-container {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    position: relative;
+    flex-direction: row;
+}
+
+.comment-container:last-child {
+    margin-bottom: 0px;
+}
+
+
+.comment-container:hover .comment-rating-number::before {
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+}
+
+.comment-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.comment-rating-number {
+    width: fit-content;
+    background: linear-gradient(120deg, rgb(255, 255, 0), rgb(255, 187, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0;
+    margin-right: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.1px rgb(255, 166, 0);
+    font-size: 40px;
+    font-family: "Playpen Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.comment-rating-number::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20%;
+    width: 3px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: auto 0;
+    transition: 0.3s cubic-bezier(.32, -1.14, .56, 1.89);
+}
+
+.comment-display {
+    color: rgb(255, 255, 255);
+    font-family: "Playpen Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 10px;
+}
+
+.comment-teacher-name {
+    width: fit-content;
+    background: linear-gradient(120deg, rgb(0, 102, 255), rgb(0, 204, 255));
+    text-shadow: 2px 2px 30px 20px rgb(0, 217, 255);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.3px rgb(17, 0, 255);
+    font-size: 20px;
+}
+
+.comment-actions {
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+    right: 0;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment-action-icon,
+.comment-expand-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.comment-expand-icon {
+    transition: all 0.3s ease;
+}
+
+.comment-expand-icon:hover,
+.comment-action-icon:hover {
+    color: #7300ff;
+}
+
+.comment-no-comment {
+    font-style: italic;
+}
+
+.comment-container.expanded .comment-expand-icon {
+    transform: rotate(180deg);
+    color: #7300ff;
+}
+
+.comment-criteria-details {
+    max-height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    transition: all 1s ease;
+    font-family: "Playpen Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(243, 230, 255);
+    -webkit-text-stroke: 0.2px rgb(216, 168, 255);
+    font-size: 17px;
+}
+
+.comment-criteria-details.expanded {
+    max-height: 300px;
+}
+
+.points-badge {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    gap: 2px;
+    color: white;
+    background: linear-gradient(120deg, rgb(90, 142, 255), rgb(54, 209, 220));
+    border: 1px solid rgb(90, 175, 255);
+    box-shadow: 0 4px 8px rgba(90, 142, 255, 0.3),
+        2px 2px 5px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.4),
+        inset 1px 1px 2px rgba(255, 255, 255, 0.15),
+        inset -1px -1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    right: -15px;
+    top: 0px;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.points-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 238, 0);
+    z-index: 10;
+}
+
+.points-badge:hover {
+    box-shadow: 0 0 15px rgba(90, 142, 255, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.points-badge:active {
+    transform: scale(0.9);
+    transform-origin: left bottom;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.loadingIcon {
+    color: white;
+    animation: rotate 1s linear infinite;
+}
+
+.changelogButton,
+.articlesButton {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    flex-direction: row;
+    padding: 8px 12px;
+    margin-top: 15px;
+    gap: 5px;
+    border: 1px solid rgba(94, 255, 0, 0.5);
+    background: linear-gradient(120deg, rgb(90, 238, 76), rgb(20, 225, 13));
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.5);
+    cursor: pointer;
+    border-radius: 25px;
+    transform: scale(1);
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+.changelogButton {
+    border: 1px solid rgba(0, 136, 255, 0.5);
+    background: linear-gradient(120deg, rgb(76, 179, 238), rgb(13, 126, 225));
+    box-shadow: 0 4px 6px rgba(0, 136, 255, 0.5);
+}
+
+.articlesButton:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.changelogButton:hover {
+    box-shadow: 0 4px 6px rgba(0, 136, 255, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.changelogIcon,
+.articlesIcon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
+.changelogButton:active,
+.articlesButton:active {
+    transform: scale(0.9);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 1000px) {
+    .comment-criteria-details {
+        max-height: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+        gap: 10px 15px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .comment-criteria-details>* {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .changelogButton,
+    .articlesButton {
+        padding: 6px 9px;
+    }
+
+    .changelogIcon,
+    .articlesIcon {
+        width: 20px;
+        height: 20px;
+        transform: scale(1);
+        transition: all 0.2s ease;
+    }
+
+    .changelogButton:active .changelogIcon,
+    .articlesButton:active .articlesIcon {
+        transform: scale(0.8);
+    }
+
+
+    .profile-container {
+        margin-top: -40px;
+        padding: 10px;
+        overflow-y: auto;
+        height: auto;
+    }
+
+    .undo-button {
+        top: 74.5px;
+        left: 5px;
+        padding: 8px;
+    }
+
+    .undo-button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profile-sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4px 0;
+        border: none;
+        border-top: 1px solid rgb(204, 204, 204);
+        z-index: 1000;
+    }
+
+    .username-section .character-count {
+        font-size: 10px;
+    }
+
+    .profile-icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profile-sidebar button {
+        width: 35px;
+        height: 35px;
+        margin: 3px;
+        border-radius: 11px;
+    }
+
+    .appearance-section h2,
+    .privacy-section h2 {
+        font-size: 40px;
+        -webkit-text-stroke: 0.3px rgb(189, 189, 189);
+        margin-bottom: 10px;
+    }
+
+    .privacy-section select {
+        width: 100%;
+        padding: 8px 12px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        height: 40px;
+        background-position: right 10px center;
+    }
+
+    .profile-content {
+        margin-top: 53px;
+        margin-bottom: 47px;
+        padding: 10px;
+    }
+
+    .glassmorphism-container {
+        margin: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .profile-header {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    .profile-image-container {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 0;
+    }
+
+    .profile-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .username-section {
+        width: fit-content;
+        text-align: left;
+    }
+
+    .username-section input[type="text"] {
+        width: 100%;
+        text-align: left;
+    }
+
+    .profile-description textarea {
+        min-height: 170px;
+    }
+
+    .appearance-section>button {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .profile-buttons-background button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .profile-sections {
+        margin-top: 10px;
+    }
+
+    .profile-sections .signup-button {
+        padding: 8px 5px;
+    }
+
+    .comment-rating-number {
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    .comment-display {
+        font-size: 12px;
+    }
+
+    .comment-teacher-name {
+        font-size: 15px;
+    }
+
+    .comment-actions {
+        position: relative;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-bottom: auto;
+        display: flex;
+        gap: 5px;
+    }
+
+    .comment-action-icon,
+    .comment-expand-icon {
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease;
+    }
+
+    .comment-criteria-details {
+        gap: 5px 10px;
+        font-size: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(172px, 3fr));
+    }
+
+    .comment-container {
+        padding: 3px 7px;
+    }
+}
+
+@media (max-width: 400px) {
+    .undo-button {
+        top: 70px;
+        left: 5px;
+        padding: 8px;
+    }
+
+    .comment-criteria-details {
+        gap: 0px 10px;
+        font-size: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .profile-container {
+        background-color: #1a1a1a;
+        color: #ffffff;
+    }
+
+    .profile-icon img {
+        border-color: #555;
+    }
+
+    .profile-icon button,
+    .username-section input[type="text"],
+    .profile-description textarea,
+    .privacy-section select {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: rgb(0, 0, 0);
+        border-color: rgb(149, 149, 149);
+    }
+
+    .profile-sidebar {
+        background-color: rgba(20, 20, 20, 0.5);
+        border: 1px solid rgb(69, 69, 69);
+    }
+
+    .profile-sidebar button {
+        color: #ffffff;
+    }
+
+
+    .profile-sidebar button:hover,
+    .profile-sidebar button.active {
+        background-color: rgba(165, 165, 165, 0.2);
+        color: #fff;
+    }
+
+    .profile-icon button:hover,
+    .username-section button:hover {
+        background-color: #5945a0;
+        color: #fff;
+    }
+
+
+    .username-section button,
+    .profile-icon button {
+        background-color: rgb(64, 64, 64);
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,12 @@
+main = ".worker-next/index.mjs"
+name = "rateministere"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+[[kv_namespaces]]
+binding = "NEXT_CACHE_WORKERS_KV"
+id = "9e74907d09b64e7b9b1cfece89d13294"
+[[d1_databases]]
+binding = "DATABASE" # i.e. available in your Worker on env.DB
+database_name = "rateministere-db"
+database_id = "0a4d953a-9133-4205-adc1-30a20e280bf7"

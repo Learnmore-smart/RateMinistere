@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('./theme/theme.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    transition: background-color var(--transition-normal);
+}
+
+.global-app-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    align-items: center;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p,
+ul,
+li {
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--text-color-muted);
+}
+
+span {
+    font-optical-sizing: auto;
+}
+
+input,
+textarea,
+a,
+option {
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+label,
+select {
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: var(--color-primary-500);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-primary-700);
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1.4rem;
+    border-radius: var(--button-radius);
+    font-weight: var(--button-font-weight);
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: var(--button-transition);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    box-shadow: var(--button-shadow);
+}
+
+.button-primary {
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-text);
+    border-color: var(--button-primary-border);
+}
+
+.button-primary:hover {
+    background-color: var(--button-primary-hover-bg);
+    border-color: var(--button-primary-hover-border);
+}
+
+.button-primary:active {
+    background-color: var(--button-primary-active-bg);
+}
+
+.button-secondary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+    border-color: var(--button-secondary-border);
+}
+
+.button-secondary:hover {
+    background-color: var(--button-secondary-hover-bg);
+    color: var(--button-secondary-hover-text);
+    border-color: var(--button-secondary-hover-border);
+}
+
+.button-ghost {
+    background-color: var(--button-ghost-bg);
+    color: var(--button-ghost-text);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.button-ghost:hover {
+    background-color: var(--button-ghost-hover-bg);
+    color: var(--button-ghost-hover-text);
+    box-shadow: none;
+}
+
+.button-ghost:active {
+    background-color: var(--button-ghost-hover-bg);
+    box-shadow: none;
+}
+
+.button-error {
+    background-color: var(--button-error-bg);
+    color: var(--button-error-text);
+    border-color: var(--button-error-bg);
+}
+
+.button-error:hover {
+    background-color: var(--button-error-hover-bg);
+    border-color: var(--button-error-hover-bg);
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Button sizes */
+.button-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+.button-lg {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+}
+
+/* Card styles */
+.card {
+    background-color: var(--card-background);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    padding: 1.5rem;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.card:hover {
+    /* Hover effect simplified: remove lift animation */
+    box-shadow: var(--card-shadow);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .button {
+        padding: 0.6rem 1.2rem;
+    }
+}

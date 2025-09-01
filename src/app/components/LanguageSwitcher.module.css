@@ -1,0 +1,85 @@
+.languageSwitcherContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.languageSwitcher {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(161, 161, 161, 0.8);
+  border-radius: 30px;
+  padding: 4px;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.languageButton {
+  height: 40px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.753);
+  backdrop-filter: blur(5px);
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  position: relative;
+}
+
+.languageButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 3px 1px rgb(120, 185, 255);
+  transition: all 0.3s ease;
+}
+
+.activeLanguage {
+  background-color: rgb(42, 145, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: 0 0 1px 3px rgba(84, 166, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .languageSwitcherContainer {
+    height: auto;
+  }
+
+  .languageSwitcher {
+    border-radius: 25px;
+    padding: 3px;
+    gap: 5px;
+  }
+
+  .languageButton {
+    height: 30px;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-size: 12px;
+  }
+
+  .activeLanguage {
+    box-shadow: 0 0 1px 2px rgba(84, 166, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .languageButton {
+    background-color: rgba(102, 102, 102, 0.4);
+  }
+
+  .activeLanguage {
+    background-color: rgb(42, 145, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0 0 1px 3px rgba(84, 166, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+}

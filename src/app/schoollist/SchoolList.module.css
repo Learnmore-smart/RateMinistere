@@ -1,0 +1,278 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.overlay {
+    background: linear-gradient(-60deg,
+            rgb(196, 224, 255),
+            rgb(128, 219, 255),
+            rgb(40, 144, 255));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #c9e3ff, #50cdff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.6px #366cff;
+    text-shadow: 2px 2px 4px rgba(54, 108, 255, 0.3),
+        -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.header h1 {
+    color: transparent;
+    font-size: 100px;
+}
+
+.undoButton {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    z-index: 1001;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.undoButton svg {
+    color: #333;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s;
+}
+
+.undoButton:hover svg {
+    transform: rotate(20deg) scale(1.1);
+}
+
+.undoButton:active {
+    transform: scale(0.9);
+}
+
+.listContainer {
+    overflow-y: auto;
+    width: 100%;
+    padding: 0px 20px;
+    padding-right: 30px;
+    position: relative;
+    flex-grow: 1;
+}
+
+
+.schoolCard {
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.6), rgba(167, 167, 167, 0.507));
+    border: 1px solid rgba(221, 221, 221, 0.774);
+    border-radius: 30px;
+    padding: 18px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    backdrop-filter: blur(20px) saturate(130%);
+    -webkit-backdrop-filter: blur(20px) saturate(130%);
+    transition: all 0.3s ease;
+}
+
+.schoolCard:hover {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2),
+        -8px -8px 15px rgba(255, 255, 255, 0.8),
+        inset 3px 3px 6px rgba(255, 255, 255, 0.3),
+        inset -3px -3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schoolCard h3 {
+    font-size: 40px;
+}
+
+.ratingNumber {
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(120deg, #8fc5ff, #001aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.6px rgba(0, 21, 255, 0.651);
+}
+
+.alphabetNav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1002;
+}
+
+
+.alphabetLetter {
+    cursor: pointer;
+    font-size: 13px;
+    color: #007bff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    user-select: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.alphabetLetter:hover {
+    color: #001eff;
+    background-color: #6ab2ff;
+    box-shadow:
+        2px 2px 5px rgba(0, 0, 0, 0.2),
+        -2px -2px 5px rgba(255, 255, 255, 0.8),
+        inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+        inset -1px -1px 2px rgba(0, 0, 0, 0.1);
+    ;
+    border-radius: 50%;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+}
+
+.seeTeachers {
+    text-align: center;
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    line-height: 1.2;
+    margin: 0;
+    color: #ff7a62;
+    background: rgb(255, 232, 220);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 122, 98, 0.2);
+
+    &:hover {
+        box-shadow:
+            5px 5px 10px rgba(0, 0, 0, 0.2),
+            -5px -5px 10px rgba(255, 255, 255, 0.8),
+            inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+            inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &:active {
+        transform: scale(0.95);
+        background: rgb(255, 232, 220);
+        transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .undoButton {
+        top: 15px;
+        left: 15px;
+    }
+
+    .schoolCard {
+        border: 1px solid rgba(221, 221, 221, 0.774);
+        border-radius: 30px;
+        padding: 12px 18px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .schoolCard h3 {
+        font-size: 20px;
+    }
+
+    .schoolCard p {
+        font-size: 10px;
+    }
+
+    .ratingNumber {
+        font-size: 30px;
+        font-weight: bold;
+        background: linear-gradient(120deg, #8fc5ff, #001aff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-stroke: 0.6px rgba(0, 21, 255, 0.651);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .overlay {
+        background: linear-gradient(120deg, #1c73ee, #3d73b6, #a7ccff);
+
+    }
+
+    .schoolCard {
+        background: linear-gradient(120deg,
+                rgba(183, 183, 183, 0.6),
+                rgba(143, 143, 143, 0.6),
+                rgba(112, 112, 112, 0.6));
+        border: 1px solid rgba(221, 221, 221, 0.774);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .seeTeachers {
+        color: #ff9982;
+        background: rgba(255, 122, 98, 0.15);
+
+        &:hover {
+            background: rgba(255, 122, 98, 0.3);
+            border-color: rgba(255, 122, 98, 0.5);
+        }
+
+        &:active {
+            background: rgba(255, 122, 98, 0.3);
+        }
+    }
+}

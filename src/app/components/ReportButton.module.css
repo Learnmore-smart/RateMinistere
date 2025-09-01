@@ -1,0 +1,28 @@
+.reportButtonWrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  z-index: 100;
+  overflow: visible;
+}
+
+.reportButton {
+  border: none;
+  background: none;
+  position: absolute;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.2s ease;
+  z-index: 20;
+}
+
+.reportButton:hover {
+  opacity: 1;
+  color: #ff4444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .reportButton {
+    color: rgb(255, 255, 255);
+  }
+}

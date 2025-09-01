@@ -1,0 +1,220 @@
+.container {
+    height: 100%;
+    padding: 2rem 2rem;
+    padding-top: 0;
+    color: #fff;
+    z-index: 0;
+}
+
+.pageTitle {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.5rem;
+    max-width: 500px;
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+        0 0 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        0 0 0 8px rgba(255, 255, 255, 0),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:active {
+    transform: scale(0.98);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.date {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    color: rgb(74, 74, 74);
+}
+
+.title {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.excerpt {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+.readMore {
+    gap: 5px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    transform: translateX(0px) scale(1);
+    color: rgb(48, 184, 27);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.card:hover .readMore {
+    transform: translateX(4px) scale(1.1);
+    transform-origin: left;
+}
+
+.greenBg {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(120deg, rgb(202, 255, 202), rgb(122, 255, 168), rgb(61, 255, 61));
+    position: fixed;
+    z-index: -10;
+}
+
+.undo-button {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: rgba(219, 219, 219, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.undo-button svg {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.undo-button:hover svg {
+    transform: rotate(20deg) scale(1.1);
+    transform-origin: center;
+}
+
+.undo-button:active {
+    transform: scale(0.9);
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .pageTitle {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .undo-button {
+        top: -23px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 630px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pageTitle {
+        font-size: 2rem;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        color: #e0e0e0;
+    }
+
+    .card {
+        background: rgba(30, 30, 30, 0.4);
+        color: #e0e0e0;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.3),
+            0 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .card:hover {
+        background: rgba(30, 30, 30, 0.5);
+    }
+
+    .date {
+        color: #c0c0c0;
+    }
+
+    .readMore {
+        transform: translateX(0px) scale(1);
+        color: rgb(82, 255, 55);
+        transform-origin: left;
+    }
+
+    .greenBg {
+        background: linear-gradient(120deg, rgb(152, 207, 152), rgb(96, 215, 137), rgb(39, 210, 39));
+    }
+
+    .undo-button {
+        background: rgba(50, 50, 50, 0.4);
+        border-color: #444;
+    }
+
+    .undo-button svg {
+        color: #e0e0e0;
+    }
+}

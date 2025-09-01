@@ -1,0 +1,381 @@
+@keyframes bounceUp {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1.5px);
+    }
+}
+
+@keyframes bounceDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(1.5px);
+    }
+}
+
+@keyframes bounceUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-1px);
+    }
+    75% {
+      transform: translateY(1px);
+    }
+  }
+
+.teacher-card {
+    background: linear-gradient(120deg,
+            rgba(255, 255, 255, 0.733),
+            rgba(255, 255, 255, 0.565),
+            rgba(167, 167, 167, 0.507));
+    border-radius: 30px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+    backdrop-filter: blur(20px) saturate(130%);
+    -webkit-backdrop-filter: blur(20px) saturate(130%);
+    transition: all 0.3s ease;
+    scroll-margin-top: 105px;
+
+    @media (min-width: 1305px) {
+        scroll-margin-top: 135px;
+    }
+}
+
+.goldMedal,
+.silverMedal,
+.bronzeMedal,
+.warningIcon {
+    position: relative;
+    font-size: 24px;
+    width: fit-content;
+    color: rgb(255, 215, 0);
+}
+
+.silverMedal {
+    color: rgb(191, 191, 191);
+}
+
+.bronzeMedal {
+    color: rgb(205, 127, 50);
+}
+
+.warningIcon {
+    color: rgb(255, 0, 0);
+}
+
+.teacher-card:hover {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2),
+        -8px -8px 15px rgba(255, 255, 255, 0.8),
+        inset 3px 3px 6px rgba(255, 255, 255, 0.3),
+        inset -3px -3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-card:hover .voter-button {
+    transform: translateY(1px) scale(1.1);
+}
+
+.voter-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0px 12px 2px rgba(255, 238, 0, 0.7);
+    z-index: 2;
+}
+
+.voter-button:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px 5px rgb(255, 238, 0);
+}
+
+.teacher-info {
+    margin-bottom: 20px;
+}
+
+.teacher-info h2 {
+    margin: 0;
+    font-size: 26px;
+    background: linear-gradient(-60deg, #6d77ff, #ff8787);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.3px rgb(76, 0, 255);
+    Width: 35%;
+    transition: all 0.3s ease;
+    min-width: 20rem;
+}
+
+.role {
+    margin: 0 0 4px 0;
+    color: #666;
+    font-size: 1rem;
+}
+
+.school {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 0.9rem;
+}
+
+.rating-bar {
+    height: 8px;
+    background-color: #ff3c31;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border: 1px solid rgb(211, 211, 211);
+
+    &[style*="--blue-percentage: 0%"][style*="--red-percentage: 0%"] {
+        background-color: #f0f0f0
+    }
+}
+
+.blue-bar {
+    height: 105%;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 3px) 100%, 0% 100%);
+
+    &[style*="width: 100%"] {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+.num-ratings {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgb(43, 43, 43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+}
+
+.rank-indicator {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.rank-indicator-asc {
+    gap: 2px;
+}
+
+.rank-indicator-desc {
+    gap: 5px;
+}
+
+.rank-number {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rank-arrow {
+    width: var(--arrow-size, 20px);
+    height: var(--arrow-size, 20px);
+}
+
+.up-arrow {
+    composes: rank-arrow;
+    animation: bounceUp 1s infinite;
+}
+
+.down-arrow {
+    composes: rank-arrow;
+    animation: bounceDown 1s infinite;
+}
+
+.stable-arrow {
+    composes: rank-arrow;
+    animation: bounceUpDown 1s ease-in-out infinite;
+}
+
+.success {
+    color: var(--success-color, rgb(9, 255, 0));
+}
+
+.danger {
+    color: var(--danger-color, rgb(255, 17, 0));
+}
+
+.stable {
+    color: var(--stable-color, rgb(148, 148, 148));
+}
+
+@media (max-width: 768px) {
+    .teacher-info h2 {
+        display: block;
+        padding-right: 30px;
+        min-width: auto;
+        width: auto;
+    }
+
+    .teacher-card {
+        padding: 16px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+    }
+
+    .voter-button {
+        top: 10px;
+        right: 10px;
+    }
+
+    .teacher-info {
+        margin-bottom: 15px;
+    }
+
+    .teacher-info h2 {
+        font-size: 1.1rem;
+    }
+
+    .role {
+        font-size: 0.9rem;
+    }
+
+    .school {
+        font-size: 0.8rem;
+    }
+
+    .rating-bar {
+        margin-bottom: 10px;
+    }
+
+    .num-ratings {
+        font-size: 14px;
+    }
+
+    .rank-indicator {
+        bottom: 2px;
+        right: 10px;
+    }
+
+    .rank-number {
+        font-size: 10px;
+    }
+
+    .rank-arrow {
+        --arrow-size: 16px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .teacher-container {
+        background: transparent;
+    }
+
+    .form-group label {
+        color: #ffffff;
+    }
+
+    .form-group input,
+    .form-group select {
+        background-color: #3C3C3C;
+        border-color: #555;
+        color: #ffffff;
+    }
+
+    .criteria-header {
+        color: #ffffff;
+    }
+
+    .criteria-icon {
+        color: #ffffff;
+    }
+
+    .criteria-info h3 {
+        color: #e0e0e0;
+    }
+
+    .criteria-info p {
+        color: #a0a0a0;
+    }
+
+    .criteria-name {
+        color: #ffffff;
+    }
+
+    .criteria-score {
+        color: #ffffff;
+    }
+
+    .criteria-bar-wrapper {
+        background-color: #444;
+    }
+
+    .criteria-bar-fill {
+        background-color: #007bff;
+    }
+
+    .comment-text {
+        color: #e0e0e0;
+    }
+
+    .teacher-card {
+        background: linear-gradient(120deg,
+                rgba(85, 85, 85, 0.6),
+                rgba(48, 48, 48, 0.6),
+                rgba(18, 18, 18, 0.6));
+        border: 1px solid rgba(149, 149, 149, 0.774);
+    }
+
+    .teacher-info h2 {
+        background: linear-gradient(120deg, #a7adff, #ffa5a5);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.3px rgb(113, 52, 255);
+    }
+
+    .role {
+        color: rgb(247, 247, 247);
+    }
+
+    .school {
+        color: rgba(255, 255, 255);
+    }
+
+    .num-ratings {
+        background: rgb(255, 255, 255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        font-size: 13px;
+        -webkit-text-stroke: 0.2px rgb(43, 43, 43);
+    }
+}

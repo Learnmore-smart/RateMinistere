@@ -1,0 +1,824 @@
+@keyframes overlayFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes overlayFadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.teacher-container {
+    width: 100%;
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: var(--font-geist-sans);
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+
+    &>h1 {
+        position: relative;
+        line-height: 1.2;
+        margin: 0 auto;
+        transition: all 0.5s ease;
+        margin-top: 0;
+        font-size: 50px;
+        transform: translateZ(30px);
+        text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    &>p {
+        font-size: 26px;
+        font-weight: 850;
+    }
+
+    &.alphabetic>h1 {
+        background: #c9e3ff;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        border-radius: inherit;
+        -webkit-text-stroke: 0.6px #366cff;
+        text-shadow: 2px 2px 4px rgba(54, 108, 255, 0.3),
+            -1px -1px 2px rgba(255, 255, 255, 0.4);
+    }
+
+    &.alphabetic>p {
+        background: #e0efff;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        border-radius: inherit;
+        -webkit-text-stroke: 0.6px #366cff;
+        text-shadow: 2px 2px 4px rgba(54, 108, 255, 0.3),
+            -1px -1px 2px rgba(255, 255, 255, 0.4);
+    }
+
+    &.competition>h1 {
+        background:#ffe9d5;
+        -webkit-background-clip: text;
+        background-clip: text;
+        border-radius: inherit;
+        color: transparent;
+        -webkit-text-stroke: 0.6px #ff5100;
+        text-shadow: 2px 2px 4px rgba(255, 94, 0, 0.3),
+            -1px -1px 2px rgba(255, 255, 255, 0.4);
+    }
+
+
+    &.competition>p {
+        background:#ffe9d5;
+        -webkit-background-clip: text;
+        background-clip: text;
+        border-radius: inherit;
+        color: transparent;
+        -webkit-text-stroke: 0.6px #ff5100;
+        text-shadow: 2px 2px 4px rgba(255, 94, 0, 0.3),
+            -1px -1px 2px rgba(255, 255, 255, 0.4);
+    }
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+.submit-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+}
+
+.discord-message {
+    width: fit-content;
+}
+
+.discordLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: #5865F2;
+    text-decoration: none;
+    text-shadow: 0 0 15px #5865F2;
+    transition: all 0.3s ease;
+}
+
+.discordLink:hover {
+    box-shadow: 0 2px 0 0 #5865F2;
+
+}
+
+.discordLink span {
+    font-size: 0.95rem;
+}
+
+.discordIcon {
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.discordLink:hover .discordIcon {
+    transform: scale(1.2);
+}
+
+.score-meaning-button,
+.seeSchool,
+.add-button,
+.feature-button {
+    padding: 15px 20px;
+    background: linear-gradient(120deg, rgba(196, 138, 255, 0.8), rgba(145, 109, 255, 0.8));
+    backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    box-shadow: 0 6px 10px rgba(86, 0, 224, 0.6),
+        0 0 0px 0px rgba(255, 255, 255, 0.7),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.score-meaning-button:hover,
+.seeSchool:hover,
+.add-button:hover,
+.feature-button:hover {
+    box-shadow: 0 6px 9px rgba(86, 0, 224, 0.6),
+        0 0 0px rgba(255, 255, 255, 0.7),
+        inset 0px 0px 0px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+
+.score-meaning-button:active,
+.seeSchool:active,
+.add-button:active,
+.feature-button:active {
+    box-shadow: 4px 4px 6px 0 rgba(86, 0, 224, 0.6),
+        -2px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.score-meaning-button:hover svg,
+.add-button:hover svg,
+.feature-button:hover svg {
+    transform: rotate(180deg);
+}
+
+.score-meaning-button svg,
+.add-button svg,
+.feature-button svg {
+    transition: transform 0.3s ease;
+}
+
+.score-meaning-button svg {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    animation: overlayFadeIn 0.3s ease-out;
+}
+
+.modal-overlay.closing {
+    animation: overlayFadeOut 0.3s ease-out forwards;
+}
+
+.modal-2,
+.modal {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 35px;
+    padding: 20px;
+    margin: 0 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.6),
+        inset 0 0 20px 2px rgb(255, 255, 255);
+    animation: popOut 0.5s ease-in-out;
+}
+
+.modal-2 {
+    max-width: 800px;
+    margin: 20px;
+}
+
+.modal-2.closing,
+.modal.closing {
+    animation: popIn 0.3s ease-out forwards;
+}
+
+.alphabetic-mode-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-60deg,
+            rgb(212, 232, 255),
+            rgb(157, 227, 255),
+            rgb(75, 162, 255));
+    z-index: -3;
+    pointer-events: none;
+}
+
+.alphabetic-mode-owl-png {
+    position: fixed;
+    top: 40%;
+    right: -20px;
+    width: clamp(150px, 25vw, 500px);
+    height: clamp(150px, 25vw, 500px);
+    background: url('/images/IP/Luna.png') no-repeat center center;
+    background-size: contain;
+    z-index: -2;
+    pointer-events: none;
+}
+
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.modal-header>h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.close-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group textarea,
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(120deg, #007bff, #6decff);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(1, 141, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.teacher-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.sorting-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sort-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.order-toggle-button,
+.sort-toggle-button {
+    padding: 10px 20px;
+    background: linear-gradient(120deg, #409cff, #6decff);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 123, 255, 0.688);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 6px 10px rgba(0, 128, 255, 0.7),
+        0 0 0px 0px rgba(255, 255, 255, 0.7),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.order-toggle-button {
+    padding: 2px 10px;
+    width: fit-content;
+    height: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(209, 231, 255, 0.8);
+    backdrop-filter: blur(20px);
+    color: rgb(0, 123, 255);
+    border: 1px solid #007bff;
+}
+
+.sort-toggle-button.competition:hover,
+.order-toggle-button-competition:hover,
+.order-toggle-button:hover,
+.sort-toggle-button:hover {
+    box-shadow: 0px 3px 10px rgba(0, 128, 255, 0.7),
+        0 0 0px rgba(255, 255, 255, 0.7),
+        inset 0px 0px 0px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+
+.order-toggle-button:active,
+.sort-toggle-button:active {
+    box-shadow: 2px 2px 3px 0 rgba(0, 128, 255, 0.7),
+        -1px -2px 3px 0 rgba(116, 125, 136, .5),
+        inset -2px -2px 3px 0 rgba(255, 255, 255, .2),
+        inset 2px 2px 3px 0 rgba(0, 0, 0, .4);
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.sort-toggle-button.competition {
+    background: linear-gradient(-45deg,
+            rgb(255, 107, 107, 0.6),
+            rgb(255, 154, 60, 0.6));
+    border: 1px solid rgba(255, 135, 66, 0.863);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 6px 10px rgba(255, 80, 80, 0.7),
+        0 0 0px 0px rgba(255, 255, 255, 0.7),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.order-toggle-button-competition {
+    padding: 2px 10px;
+    height: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 132, 132, 0.6);
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(255, 80, 80, 0.7),
+        0 0 0px rgba(255, 255, 255, 0.7),
+        inset 0px 0px 0px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 132, 74, 0.7);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sort-toggle-button.competition:hover,
+.order-toggle-button-competition:hover {
+    box-shadow: 0px 3px 10px rgba(255, 80, 80, 0.7),
+        0 0 0px rgba(255, 255, 255, 0.7),
+        inset 0px 0px 0px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgba(255, 255, 255, 0.7);
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+
+.sort-toggle-button.competition:active,
+.order-toggle-button-competition:active {
+    box-shadow: 2px 2px 3px 0 rgba(255, 80, 80, 0.7),
+        -1px -2px 3px 0 rgba(116, 125, 136, .5),
+        inset -2px -2px 3px 0 rgba(255, 255, 255, .2),
+        inset 2px 2px 3px 0 rgba(0, 0, 0, .4);
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.competition-mode-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            rgb(255, 164, 164),
+            rgb(255, 210, 169),
+            rgb(255, 219, 219));
+    z-index: -3;
+    pointer-events: none;
+}
+
+.competition-mode-owl-png {
+    position: fixed;
+    top: 40%;
+    right: -20px;
+    width: clamp(150px, 25vw, 500px);
+    height: clamp(150px, 25vw, 500px);
+    background: url('/images/IP/Astro.png') no-repeat center center;
+    background-size: contain;
+    z-index: -2;
+    pointer-events: none;
+}
+
+.close-button:hover {
+        color: rgba(148, 148, 148, 0.8);
+
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(1, 141, 255, 0.3),
+        inset 0 0 2px 2px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+
+.seeSchool {
+    display: inline-flex;
+    width: 100%;
+    color: #ff7a62;
+    background: rgb(255, 232, 220);
+    box-shadow: 0 6px 10px rgba(255, 122, 98, 0.6),
+        0 0 0px 0px rgba(255, 255, 255, 0.7),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0),
+        inset 0 0 2px rgb(255, 255, 255);
+
+    &:hover {
+        box-shadow: 0 6px 10px rgba(255, 122, 98, 0.6),
+            0 0 0px rgba(255, 255, 255, 0.7),
+            inset 0px 0px 0px 0 rgba(255, 255, 255, 0),
+            inset 0 0 2px rgb(255, 255, 255);
+    }
+
+    &:active {
+        box-shadow: 4px 4px 6px 0 rgba(255, 122, 98, 0.6),
+            -2px -4px 6px 0 rgba(116, 125, 136, .5),
+            inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    }
+}
+
+.score-meaning-button {
+    padding: 7px;
+}
+
+.score-meaning-content {
+    padding: 5px 10px;
+}
+
+.score-meaning-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score-meaning-bar-container {
+    flex: 1;
+    height: 8px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 100%;
+}
+
+.score-meaning-bar {
+    height: 100%;
+    background: linear-gradient(120deg, #8fc5ff, #001aff);
+    position: relative;
+    overflow: hidden;
+    left: -20%;
+    width: calc(var(--criteria-rating-width, 0%) + 20%);
+    transform: skew(-15deg);
+    transition: width 0.3s ease;
+}
+
+.score-meaning-bar[style*="--criteria-rating-width: 100%"]::before {
+    transform: skew(0deg);
+}
+
+.score-meaning-range,
+.score-meaning-label {
+    font-weight: 800;
+    font-size: 20px;
+    background: linear-gradient(120deg, #8fc5ff, #5b6bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.3px rgba(0, 21, 255, 0.651);
+}
+
+.score-meaning-labels-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 110px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .modal-header>h2 {
+        color: #ffffff !important;
+    }
+
+    .role {
+        color: #a0a0a0;
+    }
+
+    .school {
+        color: #888;
+    }
+
+    .modal-2,
+    .modal {
+        background-color: linear-gradient(120deg, #71707052, #2c2c2c52);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 20px rgba(255, 255, 255, 0.901);
+    }
+
+    .form-group label {
+        color: #ffffff;
+    }
+
+    .form-group input,
+    .form-group select {
+        background-color: #3C3C3C;
+        border-color: #555;
+        color: #ffffff;
+    }
+
+    .num-ratings {
+        color: #a0a0a0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .seeSchool,
+    .feature-button,
+    .add-button {
+        width: 100%;
+        min-width: 80px;
+        max-width: 90px;
+        padding: 7.5px 10px;
+        font-size: 10px;
+        height: 100%;
+        margin-bottom: 15px;
+        min-height: 35px;
+        max-height: 45px;
+        gap: 4px;
+
+        & svg {
+            height: 12px;
+            width: 12px;
+        }
+    }
+
+    .score-meaning-button {
+        position: relative;
+        max-height: 35px;
+        width: auto;
+        aspect-ratio: 1/1;
+        padding: 5px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+
+    .teacher-container {
+        width: 95%;
+        max-width: 100vh;
+        margin: 0 auto;
+        padding: 40px 0px;
+        font-family: var(--font-geist-sans);
+    }
+
+    .header {
+        margin-bottom: 15px;
+
+        &>h1 {
+            font-size: 28px;
+        }
+
+        &>p {
+            font-size: 20px;
+        }
+
+    }
+
+    .alphabetic-mode-owl-png {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/images/IP/Luna.png') no-repeat calc(80% + 70px) 60% fixed;
+        background-size: contain;
+        z-index: -2;
+        pointer-events: none;
+    }
+
+    .competition-mode-owl-png {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/images/IP/Astro.png') no-repeat calc(80% + 70px) 60% fixed;
+        background-size: contain;
+        z-index: -2;
+        pointer-events: none;
+    }
+
+    .sort-toggle-container {
+        gap: 5px;
+    }
+
+    .sort-toggle-button {
+        padding: 6px 12px;
+        font-size: 12px;
+        box-shadow: 0px 2px 3px rgba(0, 128, 255, 0.7);
+    }
+
+    .sort-toggle-button:hover {
+        box-shadow: 0px 4px 6px rgba(0, 128, 255, 0.7);
+    }
+
+    .order-toggle-button {
+        height: 28px;
+        box-shadow: 0px 2px 3px rgba(126, 188, 255, 0.7);
+    }
+
+    .order-toggle-button:hover {
+        box-shadow: 0px 4px 6px rgba(126, 188, 255, 0.7);
+    }
+
+    .sort-toggle-button.competition {
+        box-shadow: 0px 2px 3px rgba(255, 80, 80, 0.7);
+    }
+
+    .sort-toggle-button.competition:hover {
+        box-shadow: 0px 4px 6px rgba(255, 80, 80, 0.7);
+    }
+
+    .order-toggle-button-competition {
+        height: 28px;
+        box-shadow: 0px 2px 3px rgba(255, 80, 80, 0.7);
+    }
+
+    .order-toggle-button-competition:hover {
+        box-shadow: 0px 4px 6px rgba(255, 80, 80, 0.7);
+    }
+
+    .score-meaning-range,
+    .score-meaning-label {
+        font-size: 16px;
+    }
+
+    .score-meaning-labels-container {
+        width: 85px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        &>h1 {
+            font-size: 26px;
+        }
+
+        &>p {
+            font-size: 16px;
+        }
+
+    }
+
+}

@@ -1,0 +1,2052 @@
+{
+  "Home": {
+    "title": "ton enseignant?",
+    "subtitle": "Fan de RateMinistère ? Rejoinez-nous et officialisez-le !",
+    "status": {
+      "Loving": "Tu aimes",
+      "Wondering about": "Curieux de",
+      "Complaints about": "Plaintes concernant",
+      "Issues with": "Problèmes avec",
+      "Happy with": "Content de",
+      "Dislike": "Tu n'aime pas",
+      "Frustrated by": "Frustré par",
+      "Impressed by": "Impressionné par",
+      "Satisfied by": "Satisfait par",
+      "Amazed by": "Étonné par",
+      "Worried about": "Inquiet à propos de",
+      "Bothered by": "Dérangé par",
+      "Disappointed in": "Déçu par"
+    },
+    "privacy": "Votre vie <special>privée</special>,<br>notre priorité",
+    "matters": "Votre opinion<br><special>compte</special>",
+    "control": "Vos avis,<br>votre <special>contrôle</special>",
+    "redefiningExcellence": "Redéfinir l'excellence",
+    "p1": "Nous sommes la <special>première</special> et <special>unique</special> plateforme conçue par deux étudiants du secondaire au Canada pour révolutionner les évaluations des enseignants et des écoles avec un design élégant, des outils organisés et des classifications détaillées.",
+    "p2-1": "Nous utilisons des <special>lignes</special> <special>directrices</special> <special>strictes</special> et des <special>algorithmes</special> <special>avancés</special> pour garantir que seuls les commentaires constructifs et respectueux soient publiés, tout en interdisant les retours inappropriés ou nuisibles. Nous établissons la norme pour des plateformes éducatives <special>fiables</special> et <special>innovantes</special>.",
+    "login": "Se connecter",
+    "signUp": "S'inscrire",
+    "signup-1": "Inscrivez-vous dès aujourd'hui"
+  },
+  "SearchBar": {
+    "placeholder": "Rechercher ton {{searchType}}...",
+    "searchTypes": {
+      "teachers": "enseignant",
+      "schools": "école"
+    },
+    "toggleSearchType": "Changer le type de recherche",
+    "resultHeader": {
+      "teachers": "Résultats des enseignants",
+      "schools": "Résultats des écoles"
+    },
+    "selectedSchool": "École sélectionnée",
+    "notAvailable": "N/A",
+    "errorMessages": [
+      "Oups, c'est entièrement de notre faute ! Pas la vôtre.",
+      "Aïe, c'est notre erreur ! Ne vous inquiétez pas.",
+      "Zut, notre faute ! Nous nous en occupons.",
+      "Notre erreur, pas la vôtre. Nous allons arranger ça !",
+      "Désolé pour ça ! C'est de notre côté, pas du vôtre.",
+      "Euh-oh, c'est notre bévue. Restez calme, on règle ça.",
+      "Eh bien, c'est embarrassant — notre erreur, pas la vôtre.",
+      "Celui-ci est de notre fait. Désolés pour le faux pas !",
+      "Notre erreur ici, aucun stress de votre côté.",
+      "On a laissé tomber le ballon, mais on s'en occupe."
+    ],
+    "noResultsMessages": [
+      "Malgré nos meilleurs efforts, nous n'avons rien trouvé pour '{query}'.",
+      "Hélas, même nos plongées les plus profondes dans les tranchées de données n'ont rien donné pour '{query}'.",
+      "Nous avons fouillé internet et n'avons rien trouvé pour '{query}'.",
+      "Malheureusement, '{query}' nous a échappé.",
+      "Nos wizards de recherche n'ont pas pu conjurer quoi que ce soit pour '{query}'.",
+      "Désolé, mais '{query}' reste un mystère pour nous.",
+      "Nous avons chassé en haut et en bas, mais rien n'a été trouvé pour '{query}'.",
+      "Pas de chance de trouver des résultats pour '{query}'.",
+      "Nos lutins de recherche sont revenus bredouilles pour '{query}'.",
+      "Il semble que '{query}' se cache de nous."
+    ],
+    "loadingMessages": [
+      "Fouille en profondeur à 3,1415 km/s pour les meilleurs résultats...",
+      "Voyage à travers l'espace pour recueillir des informations...",
+      "Course contre la montre pour terminer...",
+      "Chevaucher les vagues de données pour vous apporter le meilleur...",
+      "Exploration des paysages numériques à la recherche de joyaux cachés...",
+      "Découverte de trésors cachés rien que pour vous...",
+      "Navigation à travers le code comme un pro...",
+      "Aventure dans l'inconnu pour trouver ce dont vous avez besoin...",
+      "Escalade du pic de l'information pour y arriver...",
+      "Rassemblement de tous les bits et octets rien que pour vous..."
+    ],
+    "schoollist": "Liste d'écoles"
+  },
+  "subjects": {
+    "unknown": "Inconnu",
+    "academic_counseling": "Conseil académique",
+    "academic_services": "Services académiques",
+    "accounting": "Comptabilité",
+    "addictions_counseling": "Counseling des dépendances",
+    "administration_of_justice": "Administration de la justice",
+    "advanced_manufacturing": "Fabrication avancée",
+    "aerospace_engineering": "Génie aérospatial",
+    "african_american_studies": "Études afro-américaines",
+    "african_studies": "Études africaines",
+    "agricultural_engineering": "Génie agricole",
+    "agricultural_science": "Science agricole",
+    "agriculture": "Agriculture",
+    "airline_and_airport_management": "Gestion des compagnies aériennes et des aéroports",
+    "american_studies": "Études américaines",
+    "anthropology": "Anthropologie",
+    "applied_arts": "Arts appliqués",
+    "applied_economics": "Économie appliquée",
+    "applied_mathematics": "Mathématiques appliquées",
+    "applied_sciences": "Sciences appliquées",
+    "applied_statistics": "Statistiques appliquées",
+    "archaeology": "Archéologie",
+    "architecture": "Architecture",
+    "art": "Art",
+    "art_history": "Histoire de l'art",
+    "arts_and_sciences": "Arts et sciences",
+    "artificial_intelligence": "Intelligence artificielle",
+    "astronomy": "Astronomie",
+    "astronomy_and_earth_sciences": "Astronomie et sciences de la Terre",
+    "athletic_training": "Entraînement sportif",
+    "automotive_engineering": "Génie automobile",
+    "biochemistry": "Biochimie",
+    "biological_sciences": "Sciences biologiques",
+    "biology": "Biologie",
+    "biomedical_engineering": "Génie biomédical",
+    "biomedical_sciences": "Sciences biomédicales",
+    "biotechnology": "Biotechnologie",
+    "business": "Gestion d'entreprise",
+    "business_analytics": "Analyse d'affaires",
+    "business_law": "Droit des affaires",
+    "chemical_engineering": "Génie chimique",
+    "chemistry": "Chimie",
+    "classics": "Études classiques",
+    "climate_science": "Science du climat",
+    "cognitive_science": "Sciences cognitives",
+    "communication": "Communication",
+    "communications": "Communications",
+    "community_health": "Santé communautaire",
+    "comparative_literature": "Littérature comparée",
+    "composition": "Composition",
+    "computer_engineering": "Génie informatique",
+    "computer_information_systems": "Systèmes d'information informatiques",
+    "computer_science": "Informatique",
+    "core_curriculum": "Programme de base",
+    "counseling": "Counseling",
+    "creative_media": "Médias créatifs",
+    "creative_writing": "Écriture créative",
+    "criminal_justice": "Justice pénale",
+    "criminology": "Criminologie",
+    "culinary_arts": "Arts culinaires",
+    "cybersecurity": "Cybersécurité",
+    "dance": "Danse",
+    "data_science": "Science des données",
+    "design": "Design",
+    "digital_marketing": "Marketing digital",
+    "dramatic_arts": "Arts dramatiques",
+    "early_childhood_education": "Éducation préscolaire",
+    "earth_and_atmospheric_sciences": "Sciences de la Terre et atmosphériques",
+    "ecology": "Écologie",
+    "economics": "Économie",
+    "education": "Éducation",
+    "educational_leadership": "Leadership éducatif",
+    "educational_psychology": "Psychologie de l'éducation",
+    "electrical_and_comp_engineering": "Génie électrique et informatique",
+    "electrical_engineering": "Génie électrique",
+    "electronic_engineering_technology": "Technologie du génie électronique",
+    "engineering": "Génie",
+    "english": "Anglais",
+    "english_and_foreign_languages": "Anglais et langues étrangères",
+    "ensemble": "Ensemble",
+    "environmental_design": "Design environnemental",
+    "environmental_engineering": "Génie environnemental",
+    "environmental_science": "Sciences environnementales",
+    "epidemiology": "Épidémiologie",
+    "equity_studies": "Études sur l'équité",
+    "ethnic_studies": "Études ethniques",
+    "exercise_and_sport_science": "Science de l'exercice et du sport",
+    "faculty_of_extension": "Faculté d'extension",
+    "film": "Cinéma",
+    "finance": "Finance",
+    "fine_arts": "Beaux-arts",
+    "food_science": "Science alimentaire",
+    "forensic_science": "Science forensique",
+    "french": "Français",
+    "french-spanish": "Français et Espagnol",
+    "game_design": "Design de jeux",
+    "geography": "Géographie",
+    "geography_and_history": "Géographie et histoire",
+    "geology": "Géologie",
+    "german": "Allemand",
+    "germanic_languages_literature": "Langues et littérature germaniques",
+    "global_studies": "Études mondiales",
+    "government": "Gouvernement",
+    "graphic_arts": "Arts graphiques",
+    "graphic_design": "Design graphique",
+    "health_administration": "Administration de la santé",
+    "health_informatics": "Informatique médicale",
+    "health_science": "Science de la santé",
+    "history": "Histoire",
+    "homeland_security": "Sécurité intérieure",
+    "honors": "Programme d'honneur",
+    "hospitality_management": "Gestion hôtelière",
+    "hotel_and_restaurant_management": "Gestion hôtelière et de restauration",
+    "human_science": "Sciences humaines",
+    "human_development_and_family_sciences": "Développement humain et sciences familiales",
+    "humanities": "Humanités",
+    "industrial_design": "Design industriel",
+    "information_science": "Science de l'information",
+    "information_security": "Sécurité de l'information",
+    "interdisciplinary_studies": "Études interdisciplinaires",
+    "international_business": "Affaires internationales",
+    "international_relations": "Relations internationales",
+    "international_studies": "Études internationales",
+    "journalism": "Journalisme",
+    "justice_studies": "Études de justice",
+    "kinesiology": "Kinésiologie",
+    "languages": "Langues",
+    "latin_american_studies": "Études latino-américaines",
+    "law": "Droit",
+    "law_and_society": "Droit et société",
+    "legal_studies": "Études juridiques",
+    "linguistics": "Linguistique",
+    "literature": "Littérature",
+    "management": "Gestion",
+    "manufacturing_engineering": "Génie de la fabrication",
+    "marketing": "Marketing",
+    "marine_biology": "Biologie marine",
+    "materials_science": "Science des matériaux",
+    "mathematics": "Mathématiques",
+    "mechanical_engineering": "Génie mécanique",
+    "media_studies": "Études médiatiques",
+    "medical_technology": "Technologie médicale",
+    "medicine": "Médecine",
+    "microbiology": "Microbiologie",
+    "middle_eastern_studies": "Études moyen-orientales",
+    "modern_and_classical_languages": "Langues modernes et classiques",
+    "modern_languages": "Langues modernes",
+    "mortuary_science": "Science funéraire",
+    "music": "Musique",
+    "nanotechnology": "Nanotechnologie",
+    "nursing": "Soins infirmiers",
+    "nutrition": "Nutrition",
+    "oceanography": "Océanographie",
+    "petroleum_engineering": "Génie pétrolier",
+    "philosophy": "Philosophie",
+    "photography": "Photographie",
+    "physical_and_health_education": "Éducation physique et santé",
+    "physical_education": "Éducation physique",
+    "physics": "Physique",
+    "physiology": "Physiologie",
+    "political_science": "Science politique",
+    "process_technology": "Technologie de procédés",
+    "psychology": "Psychologie",
+    "public_administration": "Administration publique",
+    "public_health": "Santé publique",
+    "rehabilitation_counseling": "Counseling de réadaptation",
+    "religion": "Religion",
+    "renewable_energy": "Énergie renouvelable",
+    "robotics": "Robotique",
+    "science": "Science",
+    "social_entrepreneurship": "Entrepreneuriat social",
+    "social_science": "Science sociale",
+    "social_work": "Travail social",
+    "sociology": "Sociologie",
+    "software_engineering": "Génie logiciel",
+    "space_studies": "Études spatiales",
+    "spanish": "Espagnol",
+    "speech": "Discours",
+    "speech_communication": "Communication orale",
+    "sports_management": "Gestion sportive",
+    "statistics": "Statistiques",
+    "statistics_and_actuarial_science": "Statistiques et science actuarielle",
+    "stem_education": "Éducation STEM",
+    "student_success": "Réussite étudiante",
+    "sustainable_design": "Design durable",
+    "technology": "Technologie",
+    "telecommunications": "Télécommunications",
+    "theater": "Théâtre",
+    "urban_planning": "Urbanisme",
+    "urban_studies": "Études urbaines",
+    "virtual_reality": "Réalité virtuelle",
+    "womens_studies": "Études féminines",
+    "world_and_finance": "Monde et finance",
+    "world_religions": "Religions du monde",
+    "writing": "Écriture",
+    "zoology": "Zoologie"
+  },
+  "AdminPage": {
+    "addTeacher": "Ajouter un prof",
+    "addTeachers": "Ajouter des profs",
+    "selectSchool": "Sélectionner l'école",
+    "selectSubject": "Sélectionner la matière",
+    "selectRole": "Sélectionner le rôle",
+    "addSchool": "Ajouter une école"
+  },
+  "TeacherPage": {
+    "teacherRatings": "Évaluations des enseignants pour {{schoolName}}",
+    "addTeacher": "Ajouter un prof",
+    "name": "Nom",
+    "selectSubject": "Sélectionnez une matière",
+    "secondSubjectOptional": "Deuxième matière (facultatif)",
+    "selectSubjectOptional": "Sélectionnez une matière (facultatif)",
+    "school": "École",
+    "addNow": "Ajouter maintenant !",
+    "noTeachersFound": "Aucun enseignant trouvé",
+    "seeteachers": "Voir les professeurs",
+    "seeschool": "Voir l'école",
+    "renovation": "Nous sommes en train d'innover cette page! Chut... C'est un secret.🤫",
+    "teacherAdded": "🎉 Professeur ajouté ! Nous examinerons votre soumission et l'ajouterons bientôt. Merci !",
+    "evaluations": "{{teachers}} enseignants basés sur {{count}} évaluations.",
+    "order": {
+      "alphabetic": "Ordre alphabétique",
+      "competition": "Compétition"
+    },
+    "scoreMeaningTitle": "Signification du score",
+    "scoreMeanings": {
+      "1": "Mauvais",
+      "2": "Acceptable",
+      "3": "Bien",
+      "4": "Excellent"
+    }
+  },
+  "TeacherCardDetail": {
+    "watchOut": "Conseils de pro pour les examens",
+    "noWatchOut": "Soyez le premier à aider les autres avec vos astuces!",
+    "totalRating": "Basé sur {{numRatings}} évaluations",
+    "recentComments": "Commentaires principaux",
+    "firstComment": "Soyez le premier à commenter !",
+    "submit": "Soumettre",
+    "placeholder": {
+      "reply": "Partagez vos pensées..."
+    },
+    "commentdetails": "Détails du commentaire"
+  },
+  "TeacherRatingModal": {
+    "rateTeacher": "Évaluer {{teacherName}}",
+    "ratings": {
+      "1": "1 - Terrible",
+      "2": "2 - Médiocre",
+      "3": "3 - Acceptable",
+      "4": "4 - Très bien",
+      "5": "5 - Excellent"
+    },
+    "successRating": "Évaluation de {{teacherName}} réussie !",
+    "failedRating": "Échec de l'évaluation : {{message}}",
+    "errorRating": "Une erreur s'est produite lors de l'évaluation de l'enseignant",
+    "guidelinesIntro": "Avant de commenter, gardez ces points à l'esprit :",
+    "guidelinesPoints": [
+      "Évitez les jurons et les termes désobligeants.",
+      "Soyez précis et constructif.",
+      "Relisez votre commentaire avant de le soumettre !",
+      "Les évaluations avec un langage inapproprié seront supprimées.",
+      "Consultez nos directives pour guider vos commentaires."
+    ],
+    "commentPlaceholder": "Partagez vos pensées (facultatif - mais nous savons que votre voix compte! ❤️)",
+    "submitRating": "Soumettre l'évaluation",
+    "ratealready": "Oops... Il nous semble vous avez déjà évalué {{teacherName}}. Modifiez vos commentaires dans votre profil!",
+    "moderateComments": "Notre RateGorithm™ est en train de modérer votre commentaire…"
+  },
+  "ratingCriteria": {
+    "Teaching Quality": {
+      "name": "Qualité de l'enseignement",
+      "description": "Avec quelle efficacité l'enseignant explique-t-il les concepts ?",
+      "icon": "📚"
+    },
+    "Engagement": {
+      "name": "Engagement",
+      "description": "À quel point les cours sont-ils interactifs et motivants ?",
+      "icon": "🤝"
+    },
+    "Fairness": {
+      "name": "Équité",
+      "description": "Les évaluations et la notation sont-elles justes et transparentes ?",
+      "icon": "⚖️"
+    },
+    "Support": {
+      "name": "Soutien",
+      "description": "À quel point l'enseignant est-il soutenant en dehors des cours ?",
+      "icon": "❤️"
+    },
+    "Ease": {
+      "name": "Facilité",
+      "description": "À quel point le contenu du cours est-il facile ?",
+      "icon": "🧩"
+    }
+  },
+  "schoolRatingCriteria": {
+    "Academic-Focus": {
+      "name": "Focus académique",
+      "description": "Les programmes, les matières proposées et la préparation universitaire sont-ils de qualité ?",
+      "icon": "🎯"
+    },
+    "Support-System": {
+      "name": "Système de soutien",
+      "description": "L'orientation scolaire, le tutorat et les ressources en éducation spécialisée sont-ils disponibles ?",
+      "icon": "❤️"
+    },
+    "School-Culture": {
+      "name": "Culture scolaire",
+      "description": "L'environnement scolaire est-il positif, inclusif et exempt de harcèlement ?",
+      "icon": "🌈"
+    },
+    "Extracurriculars": {
+      "name": "Activités parascolaires",
+      "description": "Les programmes sportifs, les clubs, les arts et la robotique sont-ils variés et de qualité ?",
+      "icon": "⭐"
+    },
+    "Surveillant-Attitude": {
+      "name": "Attitude des surveillants",
+      "description": "Les interactions avec le personnel sont-elles respectueuses, bienveillantes et équitables ?",
+      "icon": "👀"
+    },
+    "Teacher-Quality": {
+      "name": "Qualité des enseignants",
+      "description": "Les enseignants expliquent-ils efficacement les concepts et soutiennent-ils les élèves ?",
+      "icon": "🍎"
+    },
+    "Class-Quality": {
+      "name": "Qualité de l'enseignement",
+      "description": "Les classes sont-ils assez personnalisés pour permettre une bonne attention et un bon apprentissage ?",
+      "icon": "📊"
+    },
+    "Club": {
+      "name": "Club",
+      "description": "Les clubs sont-ils divers et attrayants pour les étudiants ?",
+      "icon": "📢"
+    },
+    "Location": {
+      "name": "Emplacement",
+      "description": "L'emplacement de l'école est-il pratique avec de bonnes options de transport ?",
+      "icon": "🚌"
+    }
+  },
+  "guidelines": {
+    "title": "Directives du site officiel de RateMinistère",
+    "preamble": "RateMinistère est une plateforme en ligne dédiée à fournir un environnement sécurisé et constructif pour que les étudiants partagent leurs expériences éducatives et leurs idées concernant les éducateurs.",
+    "platformPrinciples": {
+      "title": "Principes de la plateforme",
+      "scopeOfParticipation": {
+        "title": "Champ de participation",
+        "points": [
+          "Les commentaires doivent être soumis exclusivement par des étudiants qui :",
+          "Ont assisté directement à un cours.",
+          "Sont actuellement inscrits au cours spécifique.",
+          "Les utilisateurs sont autorisés à un (1) commentaire par cours.",
+          "Les retours doivent être fondés sur une expérience personnelle et directe."
+        ]
+      },
+      "prohibitedContent": {
+        "title": "Spécifications du contenu interdit",
+        "unacceptableCommentary": {
+          "title": "Les commentaires inacceptables comprennent :",
+          "points": [
+            "Propos injurieux, vulgaires ou dérogatoires.",
+            "Remarques concernant des caractéristiques personnelles.",
+            "Déclarations discriminatoires faisant référence à :",
+            "Ethnicité",
+            "Religion",
+            "Genre",
+            "Âge",
+            "Apparence physique",
+            "Statut de handicap"
+          ]
+        },
+        "strictlyForbidden": {
+          "title": "Soumissions strictement interdites :",
+          "points": [
+            "Informations de contact personnelles.",
+            "Références à des circonstances familiales ou personnelles.",
+            "Allusions sexuelles.",
+            "Allégations de faute professionnelle.",
+            "Réclamations d'activités illégales.",
+            "Liens hypertextes ou références externes."
+          ]
+        }
+      }
+    },
+    "moderationProtocol": {
+      "title": "Protocole de modération",
+      "contentEvaluation": "Des systèmes algorithmiques avancés examineront de manière exhaustive toutes les soumissions. Les commentaires contraires aux directives établies seront systématiquement signalés pour un examen immédiat.",
+      "progressiveDisciplinary": {
+        "title": "Cadre disciplinaire progressif",
+        "infractions": [
+          {
+            "level": "Infraction initiale :",
+            "description": "Suspension d'une semaine des privilèges de commentaire. Réintégration après 30 jours de comportement conforme."
+          },
+          {
+            "level": "Violation secondaire :",
+            "description": "Suspension d'un mois des privilèges de commentaire. Réintégration après 90 jours de comportement conforme."
+          },
+          {
+            "level": "Violation tertiaire :",
+            "description": "Suspension de trois mois des privilèges de commentaire. Réintégration après 365 jours de comportement conforme."
+          }
+        ]
+      },
+      "reviewMechanism": "Les utilisateurs peuvent soumettre des appels formels par le biais de canaux de révision désignés. Une évaluation indépendante des éventuelles divergences de modération sera effectuée."
+    },
+    "constructiveFeedback": {
+      "title": "Directives pour un retour constructif",
+      "acceptableCommentary": {
+        "title": "Caractéristiques des commentaires acceptables",
+        "points": [
+          "Observations spécifiques et factuelles.",
+          "Langage professionnel et respectueux.",
+          "Concentration sur l'expérience éducative et l'efficacité pédagogique.",
+          "Perspective équilibrée soutenant une prise de décision académique éclairée."
+        ]
+      }
+    },
+    "consequences": {
+      "title": "Conséquences de la non-conformité",
+      "content": "La violation persistante des directives établies peut entraîner la résiliation permanente du compte."
+    },
+    "legalReservation": {
+      "title": "Réserve légale de droits",
+      "content": "RateMinistère se réserve le droit de modifier les directives et de prendre des mesures appropriées pour maintenir l'intégrité de la plateforme et l'expérience utilisateur."
+    },
+    "disclaimer": {
+      "title": "Avertissement",
+      "content": "Ces directives sont fournies à des fins d'information et ne constituent pas un conseil juridique. Les utilisateurs sont encouragés à faire preuve de discernement et de jugement professionnel lors de la soumission de commentaires."
+    }
+  },
+  "cookiePolicy": {
+    "title": "POLITIQUE DE COOKIES",
+    "lastUpdated": "Dernière mise à jour le 01 décembre 2024",
+    "introduction": {
+      "paragraph1": "Cette Politique de Cookies explique comment RateMinistère (\"Entreprise,\" \"nous,\" \"notre\") utilise des cookies et des technologies similaires pour vous reconnaître lorsque vous visitez notre site web à ",
+      "paragraph1-1": ". Elle explique ce que sont ces technologies et pourquoi nous les utilisons, ainsi que vos droits de contrôler notre utilisation.",
+      "paragraph2": "Dans certains cas, nous pouvons utiliser des cookies pour collecter des informations personnelles, ou des informations qui deviennent personnelles si nous les combinons avec d'autres informations."
+    },
+    "whatAreCookies": {
+      "title": "Que sont les cookies ?",
+      "paragraph1": "Les cookies sont de petits fichiers de données qui sont placés sur votre ordinateur ou appareil mobile lorsque vous visitez un site web. Les cookies sont largement utilisés par les propriétaires de sites web pour faire fonctionner leurs sites web, ou pour fonctionner plus efficacement, ainsi que pour fournir des informations de rapport.",
+      "paragraph2": "Les cookies définis par le propriétaire du site web (dans ce cas, RateMinistère) sont appelés \"cookies de première partie.\" Les cookies définis par des parties autres que le propriétaire du site web sont appelés \"cookies tiers.\" Les cookies tiers permettent de fournir des fonctionnalités ou des services tiers sur ou à travers le site web (par exemple, publicité, contenu interactif et analyses). Les parties qui définissent ces cookies tiers peuvent reconnaître votre ordinateur à la fois lorsqu'il visite le site web en question et également lorsqu'il visite certains autres sites web."
+    },
+    "whyUseCookies": {
+      "title": "Pourquoi utilisons-nous des cookies ?",
+      "paragraph": "Nous utilisons des cookies de première et de tierce partie pour plusieurs raisons. Certains cookies sont nécessaires pour des raisons techniques afin que notre Site Web fonctionne, et nous les appelons \"essentiels\" ou \"strictement nécessaires.\" D'autres cookies nous permettent également de suivre et de cibler les intérêts de nos utilisateurs pour améliorer l'expérience sur nos Propriétés en ligne. Des tiers servent des cookies à travers notre Site Web pour la publicité, les analyses et d'autres buts. Cela est décrit plus en détail ci-dessous."
+    },
+    "controlCookies": {
+      "title": "Comment puis-je contrôler les cookies ?",
+      "paragraph1": "Vous avez le droit de décider d'accepter ou de rejeter les cookies. Vous pouvez exercer vos droits sur les cookies en définissant vos préférences dans le Gestionnaire de Consentement aux Cookies. Le Gestionnaire de Consentement vous permet de sélectionner les catégories de cookies que vous acceptez ou rejetez. Les cookies essentiels ne peuvent pas être rejetés car ils sont strictement nécessaires pour vous fournir des services.",
+      "paragraph2": "Le Gestionnaire de Consentement se trouve dans la bannière de notification et sur notre Site Web. Si vous choisissez de rejeter les cookies, vous pouvez toujours utiliser notre Site Web bien que votre accès à certaines fonctionnalités et zones de notre Site Web puisse être restreint. Vous pouvez également définir ou modifier les contrôles de votre navigateur web pour accepter ou refuser les cookies."
+    },
+    "cookieTable": {
+      "title": "Types de Cookies",
+      "description": "Les types spécifiques de cookies de première et de tierce partie servis à travers notre Site Web et les objectifs qu'ils remplissent sont décrits dans le tableau ci-dessous."
+    },
+    "browserControl": {
+      "title": "Comment puis-je contrôler les cookies sur mon navigateur ?",
+      "paragraph": "Les moyens par lesquels vous pouvez refuser les cookies à travers les contrôles de votre navigateur web varient d'un navigateur à l'autre, vous devriez donc visiter le menu d'aide de votre navigateur pour plus d'informations.",
+      "browsers": [
+        "Chrome",
+        "Internet Explorer",
+        "Firefox",
+        "Safari",
+        "Edge",
+        "Opera"
+      ],
+      "advertisingNetworks": {
+        "title": "Ressources supplémentaires pour se désinscrire",
+        "links": [
+          {
+            "name": "Alliance de la publicité numérique",
+            "url": "https://digitaladvertisingalliance.org/"
+          },
+          {
+            "name": "Alliance de la publicité numérique du Canada",
+            "url": "https://youradchoices.ca/"
+          },
+          {
+            "name": "Alliance européenne de la publicité interactive numérique",
+            "url": "https://www.edaa.eu/"
+          }
+        ]
+      }
+    },
+    "otherTrackingTechnologies": {
+      "title": "Qu'en est-il des autres technologies de suivi, comme les web beacons ?",
+      "paragraph1": "Les cookies ne sont pas le seul moyen de reconnaître ou de suivre les visiteurs d'un site web. Nous pouvons utiliser d'autres technologies similaires de temps à autre, comme les web beacons (parfois appelés \"pixels de suivi\" ou \"clear gifs\"). Ce sont de petits fichiers graphiques qui contiennent un identifiant unique qui nous permet de reconnaître quand quelqu'un a visité notre Site Web ou ouvert un e-mail les incluant.",
+      "paragraph2": "Cela nous permet, par exemple, de surveiller les modèles de trafic des utilisateurs d'une page à une autre dans un site web, de livrer ou de communiquer avec des cookies, de comprendre si vous êtes arrivé sur le site web à partir d'une publicité en ligne affichée sur un site tiers, d'améliorer la performance du site et de mesurer le succès des campagnes de marketing par e-mail.",
+      "paragraph3": "Dans de nombreux cas, ces technologies dépendent des cookies pour fonctionner correctement, et donc le refus des cookies altérera leur fonctionnement."
+    },
+    "flashCookies": {
+      "title": "Utilisez-vous des cookies Flash ou des objets partagés locaux ?",
+      "paragraph1": "Les sites web peuvent également utiliser ce qu'on appelle des \"cookies Flash\" (également connus sous le nom d'objets partagés locaux ou \"LSOs\") pour, entre autres, collecter et stocker des informations sur votre utilisation de nos services, la prévention de la fraude, et pour d'autres opérations du site.",
+      "paragraph2": "Si vous ne souhaitez pas que des cookies Flash soient stockés sur votre ordinateur, vous pouvez ajuster les paramètres de votre lecteur Flash pour bloquer le stockage des cookies Flash en utilisant les outils contenus dans le Panneau de paramètres de stockage du site web.",
+      "paragraph3": "Veuillez noter que le fait de configurer le lecteur Flash pour restreindre ou limiter l'acceptation des cookies Flash peut réduire ou entraver la fonctionnalité de certaines applications Flash, y compris, potentiellement, des applications Flash utilisées en lien avec nos services ou contenus en ligne."
+    },
+    "targetedAdvertising": {
+      "title": "Servez-vous de la publicité ciblée ?",
+      "paragraph": "Des tiers peuvent servir des cookies sur votre ordinateur ou appareil mobile pour afficher des publicités via notre Site Web. Ces entreprises peuvent utiliser des informations sur vos visites à ce site et à d'autres sites pour fournir des publicités pertinentes sur des biens et services qui pourraient vous intéresser."
+    },
+    "policyUpdates": {
+      "title": "À quelle fréquence mettrez-vous à jour cette Politique de Cookies ?",
+      "paragraph1": "Nous pouvons mettre à jour cette Politique de Cookies de temps à autre pour refléter, par exemple, les changements apportés aux cookies que nous utilisons ou pour d'autres raisons opérationnelles, juridiques ou réglementaires.",
+      "paragraph2": "Nous vous encourageons donc à consulter régulièrement cette Politique de Cookies pour rester informé de notre utilisation des cookies et des technologies associées.",
+      "paragraph3": "La date en haut de cette Politique de Cookies indique quand elle a été mise à jour pour la dernière fois."
+    },
+    "contact": {
+      "title": "Où puis-je obtenir plus d'informations ?",
+      "description": "Si vous avez des questions sur notre utilisation des cookies ou d'autres technologies, veuillez nous contacter à :",
+      "address": {
+        "company": "RateMinistère.inc",
+        "street": "40 Cherry-Lane",
+        "city": "Montréal, Québec",
+        "country": "Canada",
+        "email": "rateministere@gmail.com"
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "POLITIQUE DE CONFIDENTIALITÉ",
+    "lastUpdated": "Dernière mise à jour : 1er décembre 2024",
+    "introduction": {
+      "paragraph1": "Cette politique de confidentialité pour RateMinistère.inc (« nous », « notre » ou « nos ») décrit comment et pourquoi nous pourrions accéder, collecter, stocker, utiliser et/ou partager (« traiter ») vos renseignements personnels lorsque vous utilisez nos services (« Services »), notamment lorsque vous :",
+      "listItem1": "Visitez notre site Web à l'adresse ",
+      "listItem1.1": " ou tout autre site Web lié à cette politique de confidentialité",
+      "listItem2": "Téléchargez et utilisez notre application mobile (RateMinistère), ou toute autre application liée à cette politique de confidentialité",
+      "listItem3": "Utilisez RateMinistère. Nous sommes une plateforme révolutionnant l'évaluation des enseignants et des écoles. Afin d'aider chaque élève à atteindre une meilleure note, nous utilisons des lignes directrices strictes et des algorithmes sophistiqués pour garantir que seuls des commentaires constructifs et respectueux sont publiés.",
+      "listItem4": "Interagissez avec nous de toute autre manière, y compris les ventes, le marketing ou les événements",
+      "links": [
+        {
+          "name": "https://www.rateministere.com",
+          "url": "https://www.rateministere.com"
+        }
+      ]
+    },
+    "questionsConcerns": "Des questions ou des préoccupations ? La lecture de cette politique de confidentialité vous aidera à comprendre vos droits et vos choix en matière de confidentialité. Nous sommes responsables des décisions concernant le traitement de vos renseignements personnels. Si vous n'êtes pas d'accord avec nos politiques et nos pratiques, veuillez ne pas utiliser nos Services. Pour toute question ou préoccupation, veuillez nous contacter à ",
+    "questionsConcerns.1": " .",
+    "summary": {
+      "title": "RÉSUMÉ DES POINTS CLÉS",
+      "description": "Ce résumé présente les points clés de notre politique de confidentialité.  Pour plus de détails, cliquez sur les liens suivants ou consultez la table des matières.",
+      "keyPoint1": "Quels renseignements personnels traitons-nous ?",
+      "keyPoint2": "Traitons-nous des renseignements personnels sensibles ?",
+      "keyPoint3": "Recueillons-nous des renseignements auprès de tiers ?",
+      "keyPoint4": "Comment traitons-nous vos renseignements ?",
+      "keyPoint5": "Dans quelles situations et avec quelles parties partageons-nous les renseignements personnels ?",
+      "keyPoint6": "Comment protégeons-nous vos renseignements ?",
+      "keyPoint7": "Quels sont vos droits ?",
+      "keyPoint8": "Comment exercer vos droits ?"
+    },
+    "tableOfContents": {
+      "title": "TABLE DES MATIÈRES",
+      "item1": " QUELLES INFORMATIONS RECUEILLONS-NOUS ?",
+      "item2": " COMMENT TRAITONS-NOUS VOS RENSEIGNEMENTS ?",
+      "item3": " FONDEMENTS JURIDIQUES DU TRAITEMENT DE VOS RENSEIGNEMENTS PERSONNELS",
+      "item4": " PARTAGE DE VOS RENSEIGNEMENTS PERSONNELS",
+      "item5": " SITES WEB DE TIERS",
+      "item6": " TÉMOINS ET TECHNOLOGIES DE SUIVI",
+      "item7": " PRODUITS D'INTELLIGENCE ARTIFICIELLE",
+      "item8": " GESTION DE VOS IDENTIFIANTS DE RÉSEAUX SOCIAUX",
+      "item9": " DURÉE DE CONSERVATION DES RENSEIGNEMENTS",
+      "item10": " SÉCURITÉ DES RENSEIGNEMENTS",
+      "item11": " VOS DROITS EN MATIÈRE DE PROTECTION DES DONNÉES",
+      "item12": " CONTRÔLES POUR LES FONCTIONNALITÉS « NE PAS SUIVRE »",
+      "item13": " MISES À JOUR DE CETTE POLITIQUE",
+      "item14": " COMMENT NOUS CONTACTER",
+      "item15": " ACCÈS, MISE À JOUR ET SUPPRESSION DE VOS DONNÉES"
+    },
+    "informationWeCollect": {
+      "title": "1. QUELLES INFORMATIONS RECUEILLONS-NOUS ?",
+      "personalInformation": {
+        "title": "Renseignements personnels que vous nous divulguez",
+        "short": "En bref : nous collectons les renseignements personnels que vous nous fournissez.",
+        "details": "Nous collectons les renseignements personnels que vous nous fournissez volontairement lors de votre inscription aux Services, lorsque vous manifestez votre intérêt pour nos produits et services, lorsque vous participez à des activités sur les Services ou lorsque vous nous contactez."
+      },
+      "sensitiveInformation": {
+        "title": "Renseignements sensibles",
+        "item1": "Données sur les élèves"
+      },
+      "paymentData": {
+        "title": "Données de paiement",
+        "details": "Nous pouvons collecter les données nécessaires au traitement de votre paiement (numéro de l'instrument de paiement et code de sécurité).  Ces données sont traitées et stockées par Interac, MasterCard, Visa et American Express.  Consultez leurs politiques de confidentialité : ",
+        "details-coma": " ,",
+        "details-and": " and ",
+        "details-end": " .",
+        "links": [
+          {
+            "name": "Interac",
+            "url": "https://www.interac.ca/fr/politique-de-confidentialite/"
+          },
+          {
+            "name": "Mastercard",
+            "url": "https://www.mastercard.ca/fr-ca/vision/responsabilite-sociale/notre-engagement-en-matiere-de-confidentialite/regles-internationales-de-protection-de-la-vie-privee.html"
+          },
+          {
+            "name": "Visa",
+            "url": "https://www.visa.ca/fr_CA/legal/global-privacy-notice.html"
+          },
+          {
+            "name": "American Express",
+            "url": "https://www.americanexpress.com/fr-ca/societes/legale/centre-de-confidentialite/principes-de-confidentialite-des-clients/"
+          }
+        ]
+      },
+      "socialMediaLoginData": {
+        "title": "Données d'identification des réseaux sociaux",
+        "details": "Vous pouvez vous inscrire en utilisant vos identifiants de réseaux sociaux (Facebook, X, etc.).  Dans ce cas, nous collectons des informations de votre profil, tel que décrit dans la section \"GESTION DE VOS IDENTIFIANTS DE RÉSEAUX SOCIAUX\"."
+      },
+      "applicationData": {
+        "title": "Données de l'application",
+        "geolocation": "Informations de géolocalisation : nous pouvons demander l'accès à votre localisation via votre appareil mobile pour fournir des services géolocalisés. Vous pouvez gérer ces autorisations dans les paramètres de votre appareil.",
+        "mobileDeviceAccess": "Accès à l'appareil mobile : nous pouvons demander l'accès à certaines fonctionnalités de votre appareil (caméra, microphone, calendrier, réseaux sociaux, etc.). Vous pouvez gérer ces autorisations dans les paramètres de votre appareil.",
+        "mobileDeviceData": "Données de l'appareil mobile : nous collectons automatiquement des informations sur votre appareil (ID, modèle, fabricant, système d'exploitation, configuration, etc.).  Nous collectons également des informations sur le réseau mobile, le type d'appareil et l'utilisation de l'application.",
+        "pushNotifications": "Notifications push : nous pouvons vous envoyer des notifications push concernant votre compte ou l'application. Vous pouvez désactiver ces notifications dans les paramètres de votre appareil.",
+        "usage": "Ces informations servent à assurer la sécurité et le bon fonctionnement de l'application, au dépannage et à l'analyse interne."
+      },
+      "automaticallyCollected": {
+        "title": "Informations collectées automatiquement",
+        "short": "En bref : certaines informations (adresse IP, navigateur, appareil) sont collectées automatiquement lors de vos visites.",
+        "details": "Nous collectons automatiquement des informations lors de vos visites, utilisations ou navigations sur les Services.  Ces informations ne révèlent pas votre identité, mais peuvent inclure des données sur l'appareil et l'utilisation (adresse IP, navigateur, système d'exploitation, langue, URL de référence, etc.).  Ces informations servent à assurer la sécurité et le bon fonctionnement des Services et à des fins d'analyse interne.",
+        "cookies": "Nous utilisons également des cookies et des technologies similaires.  Pour plus d'informations, consultez notre politique sur les cookies : ",
+        "cookies-end": ".",
+        "links": [
+          {
+            "name": "https://www.rateministere.com/cookie-policy",
+            "url": "https://www.rateministere.com/cookie-policy"
+          }
+        ]
+      },
+      "logAndUsageData": {
+        "title": "Données de journalisation et d'utilisation",
+        "details": "Il s'agit de données relatives au service, au diagnostic, à l'utilisation et aux performances, collectées automatiquement par nos serveurs lors de l'accès ou de l'utilisation de nos Services.  Ces données peuvent inclure votre adresse IP, les informations sur l'appareil, le type de navigateur, les paramètres et l'activité sur les Services (horodatages, pages consultées, recherches, fonctionnalités utilisées), ainsi que les informations sur les événements de l'appareil (activité système, rapports d'erreur, paramètres matériels)."
+      },
+      "deviceData": {
+        "title": "Données sur l'appareil",
+        "details": "Nous collectons des données sur l'appareil utilisé pour accéder aux Services (ordinateur, téléphone, tablette, etc.).  Ces données peuvent inclure l'adresse IP, les numéros d'identification de l'appareil et de l'application, la localisation, le type de navigateur, le modèle du matériel, le fournisseur d'accès internet, le système d'exploitation et les informations de configuration du système."
+      },
+      "locationData": {
+        "title": "Données de localisation",
+        "details": "Nous collectons des données de localisation précises ou imprécises selon les paramètres de votre appareil.  Nous pouvons utiliser le GPS et d'autres technologies pour déterminer votre localisation. Vous pouvez désactiver cette fonctionnalité dans les paramètres de votre appareil, mais cela pourrait limiter certaines fonctionnalités des Services."
+      },
+      "googleAPI": {
+        "title": "API Google",
+        "details": "Notre utilisation des informations reçues des API Google respectera ",
+        "details-1": ", notamment les exigences relatives à l'utilisation limitée.",
+        "links": [
+          {
+            "name": "la politique de confidentialité de Google",
+            "url": "https://policies.google.com/privacy?hl=fr"
+          }
+        ]
+      },
+      "informationFromOtherSources": {
+        "title": "Informations provenant d'autres sources",
+        "short": "En bref : nous pouvons collecter des données limitées auprès de bases de données publiques, de partenaires marketing, de plateformes de médias sociaux et d'autres sources externes.",
+        "details": "Pour améliorer nos offres marketing et mettre à jour nos dossiers, nous pouvons obtenir des informations de sources externes (bases de données publiques, partenaires marketing, fournisseurs de données, plateformes de médias sociaux, etc.).  Ces informations peuvent inclure les adresses postales, les titres d'emploi, les adresses électroniques, les numéros de téléphone, les données d'intention, les adresses IP, les profils de médias sociaux et les profils personnalisés, à des fins de publicité ciblée et de promotion d'événements.",
+        "socialMediaDetails": "Si vous interagissez avec nous sur les réseaux sociaux, nous recevons des informations de ces plateformes (nom, adresse e-mail, sexe, etc.).  Le type d'informations collectées dépend des paramètres de confidentialité de votre compte.  L'utilisation de vos données par ces plateformes n'est pas régie par cette politique de confidentialité."
+      }
+    },
+    "howWeProcess": {
+      "title": "2. COMMENT TRAITONS-NOUS VOS RENSEIGNEMENTS ?",
+      "short": "En bref : nous traitons vos informations pour fournir, améliorer et gérer nos Services, communiquer avec vous, assurer la sécurité et prévenir la fraude, et nous conformer à la loi. Nous pouvons également traiter vos informations à d'autres fins avec votre consentement.",
+      "accountManagement": "Pour faciliter la création et l'authentification des comptes et gérer les comptes utilisateurs. Nous traitons vos informations pour la création et la gestion de votre compte.",
+      "serviceDelivery": "Pour fournir les services demandés. Nous traitons vos informations pour vous fournir le service demandé.",
+      "userSupport": "Pour répondre aux demandes des utilisateurs et offrir un support. Nous traitons vos informations pour répondre à vos demandes et résoudre les problèmes.",
+      "administrativeInfo": "Pour vous envoyer des informations administratives (mise à jour des produits, modifications des conditions, etc.).",
+      "orderManagement": "Pour gérer vos commandes, paiements, retours et échanges.",
+      "userCommunication": "Pour permettre les communications entre utilisateurs.",
+      "feedback": "Pour demander des commentaires sur l'utilisation des Services.",
+      "marketing": "Pour vous envoyer des communications marketing (conformément à vos préférences). Vous pouvez vous désinscrire à tout moment.",
+      "targetedAdvertising": "Pour diffuser des publicités ciblées. Pour plus d'informations, consultez notre politique sur les cookies : ",
+      "targetedAdvertising-1": ".",
+      "links": [
+        {
+          "name": "https://www.rateministere.com/cookie-policy",
+          "url": "https://www.rateministere.com/cookie-policy"
+        }
+      ],
+      "testimonials": "Pour publier des témoignages (pouvant contenir des informations personnelles).",
+      "security": "Pour protéger nos Services contre la fraude.",
+      "prizeDraws": "Pour administrer les tirages au sort et les concours.",
+      "evaluation": "Pour évaluer et améliorer nos Services, produits, marketing et votre expérience utilisateur.",
+      "marketingEffectiveness": "Pour mesurer l'efficacité de nos campagnes marketing.",
+      "legalObligations": "Pour nous conformer à nos obligations légales."
+    },
+    "legalBases": {
+      "title": "3. FONDEMENTS JURIDIQUES DU TRAITEMENT DE VOS RENSEIGNEMENTS PERSONNELS",
+      "short": "En bref : nous ne traitons vos renseignements personnels que si cela est nécessaire et justifié par la loi (consentement, conformité légale, obligations contractuelles, protection de vos droits, intérêts commerciaux légitimes).",
+      "permission": "Nous pouvons traiter vos informations avec votre consentement explicite ou implicite. Vous pouvez retirer votre consentement à tout moment."
+    },
+    "sharingInformation": {
+      "title": "4. PARTAGE DE VOS RENSEIGNEMENTS PERSONNELS",
+      "short": "En bref : nous pouvons partager vos informations dans les situations décrites ci-dessous et/ou avec les tiers suivants.",
+      "thirdParties": "Fournisseurs, consultants et autres tiers. Nous pouvons partager vos données avec des tiers qui fournissent des services pour nous.  Des contrats sont en place pour protéger vos informations.",
+      "vendors": "Publicité, marketing direct et génération de prospects : Google AdSense",
+      "aiProviders": "Fournisseurs de services d'IA : Groq",
+      "allowUsersToConnect": "Connexion à des comptes tiers : comptes Google et Microsoft",
+      "cloudServices": "Services de cloud computing : Amazon Web Services (AWS)",
+      "communication": "Communication et discussion avec les utilisateurs : Discourse",
+      "socialMedia": "Partage et publicité sur les réseaux sociaux : plugins sociaux YouTube",
+      "userAccountRegistration": "Enregistrement et authentification des comptes utilisateurs : Google OAuth 2.0, Google Sign-In, Microsoft Sign-in et Microsoft OAuth 2.0",
+      "analytics": "Analyse Web et mobile : Google Ads et Google Analytics",
+      "hosting": "Hébergement Web : AWS",
+      "situations": [
+        "Transferts d'entreprise. Nous pouvons partager ou transférer vos informations dans le cadre d'une fusion, d'une vente d'actifs, d'un financement ou d'une acquisition.",
+        "Affiliés. Nous pouvons partager vos informations avec nos sociétés affiliées, sous réserve du respect de la présente politique de confidentialité.",
+        "Partenaires commerciaux. Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer des produits ou services.",
+        "Mur d'offres. Notre application peut afficher un « mur d'offres » tiers.  Ce mur permet aux annonceurs de proposer des récompenses aux utilisateurs en échange de la réalisation d'offres publicitaires.  Un identifiant unique (votre ID utilisateur) sera partagé avec le fournisseur du mur d'offres pour prévenir la fraude."
+      ]
+    },
+    "thirdPartyWebsites": {
+      "title": "5. SITES WEB DE TIERS",
+      "short": "En bref : nous ne sommes pas responsables de la sécurité des informations que vous partagez avec des tiers liés à nos Services, mais qui ne nous sont pas affiliés."
+    },
+    "cookies": {
+      "title": "6. TÉMOINS ET TECHNOLOGIES DE SUIVI",
+      "short": "En bref : nous pouvons utiliser des cookies et d'autres technologies de suivi pour collecter et stocker vos informations.",
+      "details": "Nous utilisons des cookies et des technologies similaires (balises Web et pixels) pour collecter des informations lorsque vous interagissez avec nos Services.  Certaines technologies nous aident à maintenir la sécurité de nos Services et de votre compte, à prévenir les pannes, à corriger les bogues, à enregistrer vos préférences et à assurer le bon fonctionnement du site.",
+      "thirdPartyCookies": "Nous autorisons également des tiers à utiliser des technologies de suivi sur nos Services à des fins d'analyse et de publicité (affichage de publicités, publicités personnalisées, rappels de panier abandonné, etc.).",
+      "cookieNotice": "Pour plus d'informations sur l'utilisation de ces technologies et la gestion des cookies, consultez notre politique sur les cookies : ",
+      "cookieNotice-1": ".",
+      "links": [
+        {
+          "name": "https://www.rateministere.com/cookie-policy",
+          "url": "https://www.rateministere.com/cookie-policy"
+        }
+      ]
+    },
+    "googleAnalytics": {
+      "title": "Google Analytics",
+      "details": "Nous pouvons partager vos informations avec Google Analytics pour suivre et analyser l'utilisation des Services.  Les fonctionnalités publicitaires de Google Analytics que nous utilisons incluent les rapports démographiques et d'intérêt.  Pour désactiver le suivi par Google Analytics, visitez ",
+      "details-1": ". Vous pouvez également désactiver les fonctionnalités publicitaires de Google Analytics via les paramètres des annonces et les paramètres des annonces pour les applications mobiles. Les autres moyens de désactivation incluent ",
+      "details-2": " et ",
+      "details-3": ". Pour plus d'informations sur les pratiques de confidentialité de Google, veuillez visiter ",
+      "details-4": ".",
+      "links": [
+        {
+          "name": "Google Analytics Opt-out",
+          "url": "https://tools.google.com/dlpage/gaoptout"
+        },
+        {
+          "name": "NAI Consumer Opt Out",
+          "url": "https://optout.networkadvertising.org/?c=1"
+        },
+        {
+          "name": "Mobile Opt Out",
+          "url": "https://thenai.org/opt-out/mobile-opt-out/"
+        },
+        {
+          "name": "la politique de confidentialité de Google",
+          "url": "https://policies.google.com/privacy?hl=fr"
+        }
+      ]
+    },
+    "aiProducts": {
+      "title": "7. PRODUITS D'INTELLIGENCE ARTIFICIELLE",
+      "short": "En bref : nous offrons des produits, fonctionnalités ou outils basés sur l'intelligence artificielle, l'apprentissage automatique ou des technologies similaires.",
+      "details": "Nous offrons des produits, fonctionnalités ou outils basés sur l'intelligence artificielle, l'apprentissage automatique ou des technologies similaires (« produits d'IA »).  Ces outils sont conçus pour améliorer votre expérience. Les termes de cette politique de confidentialité régissent l'utilisation des produits d'IA dans le cadre de nos Services.",
+      "useOfAITechnologies": {
+        "title": "Utilisation des technologies d'IA",
+        "details": "Nous fournissons les produits d'IA par l'intermédiaire de fournisseurs de services tiers (« fournisseurs de services d'IA »), notamment Groq.  Comme indiqué dans cette politique de confidentialité, vos données seront partagées avec et traitées par ces fournisseurs de services d'IA.  Vous ne devez pas utiliser les produits d'IA d'une manière qui viole les termes ou les politiques de tout fournisseur de services d'IA."
+      },
+      "ourAIProducts": {
+        "title": "Nos produits d'IA",
+        "details": "Nos produits d'IA sont conçus pour les fonctions suivantes :",
+        "functions": [
+          "Automatisation de l'IA",
+          "Analyse de texte"
+        ]
+      },
+      "howWeProcessDataUsingAI": {
+        "title": "Traitement de vos données avec l'IA",
+        "details": "Toutes les informations personnelles traitées par nos produits d'IA sont gérées conformément à notre politique de confidentialité et à nos accords avec les tiers.  Cela garantit une sécurité élevée et protège vos informations."
+      }
+    },
+    "socialLogins": {
+      "title": "8. GESTION DE VOS IDENTIFIANTS DE RÉSEAUX SOCIAUX",
+      "short": "En bref : si vous vous inscrivez ou vous connectez à nos Services en utilisant un compte de médias sociaux, nous pourrions avoir accès à certaines informations vous concernant.",
+      "details": "Vous pouvez vous inscrire et vous connecter à nos Services en utilisant vos identifiants de médias sociaux (Facebook, X, etc.).  Dans ce cas, nous recevons certaines informations de votre profil auprès du fournisseur de médias sociaux (nom, adresse e-mail, liste d'amis, photo de profil, etc.).",
+      "socialMediaProvider": "Nous utilisons ces informations uniquement aux fins décrites dans cette politique de confidentialité.  Nous ne contrôlons pas et ne sommes pas responsables de l'utilisation de vos informations personnelles par les fournisseurs de médias sociaux.  Nous vous recommandons de consulter leurs politiques de confidentialité."
+    },
+    "dataRetention": {
+      "title": "9. DURÉE DE CONSERVATION DES RENSEIGNEMENTS",
+      "short": "En bref : nous conservons vos informations aussi longtemps que nécessaire pour les finalités décrites dans cette politique de confidentialité, sauf disposition légale contraire.",
+      "details": "Nous conservons vos renseignements personnels uniquement aussi longtemps que nécessaire aux fins énoncées dans la présente politique de confidentialité, à moins qu'une période de conservation plus longue ne soit exigée ou autorisée par la loi (p. ex., exigences fiscales, comptables ou autres exigences légales).  Aucune finalité dans cette politique ne nous obligera à conserver vos renseignements personnels plus de six (6) mois après la fermeture de votre compte.",
+      "deletion": "Lorsque nous n'avons plus de besoin commercial légitime de traiter vos renseignements personnels, nous les supprimerons ou les anonymiserons.  Si cela n'est pas possible (par exemple, parce que vos renseignements personnels ont été stockés dans des archives de sauvegarde), nous les stockerons en toute sécurité et les isolerons de tout autre traitement jusqu'à ce que la suppression soit possible."
+    },
+    "dataSecurity": {
+      "title": "10. SÉCURITÉ DES RENSEIGNEMENTS",
+      "short": "En bref : nous nous engageons à protéger vos renseignements personnels grâce à des mesures de sécurité organisationnelles et techniques.",
+      "details": "Nous avons mis en place des mesures de sécurité techniques et organisationnelles pour protéger la sécurité des renseignements personnels que nous traitons.  Toutefois, aucune transmission électronique sur Internet ou technologie de stockage d'informations ne peut être garantie à 100 %.  Nous ne pouvons donc pas garantir que des pirates informatiques ou d'autres tiers non autorisés ne pourront pas contourner nos mesures de sécurité et accéder à vos informations.  La transmission de renseignements personnels vers et depuis nos Services se fait à vos propres risques.  Vous devriez uniquement accéder aux Services dans un environnement sécurisé."
+    },
+    "privacyRights": {
+      "title": "11. VOS DROITS EN MATIÈRE DE PROTECTION DES DONNÉES",
+      "short": "En bref : dans certaines régions, comme le Canada, vous disposez de droits vous permettant d'accéder et de contrôler vos renseignements personnels.  Vous pouvez consulter, modifier ou fermer votre compte à tout moment, selon votre pays ou votre région de résidence.",
+      "details": "Dans certaines régions (comme le Canada), vous disposez de certains droits en vertu des lois sur la protection des données.  Ces droits peuvent inclure le droit (i) de demander l'accès à vos renseignements personnels et d'obtenir une copie de ceux-ci, (ii) de demander une rectification ou une suppression ; (iii) de restreindre le traitement de vos renseignements personnels ; (iv) le cas échéant, à la portabilité des données ; et (v) de ne pas faire l'objet d'une prise de décision automatisée. Dans certaines circonstances, vous pouvez également avoir le droit de vous opposer au traitement de vos renseignements personnels. Vous pouvez faire une telle demande en communiquant avec nous en utilisant les coordonnées fournies dans la section « COMMENT NOUS CONTACTER ? » ci-dessous.",
+      "consideration": "Nous examinerons et donnerons suite à toute demande conformément aux lois sur la protection des données applicables.",
+      "withdrawingConsent": {
+        "title": "Retrait de votre consentement :",
+        "details": "Si nous nous appuyons sur votre consentement pour traiter vos renseignements personnels, qui peut être un consentement exprès et/ou implicite selon la loi applicable, vous avez le droit de retirer votre consentement à tout moment. Vous pouvez retirer votre consentement à tout moment en communiquant avec nous en utilisant les coordonnées fournies dans la section « COMMENT NOUS CONTACTER ? » ci-dessous.",
+        "limitations": "Toutefois, veuillez noter que cela n'affectera pas la légalité du traitement avant son retrait ni, lorsque la loi applicable le permet, le traitement de vos renseignements personnels effectué en s'appuyant sur des motifs de traitement légaux autres que le consentement."
+      },
+      "accountInformation": {
+        "title": "Informations sur le compte",
+        "details": "Si vous souhaitez consulter ou modifier les informations de votre compte ou fermer votre compte, vous pouvez :",
+        "options": [
+          "Vous connecter à vos paramètres de compte et mettre à jour votre compte utilisateur.",
+          "À votre demande de fermeture de compte, nous désactiverons ou supprimerons votre compte et vos informations de nos bases de données actives.  Toutefois, nous pourrions conserver certaines informations dans nos fichiers pour prévenir la fraude, résoudre les problèmes, participer aux enquêtes, appliquer nos conditions légales et/ou nous conformer aux exigences légales applicables."
+        ]
+      },
+      "cookiesAndSimilarTechnologies": {
+        "title": "Témoins et technologies similaires :",
+        "details": "La plupart des navigateurs Web sont configurés pour accepter les témoins par défaut.  Si vous préférez, vous pouvez généralement choisir de configurer votre navigateur pour supprimer les témoins et les refuser.  Si vous choisissez de supprimer ou de refuser les témoins, cela pourrait affecter certaines fonctionnalités ou certains services de nos Services.  Vous pouvez également refuser la publicité ciblée par les annonceurs sur nos Services.  Pour plus d'informations, veuillez consulter notre politique sur les témoins : ",
+        "details-1": ".",
+        "links": [
+          {
+            "name": "https://www.rateministere.com/cookie-policy",
+            "url": "https://www.rateministere.com/cookie-policy"
+          }
+        ],
+        "question": "Si vous avez des questions ou des commentaires concernant vos droits à la vie privée, vous pouvez nous envoyer un e-mail à l'adresse suivante :"
+      }
+    },
+    "doNotTrack": {
+      "title": "12. CONTRÔLES POUR LES FONCTIONNALITÉS « NE PAS SUIVRE »",
+      "short": "La plupart des navigateurs Web et certains systèmes d'exploitation et applications mobiles incluent une fonction ou un paramètre « Ne pas suivre » (« DNT ») que vous pouvez activer pour signaler votre préférence en matière de confidentialité afin que les données sur vos activités de navigation en ligne ne soient pas surveillées et collectées.  À ce stade, aucune norme technologique uniforme pour reconnaître et mettre en œuvre les signaux DNT n'a été finalisée.  Par conséquent, nous ne répondons pas actuellement aux signaux DNT des navigateurs ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne.  Si une norme pour le suivi en ligne est adoptée que nous devons suivre à l'avenir, nous vous informerons de cette pratique dans une version révisée de la présente politique de confidentialité."
+    },
+    "updates": {
+      "title": "13. MISES À JOUR DE CETTE POLITIQUE",
+      "short": "En bref : oui, nous mettrons à jour cette politique au besoin pour nous conformer aux lois pertinentes.",
+      "details": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre.  La version mise à jour sera indiquée par une date de « révision » mise à jour en haut de cette politique de confidentialité.  Si nous apportons des modifications importantes à cette politique de confidentialité, nous pouvons vous en aviser en affichant un avis de ces modifications de manière bien visible ou en vous envoyant directement une notification.  Nous vous encourageons à consulter fréquemment cette politique de confidentialité pour être informé de la manière dont nous protégeons vos informations."
+    },
+    "contact": {
+      "title": "14. COMMENT NOUS CONTACTER",
+      "description": "Pour toute question ou commentaire concernant cette politique, veuillez nous envoyer un courriel à rateministere@gmail.com ou nous contacter par la poste à l'adresse suivante :",
+      "address": {
+        "company": "RateMinistère.inc",
+        "street": "40, rue Cherry-Lane",
+        "city": "Montréal, Québec",
+        "country": "Canada",
+        "email": "rateministere@gmail.com"
+      }
+    },
+    "reviewUpdateDelete": {
+      "title": "15. ACCÈS, MISE À JOUR ET SUPPRESSION DE VOS DONNÉES",
+      "short": "Conformément aux lois de votre pays, vous pouvez demander l'accès à vos données personnelles, des détails sur leur traitement, leur correction ou leur suppression.  Vous pouvez également retirer votre consentement au traitement de vos données.  Ces droits peuvent être limités dans certaines circonstances. Pour toute demande, veuillez soumettre une demande d'accès aux données."
+    }
+  },
+  "termsAndConditions": {
+    "termsAndConditionsTitle": "Conditions générales",
+    "lastUpdated": "Dernière mise à jour : 1er décembre 2024",
+    "agreementToLegalTermsTitle": "Acceptation de nos conditions légales",
+    "agreementToLegalTermsBody1": "Nous sommes RateMinistère.inc (« Société », « nous », « notre », « nos »), une société enregistrée au Canada.",
+    "agreementToLegalTermsBody2": "Nous exploitons le site Web ",
+    "agreementToLegalTermsBody2-1": " et tous les autres produits et services connexes qui renvoient ou sont liés à ces conditions légales (les « Conditions légales ») (collectivement, les « Services »).",
+    "links": [
+      {
+        "name": "https://www.rateministere.com",
+        "url": "https://www.rateministere.com"
+      },
+      {
+        "name": "https://www.rateministere.com/privacy-policy",
+        "url": "https://www.rateministere.com/privacy-policy"
+      }
+    ],
+    "agreementToLegalTermsBody3": "Nous sommes une plateforme qui révolutionne les évaluations des enseignants et des écoles. Afin d'aider chaque élève à atteindre une meilleure note, nous utilisons des lignes directrices strictes et des algorithmes avancés pour garantir que seuls les commentaires constructifs et respectueux soient publiés.",
+    "agreementToLegalTermsBody4": "Vous pouvez nous contacter par courriel à ",
+    "agreementToLegalTermsBody4-1": " ou par courrier postal (inaccessible pour le moment).",
+    "agreementToLegalTermsBody5": "Les présentes Conditions légales constituent un accord juridiquement contraignant entre vous et RateMinistère.inc. En accédant aux Services, vous acceptez d'être lié par les présentes Conditions légales. SI VOUS N'ACCEPTEZ PAS L'ENSEMBLE DE CES CONDITIONS LÉGALES, IL VOUS EST EXPRESSÉMENT INTERDIT D'UTILISER LES SERVICES ET VOUS DEVEZ IMMEDIATEMENT CESSER DE LES UTILISER.",
+    "agreementToLegalTermsBody6": "Une notification contextuelle informera les utilisateurs des mises à jour de ces conditions. Tous les utilisateurs mineurs doivent obtenir l'autorisation et la supervision parentale pour utiliser les Services. Nous vous recommandons d'imprimer un exemplaire de ces Conditions légales pour vos dossiers.",
+    "ourServicesTitle": "1. Nos services",
+    "ourServicesBody1": "Les renseignements fournis lors de l'utilisation des Services ne sont pas destinés à être distribués là où une telle distribution serait contraire à la loi ou à la réglementation, ou nous soumettrait à des exigences d'inscription. Les personnes qui accèdent aux Services depuis d'autres endroits le font de leur propre initiative et sont responsables du respect des lois locales.",
+    "ourServicesBody2": "Conformité aux lois sur l'éducation et la protection de la vie privée : toutes les cotes et les critiques des enseignants soumises par les utilisateurs doivent être conformes aux normes éducatives et aux lois sur la protection de la vie privée applicables. Les enseignants ont le droit de répondre aux critiques et de demander le retrait du contenu diffamatoire. Les services d'abonnement doivent être conformes aux règlements locaux et fédéraux concernant les services éducatifs, la protection des consommateurs et la protection des données. Les lois sur la protection des données (RGPD, COPPA) doivent être respectées. Les droits de propriété intellectuelle doivent être respectés. La plateforme doit être accessible à tous les utilisateurs, y compris les personnes handicapées. La publicité et le marketing doivent être conformes à toutes les normes et réglementations pertinentes.",
+    "intellectualPropertyRightsTitle": "2. Droits de propriété intellectuelle",
+    "intellectualPropertyRightsBody1": "Nous détenons ou avons obtenu sous licence tous les droits de propriété intellectuelle dans nos Services, y compris le Contenu (code source, bases de données, fonctionnalités, logiciels, conceptions de sites Web, audio, vidéo, texte, photographies et graphiques) et les Marques (marques de commerce, marques de service et logos). Notre Contenu et nos Marques sont protégés dans le monde entier. Le Contenu et les Marques sont fournis « TEL QUEL » pour un usage personnel et non commercial seulement.",
+    "intellectualPropertyRightsBody2": "Sous réserve des présentes Conditions légales, nous vous accordons une licence non exclusive, non transférable et révocable pour accéder aux Services et télécharger ou imprimer du Contenu à des fins personnelles et non commerciales. Aucune partie des Services, du Contenu ou des Marques ne peut être copiée ou exploitée commercialement sans notre autorisation écrite expresse. Les demandes d'autorisation doivent être envoyées à ",
+    "intellectualPropertyRightsBody2-1": ".",
+    "intellectualPropertyRightsBody3": "Nous nous réservons tous les droits qui ne sont pas expressément accordés. Toute violation de ces droits de propriété intellectuelle mettra fin à votre droit d'utiliser nos Services.",
+    "intellectualPropertyRightsBody4": "Les soumissions (renseignements que vous nous envoyez) nous sont attribuées. Les contributions (contenu publié publiquement) nous accordent une licence sans restriction pour utiliser, copier, reproduire, distribuer, etc., à quelque fin que ce soit. Nous ne revendiquons pas la propriété de vos Contributions; vous conservez la propriété.",
+    "intellectualPropertyRightsBody5": "Il vous incombe de vous assurer que les Soumissions et les Contributions ne violent aucune loi ni aucun droit de tiers. Nous pouvons supprimer ou modifier tout contenu que nous jugeons préjudiciable ou en violation des présentes conditions.",
+    "userRepresentationsTitle": "3. Déclarations de l'utilisateur",
+    "userRepresentationsBody": "En utilisant les Services, vous déclarez et garantissez que : (1) vos renseignements d'inscription sont vrais, exacts, à jour et complets; (2) vous maintiendrez leur exactitude; (3) vous avez la capacité juridique de vous conformer aux présentes Conditions légales; (4) vous n'êtes pas mineur ou, si vous êtes mineur, vous avez l'autorisation parentale; (5) vous n'accéderez pas aux Services par des moyens automatisés; (6) vous n'utiliserez pas les Services à des fins illégales; et (7) votre utilisation des Services ne violera aucune loi ou réglementation applicable. Le non-respect de ces conditions peut entraîner la suspension ou la résiliation de votre compte.",
+    "userRegistrationTitle": "4. Inscription de l'utilisateur",
+    "userRegistrationBody": "Vous devrez peut-être vous inscrire pour utiliser les Services. Gardez votre mot de passe confidentiel. Nous nous réservons le droit de supprimer ou de modifier les noms d'utilisateur inappropriés.",
+    "productsTitle": "5. Produits",
+    "productsBody": "Nous nous efforçons d'afficher les produits avec exactitude, mais nous ne garantissons pas l'exactitude ni que les articles seront en stock. Nous nous réservons le droit d'interrompre la vente de produits à tout moment, et les prix sont sujets à changement.",
+    "purchasesAndPaymentTitle": "6. Achats et paiement",
+    "purchasesAndPaymentBody": "Nous acceptons Visa, Mastercard, PayPal, virement Interac et American Express. Vous acceptez de fournir des renseignements exacts sur les achats et le compte et de les mettre à jour rapidement. La taxe de vente sera ajoutée au besoin. Tous les paiements sont en dollars canadiens. Nous nous réservons le droit de corriger les erreurs de prix et de refuser les commandes.",
+    "subscriptionsTitle": "7. Abonnements",
+    "subscriptionsBillingRenewal": "Facturation et renouvellement : votre abonnement se renouvelle automatiquement à moins d'être annulé. Nous débiterons votre mode de paiement de manière récurrente.",
+    "subscriptionsFreeTrial": "Essai gratuit : nous offrons un essai gratuit de 7 jours. Aucun frais n'est facturé pendant l'essai; l'abonnement est suspendu jusqu'à sa mise à niveau.",
+    "subscriptionsCancellation": "Annulation : annulez à tout moment par l'intermédiaire de votre compte. L'annulation prend effet à la fin de la période payante en cours.",
+    "subscriptionsFeeChanges": "Modifications des frais : nous pouvons modifier les frais d'abonnement et nous vous communiquerons toute modification de prix.",
+    "returnRefundsPolicyTitle": "8. Politique de retour/remboursement",
+    "returnRefundsPolicyBody": "Toutes les ventes sont finales. Aucun remboursement n'est offert, sauf indication explicite dans notre politique de remboursement.",
+    "prohibitedActivitiesTitle": "9. Activités interdites",
+    "prohibitedActivitiesBody": "Vous ne pouvez pas utiliser les Services à d'autres fins que celles prévues. Vous convenez de ne pas :",
+    "prohibitedActivitiesList0": "Récupérer systématiquement des données sans autorisation écrite.",
+    "prohibitedActivitiesList1": "Tromper, frauder ou induire en erreur nous ou d'autres utilisateurs.",
+    "prohibitedActivitiesList2": "Interférer avec les fonctions de sécurité.",
+    "prohibitedActivitiesList3": "Dénigrer notre société ou les Services.",
+    "prohibitedActivitiesList4": "Utiliser des renseignements pour harceler d'autres personnes.",
+    "prohibitedActivitiesList5": "Faire un usage inapproprié des services de soutien.",
+    "prohibitedActivitiesList6": "Utiliser les Services illégalement.",
+    "prohibitedActivitiesList7": "Se livrer à un cadrage ou à une liaison non autorisés.",
+    "prohibitedActivitiesList8": "Transmettre des virus ou d'autres éléments nuisibles.",
+    "prohibitedActivitiesList9": "Utiliser le système de manière automatisée (robots, grattoirs, etc.).",
+    "prohibitedActivitiesList10": "Supprimer les avis de droit d'auteur.",
+    "prohibitedActivitiesList11": "Usurper l'identité d'un autre utilisateur.",
+    "prohibitedActivitiesList12": "Transmettre des logiciels espions ou des dispositifs similaires.",
+    "prohibitedActivitiesList13": "Interférer avec les Services ou les réseaux.",
+    "prohibitedActivitiesList14": "Harceler nos employés ou nos agents.",
+    "prohibitedActivitiesList15": "Tenter de contourner les restrictions d'accès.",
+    "prohibitedActivitiesList16": "Copier ou adapter le logiciel des Services.",
+    "prohibitedActivitiesList17": "Faire de l'ingénierie inverse du logiciel.",
+    "prohibitedActivitiesList18": "Utiliser un agent d'achat.",
+    "prohibitedActivitiesList19": "Faire un usage non autorisé des Services (collecte de noms d'utilisateur ou de courriels pour le pourriel).",
+    "prohibitedActivitiesList20": "Être en concurrence avec nous en utilisant les Services.",
+    "prohibitedActivitiesList21": "Utiliser les Services pour faire de la publicité ou vendre des biens et des services.",
+    "prohibitedActivitiesList22": "Vendre ou transférer votre profil.",
+    "prohibitedActivitiesList23": "Publier du contenu diffamatoire, obscène, abusif ou offensant.",
+    "prohibitedActivitiesList24": "Se livrer à des activités illégales ou frauduleuses.",
+    "prohibitedActivitiesList25": "Usurper l'identité de toute personne ou entité.",
+    "prohibitedActivitiesList26": "Introduire des logiciels malveillants ou du code nuisible.",
+    "prohibitedActivitiesList27": "Utiliser des systèmes automatisés pour extraire des données (grattage d'écran).",
+    "prohibitedActivitiesList28": "Partager des renseignements privés sans consentement.",
+    "prohibitedActivitiesList29": "Se livrer à du pourriel ou à des inondations.",
+    "prohibitedActivitiesList30": "Distribuer du contenu explicite.",
+    "prohibitedActivitiesList31": "Se livrer à des discours haineux.",
+    "prohibitedActivitiesList32": "Promouvoir ou glorifier la violence.",
+    "prohibitedActivitiesList33": "Exploiter ou sexualiser des mineurs.",
+    "prohibitedActivitiesList34": "Violer les droits de propriété intellectuelle.",
+    "prohibitedActivitiesList35": "Manipuler les mesures de la plateforme.",
+    "prohibitedActivitiesList36": "Se livrer à du harcèlement ou à de la cyberintimidation.",
+    "prohibitedActivitiesList37": "Contourner les mesures de sécurité.",
+    "prohibitedActivitiesList38": "Utiliser la plateforme pour la désinformation politique.",
+    "prohibitedActivitiesList39": "Solliciter ou participer à des transactions de drogue illégales.",
+    "prohibitedActivitiesList40": "Partager des renseignements financiers personnels.",
+    "prohibitedActivitiesList41": "Contourner les restrictions d'âge.",
+    "prohibitedActivitiesList42": "Utiliser des robots automatisés.",
+    "prohibitedActivitiesList43": "Se livrer à un vol d'identité.",
+    "prohibitedActivitiesList44": "Promouvoir l'automutilation ou le suicide.",
+    "prohibitedActivitiesList45": "Utiliser la plateforme pour le recrutement terroriste.",
+    "prohibitedActivitiesList46": "Manipuler les algorithmes ou les résultats de recherche.",
+    "userGeneratedContributionsTitle": "10. Contributions générées par les utilisateurs",
+    "userGeneratedContributionsBody": "Les Services peuvent vous inviter à créer et à soumettre des Contributions (texte, écrits, vidéo, audio, etc.). Les Contributions peuvent être visibles par d'autres utilisateurs. Lorsque vous soumettez des Contributions, vous déclarez et garantissez que :",
+    "userGeneratedContributionsList0": "Vos Contributions ne portent pas atteinte à aucun droit de propriété.",
+    "userGeneratedContributionsList1": "Vous détenez les droits sur vos Contributions.",
+    "userGeneratedContributionsList2": "Vous avez le consentement des personnes identifiables dans vos Contributions.",
+    "userGeneratedContributionsList3": "Vos Contributions ne sont pas fausses ni trompeuses.",
+    "userGeneratedContributionsList4": "Vos Contributions ne constituent pas de la publicité non sollicitée, du pourriel, etc.",
+    "userGeneratedContributionsList5": "Vos Contributions ne sont pas obscènes ni choquantes.",
+    "userGeneratedContributionsList6": "Vos Contributions ne ridiculisent ni n'abusent personne.",
+    "userGeneratedContributionsList7": "Vos Contributions ne violent aucune loi.",
+    "userGeneratedContributionsList8": "Vos Contributions ne violent aucun droit à la vie privée ni aucun droit de publicité.",
+    "userGeneratedContributionsList9": "Vos Contributions ne violent aucune loi concernant la pornographie juvénile.",
+    "userGeneratedContributionsList10": "Vos Contributions ne contiennent aucun commentaire offensant lié à la race, etc.",
+    "userGeneratedContributionsList11": "Vos Contributions ne violent pas les présentes Conditions générales ni aucune loi.",
+    "contributionLicenseTitle": "11. Licence de contribution",
+    "contributionLicenseBody": "En publiant des Contributions, vous nous accordez une licence sans restriction pour utiliser, copier, reproduire, distribuer, etc. Cela s'applique à toute forme, tout support ou toute technologie et comprend l'utilisation de votre nom, du nom de votre société, etc. Vous renoncez à tous les droits moraux sur vos Contributions. Nous ne revendiquons pas la propriété; vous conservez la propriété. Nous ne sommes pas responsables des déclarations contenues dans vos Contributions. Vous convenez de nous exonérer de toute responsabilité pour vos Contributions. Nous pouvons modifier, expurger ou supprimer des Contributions à tout moment.",
+    "guidelinesForReviewsTitle": "12. Lignes directrices pour les critiques",
+    "guidelinesForReviewsBody": "Lorsque vous publiez des critiques, vous devez : (1) avoir une expérience de première main; (2) ne pas utiliser de langage offensant; (3) ne pas utiliser de langage discriminatoire; (4) ne pas faire référence à des activités illégales; (5) ne pas être affilié à des concurrents lors de la publication de critiques négatives; (6) ne pas tirer de conclusions sur la légalité d'un comportement; (7) ne pas publier de fausses déclarations; et (8) ne pas organiser de campagnes pour publier des critiques. Nous pouvons accepter, rejeter ou supprimer des critiques à notre discrétion. Nous n'assumons aucune responsabilité pour les critiques.",
+    "advertisersTitle": "13. Annonceurs",
+    "advertisersBody": "Nous permettons aux annonceurs d'afficher des annonces dans certaines zones. Nous n'avons aucune autre relation avec les annonceurs.",
+    "servicesManagementTitle": "14. Gestion des services",
+    "servicesManagementBody": "Nous nous réservons le droit de : (1) surveiller les violations; (2) intenter des poursuites judiciaires; (3) refuser, restreindre l'accès ou désactiver les Contributions; (4) supprimer les fichiers excessifs; et (5) gérer les Services pour protéger nos droits et faciliter le bon fonctionnement.",
+    "privacyPolicyTitle": "15. Politique de confidentialité",
+    "privacyPolicyTitle-1": "Veuillez consulter notre ",
+    "privacyPolicyTitle-2": ".",
+    "copyrightInfringementsTitle": "16. Violations du droit d'auteur",
+    "copyrightInfringementsBody": "Nous respectons les droits de propriété intellectuelle. Si vous croyez qu'un élément porte atteinte à vos droits d'auteur, veuillez nous en aviser immédiatement. Vous pourriez être tenu responsable des dommages si vous faites de fausses déclarations importantes dans une notification.",
+    "termAndTerminationTitle": "17. Durée et résiliation",
+    "termAndTerminationBody": "Les présentes Conditions légales restent en vigueur tant que vous utilisez les Services. Nous nous réservons le droit de refuser l'accès ou l'utilisation des Services à notre seule discrétion, y compris en cas de violation des présentes Conditions légales ou des lois applicables. Nous pouvons mettre fin à votre utilisation des Services, supprimer votre compte et votre contenu à tout moment sans préavis. Si votre compte est résilié, il vous est interdit de créer un nouveau compte.",
+    "modificationsAndInterruptionsTitle": "18. Modifications et interruptions",
+    "modificationsAndInterruptionsBody": "Nous nous réservons le droit de changer, de modifier ou de supprimer du contenu à tout moment sans préavis. Nous n'avons aucune obligation de mettre à jour les renseignements. Nous ne sommes pas responsables des modifications, des changements de prix, de la suspension ou de l'interruption des Services. Nous ne pouvons garantir la disponibilité des Services en tout temps. Nous ne sommes pas responsables des pertes dues aux temps d'arrêt.",
+    "governingLawTitle": "19. Loi applicable",
+    "governingLawBody": "Les présentes Conditions légales sont régies par les lois du Canada. RateMinistère.inc et vous consentez à la compétence exclusive des tribunaux du Canada.",
+    "disputeResolutionTitle": "20. Règlement des différends",
+    "disputeResolutionInformalNegotiations": "Négociations informelles : les parties conviennent de tenter des négociations informelles pendant au moins 30 jours avant l'arbitrage.",
+    "disputeResolutionBindingArbitration": "Arbitrage exécutoire : tout différend sera réglé par {{arbitrationBody}} conformément à ses règles. Le siège de l'arbitrage sera Montréal, Canada. La langue sera l'anglais ou le français. La loi applicable sera la loi substantielle du Canada. L'arbitrage sera limité aux différends individuels; les actions collectives ne sont pas autorisées.",
+    "disputeResolutionExceptions": "Exceptions : les différends concernant les droits de propriété intellectuelle, le vol, le piratage, l'atteinte à la vie privée ou l'utilisation non autorisée ne sont pas assujettis aux dispositions ci-dessus.",
+    "correctionsTitle": "21. Corrections",
+    "correctionsBody": "Les Services peuvent contenir des erreurs. Nous nous réservons le droit de corriger les erreurs à tout moment sans préavis.",
+    "disclaimerTitle": "22. Clause de non-responsabilité",
+    "disclaimerBody": "LES SERVICES SONT FOURNIS « TELS QUELS ». VOUS UTILISEZ LES SERVICES À VOS PROPRES RISQUES. NOUS DÉCLINONS TOUTES LES GARANTIES. NOUS N'ASSUMONS AUCUNE RESPONSABILITÉ POUR LES ERREURS, LES FAUTES, LES IMPRÉCISIONS, LES BLESSURES CORPORELLES, LES DOMMAGES MATÉRIELS, L'ACCÈS NON AUTORISÉ, LES INTERRUPTIONS, LES BOGUES, LES VIRUS OU LES OMISSIONS. NOUS NE GARANTISSONS NI N'ASSUMONS AUCUNE RESPONSABILITÉ POUR LES PRODUITS OU SERVICES DE TIERS.",
+    "limitationsOfLiabilityTitle": "23. Limitations de responsabilité",
+    "limitationsOfLiabilityBody": "NOUS NE SOMMES PAS RESPONSABLES DES DOMMAGES DÉCOULANT DE VOTRE UTILISATION DES SERVICES, MÊME SI NOUS AVONS ÉTÉ AVISÉS DE LA POSSIBILITÉ. NOTRE RESPONSABILITÉ EST LIMITÉE À {{liabilityLimit}}.",
+    "indemnificationTitle": "24. Indemnisation",
+    "indemnificationBody": "Vous convenez d'indemniser et de dégager de toute responsabilité notre société pour toute responsabilité découlant de vos Contributions, de votre utilisation des Services, de la violation des présentes Conditions légales, de la violation de vos garanties, de la violation des droits de tiers ou de tout acte préjudiciable envers un autre utilisateur. Nous nous réservons le droit d'assumer la défense exclusive de toute affaire.",
+    "userDataTitle": "25. Données de l'utilisateur",
+    "userDataBody": "Nous conservons les données que vous transmettez et les données relatives à votre utilisation des Services. Bien que nous effectuions des sauvegardes régulières, vous êtes seul responsable de vos données et nous n'assumons aucune responsabilité pour la perte ou la corruption de vos données.",
+    "electronicCommunicationsTransactionsAndSignaturesTitle": "26. Communications électroniques, transactions et signatures",
+    "electronicCommunicationsTransactionsAndSignaturesBody": "Vous consentez à recevoir des communications électroniques. Vous acceptez l'utilisation de signatures électroniques, de contrats et de dossiers électroniques. Vous renoncez à tout droit exigeant des signatures originales ou des dossiers non électroniques.",
+    "californiaUsersAndResidentsTitle": "27. Utilisateurs et résidents de la Californie",
+    "californiaUsersAndResidentsBody": "Si une plainte n'est pas résolue, communiquez avec le service Complaint Assistance Unit du California Department of Consumer Affairs.",
+    "miscellaneousTitle": "28. Dispositions diverses",
+    "miscellaneousBody": "Les présentes Conditions légales constituent l'intégralité de l'accord. Notre incapacité à faire respecter un droit ne constitue pas une renonciation. Les présentes Conditions légales fonctionnent dans toute la mesure permise par la loi. Nous pouvons céder nos droits. Nous ne sommes pas responsables des causes indépendantes de notre volonté raisonnable. Les dispositions inexécutoires sont dissociables. Aucune coentreprise, aucun partenariat ni aucune relation d'agence n'est créé. Les présentes Conditions légales ne seront pas interprétées contre nous. Vous renoncez à toute défense fondée sur la forme électronique des présentes Conditions légales.",
+    "userGeneratedContentResponsibilityTitle": "29. Responsabilité du contenu généré par les utilisateurs",
+    "userGeneratedContentResponsibilityBody": "Les utilisateurs sont seuls responsables de leur contenu. Le contenu ne doit pas porter atteinte aux droits de propriété intellectuelle, contenir de la matière offensante ou violer les lois.",
+    "subscriptionPaymentTermsTitle": "30. Conditions de paiement de l'abonnement",
+    "subscriptionPaymentTermsBody": "Les abonnements se renouvellent automatiquement à moins d'être annulés. Nous nous réservons le droit d'ajuster les frais d'abonnement avec préavis.",
+    "refundPolicyTitle": "31. Politique de remboursement",
+    "refundPolicyBody": "Des remboursements peuvent être accordés pour les abonnements dans les 7 jours suivant l'achat, sous réserve de notre discrétion et au cas par cas.",
+    "codeOfConductTitle": "32. Code de conduite",
+    "codeOfConductBody": "Les utilisateurs acceptent un code de conduite qui favorise des interactions respectueuses. Cela comprend le fait de s'abstenir de harcèlement et de discours haineux.",
+    "liabilityLimitationTitle": "33. Limitation de responsabilité",
+    "liabilityLimitationBody": "La plateforme n'est pas responsable des dommages indirects, accessoires ou consécutifs résultant de l'utilisation des services. Cela comprend, sans s'y limiter, la perte de données, la perte de profits ou les interruptions de service.",
+    "privacyAndDataSecurityTitle": "34. Confidentialité et sécurité des données",
+    "privacyAndDataSecurityBody": "Nous nous engageons à protéger la confidentialité et les données des utilisateurs. Les utilisateurs acceptent nos politiques de collecte de données telles qu'énoncées dans notre politique de confidentialité. Toute violation de la sécurité des données sera traitée rapidement et les utilisateurs concernés seront avisés conformément aux lois applicables.",
+    "contactUsTitle": "35. Contactez-nous",
+    "contactUsBody": "Pour les plaintes ou de plus amples renseignements, communiquez avec :",
+    "address": {
+      "company": "RateMinistère.inc",
+      "street": "40 Cherry-Lane",
+      "city": "Montréal, Québec",
+      "country": "Canada"
+    }
+  },
+  "TeacherCard": {
+    "evaluation": "évaluations"
+  },
+  "Schoolnotfound": {
+    "title": "École non trouvée",
+    "description": "Essayez de chercher une autre école !"
+  },
+  "signup": {
+    "title": "Rejoignez-nous!",
+    "title-2": "Chaque voix compte !",
+    "socialButtons": {
+      "googleSignUp": "S'inscrire avec Google"
+    },
+    "terms": {
+      "agreementText": "En continuant, vous acceptez notre",
+      "privacyPolicy": "politique de confidentialité",
+      "and": "et nos",
+      "termsAndConditions": "conditions d'utilisation"
+    },
+    "already-account": "Vous avez déjà un compte ?",
+    "login": "Se connecter",
+    "loading": "Chargement..."
+  },
+  "SignOutButton": {
+    "logOut": "Se déconnecter",
+    "login": "Se connecter"
+  },
+  "all-comments": {
+    "title": "Rejoignez la fête des commentaires!"
+  },
+  "404": {
+    "title": "Page Introuvable",
+    "description": "Oups ! La page que vous recherchez semble avoir pris un détour.",
+    "suggestion": "Laissez-nous vous aider à retrouver votre chemin.",
+    "goHome": "Retour à la page d'accueil"
+  },
+  "CommentVote": {
+    "close": "Fermer"
+  },
+  "SchoolRatingModal": {
+    "allComments": "Voici ce que tout le monde dit !",
+    "noComments": "Soyez le premier à commenter !",
+    "noCommentsAvailable": "Oups, c'est vide... Vos pensées pourraient être le début de quelque chose de génial ! 📝",
+    "ratealready": "Oops... Il nous semble vous avez déjà évalué {{schoolName}}.",
+    "seeAllComments": "Voir tous les commentaires"
+  },
+  "Profile": {
+    "deleteMessages": [
+      "Voulez-vous supprimer ce commentaire ? Une voix de moins sera entendue.",
+      "Supprimer ce commentaire ? Une pensée de moins à partager.",
+      "Êtes-vous sûr de vouloir effacer cette voix ?",
+      "Supprimer ce commentaire, c'est effacer une idée. Vous confirmez ?",
+      "Voulez-vous vraiment supprimer ce message ? Une contribution disparaîtra."
+    ],
+    "saveprofile": "😔 Je ne peux pas sauvegarder ton profil. Réessayez plus tard ?",
+    "savebadge": "😟 Impossible d'enregistrer le badge. Veuillez réessayer dans un instant ?",
+    "username_update_wait_days": "TROP VITE!!!🤖 Revenez modifier votre nom d'utilisateur dans {{daysRemaining}} jours.",
+    "profile_updated": "🎉 Super ! Profil mis à jour !",
+    "profile_updated_error": "😔 Oups, une erreur s'est produite lors de la mise à jour de votre profil.",
+    "loading": "🎇Un instant, chargement du profil...",
+    "appearance": "Apparence",
+    "privacy": "Confidentialité",
+    "default": "Réinitialiser par défaut",
+    "gradient": {
+      "gradient": "Couleur de fin de gradient :",
+      "use_gradient": "Utiliser un fond dégradé :"
+    },
+    "bgs": "Arrière-plans :",
+    "visibility": "Visibilité du profil :",
+    "options": {
+      "public": "Public",
+      "private": "Privé",
+      "friends_only": "Amis seulement"
+    },
+    "messages": {
+      "direct_message": "Autoriser les messages directs :",
+      "search_result": "Afficher dans les résultats de recherche :"
+    },
+    "comments": {
+      "title": "Pas encore de commentaires~ Chaque voix compte - commentez dès aujourd'hui !",
+      "gathering": "Surfant entre les commentaires à 314 km/h.",
+      "no_comment": "Aucun commentaire n'a été ajouté pour cet enseignant. Cliquez sur le bouton modifier à côté pour en ajouter un."
+    },
+    "placeholder": {
+      "username": "Appelons-moi...",
+      "description": "Décris-toi!"
+    },
+    "customCursor": "Curseur personnalisé"
+  },
+  "Delete": {
+    "delete": "Supprimer",
+    "cancel": "Annuler"
+  },
+  "Crew": {
+    "meet-us": "Rejoignez notre incroyable mission !",
+    "Noah": {
+      "serious": "En train de transformer l'avenir de l'éducation.",
+      "funny": "Waouh, je suis un tel jeune CEO!"
+    },
+    "Kendrick": {
+      "serious": "En tant que CTO, je ne tolère pas les bugs.",
+      "funny": "Pas de souci, l'effet flou fait partie de l'image."
+    },
+    "title": "Ensemble, aidons chaque élève à atteindre une meilleure note !"
+  },
+  "Loadingpage": {
+    "loading": "RateMinistère se prépare...<br>Soyez prêt à 'Rate'!"
+  },
+  "Notification": {
+    "close": "Fermer",
+    "read": "Marquer comme lu",
+    "empty": "Tout est à jour ! ✨",
+    "ReplyLiked": "{{name}} a aimé votre réponse.",
+    "CommentLiked": "{{name}} a aimé votre commentaire.",
+    "SchoolLiked": "{{name}} a aimé votre commentaire sur l'école.",
+    "markAllRead": "Marquer tout comme lu"
+  },
+  "reply": {
+    "success": "Bravo!🎉 Votre réponse a été publiée !"
+  },
+  "comment": {
+    "success": "Bravo!🎉 Votre commentaire a été publié !"
+  },
+  "votes": {
+    "success": "Bravo!🎉 Votre vote a été sauvegardé !"
+  },
+  "FeaturePage": {
+    "suggestFeature": "Donner votre avis",
+    "category": "Catégorie",
+    "selectCategory": "Sélectionner une catégorie",
+    "uiImprovement": "Amélioration de l'interface",
+    "newFeature": "Nouvelle fonctionnalité",
+    "bugReport": "Rapport de bogue",
+    "other": "Autre",
+    "title": "Titre",
+    "description": "Description",
+    "submitSuggestion": "Soumettre la suggestion",
+    "featureSubmitted": "✨ Super suggestion ! Nous avons reçu votre demande et l'examinerons sous peu."
+  },
+  "Common": {
+    "errorTryAgain": "😟 Un problème est survenu. Veuillez réessayer plus tard.",
+    "connectionError": "🚨 Erreur de connexion. Veuillez vérifier votre réseau et réessayer.",
+    "DiscordIT": "Chattez en direct avec nos experts IT !"
+  },
+  "Contact": {
+    "title": "Contactez RateMinistère",
+    "messageSent": "🎉 Merci pour votre message ! Nous vous répondrons dès que possible.",
+    "name": "Dites-nous qui vous êtes !",
+    "email": "Où pouvons-nous vous joindre ?",
+    "message": "Comment pouvons-nous vous aider ?",
+    "sending": "Envoi en cours...",
+    "send": "Envoyer",
+    "placeholder": {
+      "message": "Que souhaitez-vous nous dire ?"
+    }
+  },
+  "footer": {
+    "privacy_policy": "Politique de confidentialité",
+    "terms_and_conditions": "Conditions générales d'utilisation",
+    "community_guidelines": "Règles communautaires"
+  },
+  "AstrAlumnaGuidelines": {
+    "title": "Règles de la Communauté AstrAlumna",
+    "intro": "Bienvenue sur AstrAlumna, un espace d'échange convivial et respectueux, dédié à la communauté académique. Notre objectif est de créer un environnement où chacun se sente à l'aise pour partager ses connaissances, poser des questions et interagir de manière constructive.",
+    "philosophy": "Veuillez traiter ce forum avec le même respect que vous accorderiez à un espace public. Nous sommes une ressource communautaire partagée - un lieu d'échange de connaissances, de compétences et d'intérêts à travers le dialogue.",
+    "improveDiscussion": {
+      "title": "Améliorer les Discussions",
+      "desc": "Aidez-nous à maintenir la qualité des échanges en apportant toujours une contribution positive, même si elle vous semble minime. Si vous n'êtes pas sûr que votre message ajoute de la valeur à la conversation, prenez le temps de réfléchir et réessayez plus tard.",
+      "browse": "Prenez le temps de parcourir les sujets existants avant de répondre ou de commencer un nouveau fil de discussion. Cela vous permettra de mieux comprendre les thématiques abordées et de rencontrer d'autres membres partageant vos intérêts.",
+      "positive": "Assurez-vous que votre message ajoute de la valeur à la discussion et contribue de manière constructive à l'échange.",
+      "relevance": "Maintenez les discussions centrées sur les sujets académiques et veillez à ce que vos interventions soient pertinentes par rapport au thème du fil de discussion."
+    },
+    "agreeable": {
+      "title": "Respect dans les Désaccords",
+      "desc": "Il est normal d'exprimer un désaccord. Toutefois, veuillez critiquer les idées, pas les personnes. Adoptez un ton respectueux et constructif, même lorsque vous n'êtes pas d'accord avec ce qui est dit.",
+      "avoidTitle": "À Éviter",
+      "avoid": {
+        "nameCalling": "Attaques personnelles ou insultes",
+        "adHominem": "Arguments ad hominem (attaquer la personne plutôt que ses arguments)",
+        "toneResponses": "Réponses basées sur le ton du message plutôt que sur son contenu",
+        "contradiction": "Contradictions systématiques sans argumentation constructive"
+      },
+      "betterTitle": "Pratiques Recommandées",
+      "betterDesc": "Privilégiez la critique constructive des idées. Proposez des arguments construits et des contre-arguments étayés pour enrichir le débat."
+    },
+    "yourParticipationCounts": {
+      "title": "Votre Participation Compte",
+      "desc": "Chaque interaction contribue à l'ambiance générale du forum. En choisissant de participer à des discussions enrichissantes et en évitant les comportements négatifs, vous contribuez à faire de ce forum un espace d'échange agréable et stimulant.",
+      "tools": "Utilisez les outils mis à votre disposition (favoris, likes, signalements, réponses, modifications) pour améliorer votre expérience et celle des autres membres."
+    },
+    "ifYouSeeAProblem": {
+      "title": "Si vous constatez un problème, signalez-le",
+      "desc": "Les modérateurs sont là pour veiller au bon fonctionnement du forum, mais votre aide est précieuse. Si vous observez un comportement inapproprié, ne répondez pas directement à l'utilisateur concerné. Utilisez la fonction de signalement pour alerter les modérateurs.",
+      "moderators": "Les modérateurs se réservent le droit de supprimer tout contenu et tout compte utilisateur jugés inappropriés, à tout moment et pour quelque raison que ce soit. Les modérateurs ne prévisualisent pas les nouveaux messages et ne sont pas responsables du contenu publié par la communauté."
+    },
+    "alwaysBeCivil": {
+      "title": "Soyez toujours respectueux",
+      "desc": "La politesse et le respect sont essentiels pour des échanges sains et constructifs.",
+      "rules": {
+        "beCivil": "Soyez courtois et respectueux dans vos interactions.",
+        "keepItClean": "N'utilisez pas de langage obscène ou sexuellement explicite.",
+        "respectEachOther": "Ne harcelez pas, n'intimidez pas et ne divulguez pas d'informations privées sur d'autres membres.",
+        "respectForum": "Ne publiez pas de spam et ne vandalisez pas le forum."
+      },
+      "publicForum": "Ce forum est public et indexé par les moteurs de recherche. Veillez à ce que le contenu que vous publiez soit approprié pour un large public."
+    },
+    "keepItTidy": {
+      "title": "Gardez le forum organisé",
+      "desc": "Pour faciliter la navigation et la recherche, veillez à publier vos messages dans la bonne catégorie.",
+      "rules": {
+        "rightCategory": "Choisissez la catégorie la plus appropriée pour votre sujet.",
+        "noCrossPosting": "Ne publiez pas le même message dans plusieurs sujets.",
+        "noContentReplies": "Évitez les réponses vides de contenu.",
+        "stayOnTopic": "Ne déviez pas du sujet initial en cours de discussion.",
+        "noSignatures": "Il n'est pas nécessaire de signer vos messages, car vos informations de profil y sont déjà associées."
+      },
+      "alternatives": {
+        "plusOne": "Utilisez le bouton \"J'aime\" plutôt que de répondre \"+1\" ou \"D'accord\".",
+        "newTopic": "Pour aborder un sujet différent, utilisez la fonction \"Répondre en tant que sujet lié\"."
+      }
+    },
+    "postOnlyYourOwnStuff": {
+      "title": "Publiez Uniquement Votre Propre Contenu",
+      "desc": "Respectez les droits d'auteur et la propriété intellectuelle. Ne publiez pas de contenu appartenant à quelqu'un d'autre sans son autorisation."
+    },
+    "poweredByYou": {
+      "title": "Un Forum Animé par Vous",
+      "desc": "Ce forum est géré par une équipe de modération et par vous, la communauté. Si vous avez des questions sur le fonctionnement du forum, n'hésitez pas à ouvrir un nouveau sujet dans la catégorie \"Site Feedback\" pour en discuter.",
+      "contact": "Pour toute question urgente ou problème ne pouvant être résolu via le forum, contactez les modérateurs."
+    },
+    "moderationNote": "Les modérateurs se réservent le droit de supprimer tout contenu inapproprié à tout moment. Signalez les comportements problématiques plutôt que d'y répondre directement. Votre aide est précieuse pour maintenir un environnement sain et respectueux.",
+    "contactUs": "COMMENT NOUS CONTACTER"
+  },
+  "WatchOutModal": {
+    "watchOutFor": "Conseils pour l'examen de : {{teacherName}}",
+    "alreadyCommented": "Vous avez déjà commenté sur {{teacherName}}.",
+    "commentPlaceholder": "Qu'est-ce que les étudiants devraient surveiller ?",
+    "submitComment": "Soumettre le commentaire",
+    "moderateComments": "Modération du commentaire...",
+    "guidelinesLink": "Lignes directrices"
+  },
+  "SaveBar": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "unsaved_changes": "Attention — enregistre tes modifications !"
+  },
+  "PointsSystem": {
+    "20minutes": "Whoah! Vous êtes resté actif pendant 20 minutes! 🎉"
+  },
+  "FAQ": {
+    "title": "Questions Fréquemment Posées",
+    "tutorial": "Tutoriel complet",
+    "searchPlaceholder": "Rechercher...",
+    "noResults": "Aucune question correspondante trouvée",
+    "questions": {
+      "1": "Comment évaluer les professeurs ?",
+      "2": "Comment évaluer les établissements ?",
+      "3": "Comment naviguer parmi tous les professeurs ?",
+      "4": "Comment naviguer sur la page d'un établissement ?",
+      "5": "Comment utiliser la barre de recherche ?"
+    },
+    "answers": {
+      "1": "Pour donner votre avis sur un professeur, cliquez simplement sur le bouton d'évaluation en haut à droite de sa carte, ou sur le bouton à gauche de la page détaillée du professeur (accessible en cliquant sur la carte du professeur). Vous pourrez soumettre votre évaluation en utilisant l'icône d'évaluation, qui est identique à notre logo dans l'onglet du navigateur.",
+      "2": "Pour partager votre opinion sur un établissement, rendez-vous sur la page dédiée de l'établissement. Cherchez le même bouton d'évaluation que celui utilisé pour noter les professeurs (notre logo).",
+      "3": "Parcourez la liste complète des professeurs en recherchant le nom du professeur dans la barre de recherche. Vous pouvez également rechercher l'établissement souhaité. Sur la page de l'établissement, il y a un bouton qui vous redirige vers la liste complète des professeurs de cet établissement. Dans les listes de professeurs, vous pouvez soit faire défiler la liste, soit utiliser la fonction de recherche pour trouver un professeur en particulier.",
+      "4": "La page de l'établissement est organisée en plusieurs conteneurs de critères. Sur ordinateur, passer la souris sur chaque conteneur vous donnera un aperçu des 3 meilleurs commentaires, alternant entre eux. Sur mobile, maintenir votre doigt sur un conteneur déclenchera l'alternance des commentaires. Cliquer sur un conteneur de critères ouvrira une fenêtre modale où vous pourrez voir tous les commentaires et y répondre. Le grand conteneur en bas fait défiler tous les commentaires ; cliquer dessus passera au commentaire suivant. Si vous pensez qu'il manque certaines fonctionnalités, n'hésitez pas à nous contacter via notre serveur Discord ou le bouton de recommandation de fonctionnalités sur la page de liste des professeurs.",
+      "5": "La barre de recherche vous permet de trouver des professeurs ou des établissements spécifiques. Le bouton de basculement vous permet de passer de la recherche de professeurs à celle d'établissements. Lorsque la barre de recherche est configurée pour rechercher des établissements, une petite icône apparaît sur le côté droit. Cliquer sur cette icône vous redirigera vers une liste d'établissements, facilitant ainsi la recherche de celui dont vous avez besoin."
+    },
+    "step": "Étape"
+  },
+  "articles": {
+    "title": "Articles récents",
+    "article1": {
+      "id": "article1",
+      "date": "2024-02-25",
+      "title": "RateMinistère vs. Rate My Professor : Concept similaire, plus de fonctionnalités",
+      "excerpt": "Une comparaison détaillée entre RateMinistère et Rate My Professor, mettant en lumière les fonctionnalités uniques de RateMinistère.",
+      "content": [
+        {
+          "type": "text",
+          "value": "Rate My Professor a longtemps été une ressource de référence pour les étudiants cherchant à obtenir des informations privilégiées sur les professeurs et les cours. RateMinistère reprend ce concept fondamental – basé sur des évaluations et des avis issus de la communauté – et l’enrichit d’une multitude de fonctionnalités supplémentaires conçues pour offrir une expérience plus complète et conviviale."
+        },
+        {
+          "type": "comparison"
+        }
+      ],
+      "comparison": {
+        "intro": "Cette table de comparaison souligne les principales différences entre RateMinistère et Rate My Professor, démontrant la valeur ajoutée et les fonctionnalités complètes proposées par RateMinistère.",
+        "platforms": [
+          "RateMinistère",
+          "Rate My Professor"
+        ],
+        "sections": [
+          {
+            "sectionType": "common",
+            "features": [
+              {
+                "label": "Évaluation des professeurs",
+                "description": "Notez les enseignants selon divers critères.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "Évaluation des établissements",
+                "description": "Notez les établissements selon l'expérience globale.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "Aperçu de recherche",
+                "description": "Affichez rapidement les résultats de recherche au fur et à mesure de votre saisie.",
+                "availability": [
+                  true,
+                  true
+                ]
+              },
+              {
+                "label": "Section FAQ",
+                "description": "Trouvez des réponses aux questions fréquemment posées.",
+                "availability": [
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "sectionType": "exclusive",
+            "features": [
+              {
+                "label": "État de chargement de l'aperçu de recherche",
+                "description": "Affichez un indicateur de chargement pendant la recherche.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "État sans résultats de l'aperçu de recherche",
+                "description": "Recevez un message clair lorsqu'aucun résultat n'est trouvé.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Animation dynamique au survol",
+                "description": "Profitez d'effets interactifs au survol.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Publicités réduites",
+                "description": "Profitez de jusqu'à 13 fois moins de publicités par page.*",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Liste des établissements",
+                "description": "Trouvez votre établissement plus rapidement grâce à une liste dédiée.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Curseur personnalisé",
+                "description": "Personnalisez votre expérience avec un curseur sur mesure.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Bouton de retour",
+                "description": "Naviguez facilement en arrière grâce à un bouton de retour bien visible.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Explication de la mission",
+                "description": "Découvrez notre mission sur la page d'accueil.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Transparence de l'équipe",
+                "description": "Rencontrez notre équipe et voyez qui se cache derrière la plateforme.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "FAQ facilement accessible",
+                "description": "Accédez rapidement à la section FAQ.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Tutoriel complet",
+                "description": "Commencez avec un tutoriel complet.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Section de contact",
+                "description": "Contactez-nous facilement via le formulaire de contact.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Suggestion de fonctionnalités",
+                "description": "Suggérez de nouvelles fonctionnalités que vous aimeriez voir.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Explications détaillées",
+                "description": "Des explications détaillées pour chaque fonctionnalité.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Réponses aux commentaires",
+                "description": "Participez aux discussions en répondant aux commentaires.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Fenêtre de tous les commentaires",
+                "description": "Lisez tous les commentaires en un lieu pratique.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Commentaires organisés",
+                "description": "Visualisez les commentaires organisés selon des critères sur les pages des établissements.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "Section d'alerte",
+                "description": "Les élèves peuvent partager des informations importantes sur les enseigants.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "AstrAlumna",
+                "description": "Une plateforme pour la collaboration et le partage entre étudiants.",
+                "availability": [
+                  true,
+                  false
+                ]
+              },
+              {
+                "label": "AstrArena",
+                "description": "Excellez en mathématiques tout en jouant.",
+                "availability": [
+                  true,
+                  false
+                ]
+              }
+            ]
+          }
+        ],
+        "disclaimer": "Basé sur une comparaison réalisée par l'équipe de recherche de RateMinistère",
+        "conclusion": "Alors que Rate My Professor offre une plateforme basique pour évaluer les professeurs, RateMinistère propose une expérience nettement plus riche et regorgeant de fonctionnalités. De la navigation améliorée et d'une interface plus épurée aux fonctionnalités innovantes telles qu'AstrAlumna et AstrArena, RateMinistère est conçue pour être la ressource ultime pour les étudiants."
+      }
+    },
+    "topSection": {
+      "text": "RateMinistère : La meilleure plateforme d'évaluation des enseignants par ses fonctionnalités",
+      "button": "Essayer gratuitement"
+    },
+    "bottomSection": {
+      "title": "Prêt à essayer ?",
+      "text": "Voyez par vous-même ! Commencez avec RateMinistère gratuitement et partagez votre avis. Aucune carte de crédit. Aucun engagement. Gratuit pour toujours.",
+      "button": "Essayer gratuitement"
+    }
+  },
+  "read.more": "Lire la suite",
+  "go_back": "Retour",
+  "comparison": {
+    "feature": "Fonctionnalités",
+    "conclusionTitle": "Conclusion"
+  },
+  "AstrArena": {
+    "lessons": {
+      "math_1_1_1": {
+        "title": "Explorez le monde des mathématiques",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Théorie pour le Quiz 1...</p>",
+            "example": "<p>Exemple pour le Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "Combien font 1 + 1 ?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          }
+        },
+        "quiz_2": {
+          "explanation": {
+            "theory": "<p>Théorie pour le Quiz 2...</p>",
+            "example": "<p>Exemple pour le Quiz 2...</p>"
+          },
+          "exercise1": {
+            "question": "Combien font 1 + 1 ?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          }
+        }
+      },
+      "math_1_1_2": {
+        "title": "Découvrez les bases de l'algèbre",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Théorie pour le Quiz 1...</p>",
+            "example": "<p>Exemple pour le Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "Combien font 1 + 1 ?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise5": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise6": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise7": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise8": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          }
+        }
+      },
+      "math_2_1_1": {
+        "title": "Concepts mathématiques avancés",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Théorie pour les mathématiques avancées...</p>",
+            "example": "<p>Exemple pour les mathématiques avancées...</p>"
+          },
+          "exercise1": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise3": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise4": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise5": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise6": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise7": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          },
+          "exercise8": {
+            "question": "Résolvez pour x : 2x + 3 = 7",
+            "answer": "2"
+          }
+        }
+      },
+      "science_1_1_1": {
+        "title": "Explorez le monde de la science",
+        "quiz_1": {
+          "explanation": {
+            "theory": "<p>Théorie pour le Quiz 1...</p>",
+            "example": "<p>Exemple pour le Quiz 1...</p>"
+          },
+          "exercise1": {
+            "question": "Combien font 1 + 1 ?",
+            "answer": "2"
+          },
+          "exercise2": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise3": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          },
+          "exercise4": {
+            "question": "Combien font 2 x 2 ?",
+            "answer": "4"
+          }
+        }
+      }
+    }
+  },
+  "report": {
+    "success": "Merci ! 🎉 Nous modérerons cela dès que possible !",
+    "error": "Oups, on dirait que le système a pris une pause.",
+    "tooltip": "Signaler"
+  },
+  "ReportModal": {
+    "title": "Signaler du contenu",
+    "reportedContent": "Contenu signalé :",
+    "reasonPlaceholder": "Veuillez nous dire pourquoi vous signalez ce contenu...",
+    "submit": "Soumettre le signalement",
+    "minimumWords": "Veuillez écrire au moins 10 caractères."
+  },
+  "SplitScreen": {
+    "ESC": "Appuyez sur ESC pour quitter"
+  },
+  "changeLogTitle": "Changelog",
+  "what": "Quoi",
+  "why": "Pourquoi",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "9 décembre 2024",
+      "newFeatures": [
+        "Lancement du site web RateMinistère !  C'est un endroit où les étudiants peuvent noter leurs professeurs.",
+        "Vous pouvez maintenant vous connecter en utilisant votre compte Google, ce qui rend le vote sûr et facile."
+      ],
+      "improvements": [
+        "Les problèmes avec la page de connexion ont été résolus."
+      ],
+      "why": "Le lancement initial a établi les fonctionnalités de base : notation des professeurs par les étudiants et connexion Google sécurisée pour une utilisation facile et fiable."
+    },
+    {
+      "version": "1.2.4",
+      "date": "10 décembre 2024",
+      "improvements": [
+        "Correction d'un bouton qui ferme la section affichant tous les commentaires.",
+        "Correction de l'apparence des images d'arrière-plan sur les commentaires lorsqu'ils sont consultés sur un téléphone.",
+        "Amélioration de l'inclinaison des commentaires \"5/5\".",
+        "Amélioration de la vérification de la pertinence des commentaires.",
+        "Les commentaires sont plus faciles à lire grâce à un effet de transparence léger et agréable."
+      ],
+      "why": "Ces améliorations visaient à améliorer l'expérience utilisateur en corrigeant les incohérences visuelles, en améliorant la lisibilité des commentaires et en affinant le processus de modération des commentaires."
+    },
+    {
+      "version": "1.4.0",
+      "date": "22 décembre 2024",
+      "newFeatures": [
+        "Votre page de profil a un tout nouveau look.",
+        "La façon dont vous votez sur les commentaires est améliorée avec une barre de vote plus claire.",
+        "Vous pouvez maintenant ajouter des arrière-plans personnalisés à votre profil.",
+        "Un bouton a été ajouté pour accéder facilement à la communauté Discord de RateMinistère."
+      ],
+      "improvements": [
+        "Le site web se charge plus rapidement.",
+        "Les problèmes d'affichage des badges ont été résolus.",
+        "L'aspect général du site web a été mis à jour pour être plus moderne."
+      ],
+      "why": "Cette mise à jour visait à accroître l'engagement des utilisateurs grâce à une page de profil remaniée, un meilleur vote des commentaires et une personnalisation du profil. La vitesse et l'esthétique globales du site ont également été privilégiées."
+    },
+    {
+      "version": "1.5.0",
+      "date": "1 janvier 2025",
+      "newFeatures": [
+        "L'\"AstrArena\" (une page de compétition étudiante) a été relookée, mais les boutons ne fonctionnent pas encore.",
+        "La \"Page de l'école\" a également été relookée, mais ses fonctionnalités sont encore en cours d'ajout."
+      ],
+      "improvements": [
+        "Le site web fonctionne mieux sur les téléphones portables."
+      ],
+      "why": "Les travaux ont commencé sur de nouvelles fonctionnalités majeures, AstrArena et les pages des écoles, en mettant l'accent initial sur la conception visuelle. La réactivité mobile a continué d'être améliorée."
+    },
+    {
+      "version": "1.7.0",
+      "date": "16 janvier 2025",
+      "newFeatures": [
+        "La page AstrArena a été complètement repensée pour ressembler à un jeu, avec un arrière-plan sympa et un meilleur classement.",
+        "Vous pouvez maintenant modifier et supprimer vos commentaires, et il y a une nouvelle façon de les consulter.",
+        "Vous pouvez maintenant voter pour les écoles, et les pages des écoles sont plus belles.",
+        "Une nouvelle section \"Équipe\" a été ajoutée pour que vous puissiez découvrir les personnes qui ont créé RateMinistère."
+      ],
+      "improvements": [
+        "La souris est maintenant personnalisée.",
+        "Les fiches d'information des enseignants sont plus belles.",
+        "Les pages des écoles sont mieux agencées.",
+        "Meilleure expérience sur mobile : vous sentirez une légère vibration lorsque vous appuierez, et les éléments réagissent mieux au toucher.",
+        "Correction de divers problèmes qui rendaient le site web instable, incohérent ou lent."
+      ],
+      "why": "Il s'agissait d'une mise à jour importante. AstrArena a été entièrement repensée, la gestion des commentaires de base a été ajoutée, les pages des écoles ont été améliorées et l'expérience utilisateur globale a été améliorée grâce à des personnalisations de l'interface utilisateur, des améliorations mobiles et des corrections de bugs."
+    },
+    {
+      "version": "1.7.5",
+      "date": "17 janvier 2025",
+      "improvements": [
+        "Correction du \"contrôle robot\" qui apparaît lors de l'inscription.",
+        "Correction du bouton d'inscription sur les téléphones portables.",
+        "Rendre plus clair le clic sur un bouton de la barre de navigation supérieure.",
+        "Correction d'un bouton dans AstrArena qui rebondissait deux fois.",
+        "Nettoyage de certains éléments visuels inutiles dans AstrArena.",
+        "Amélioration de l'apparence des boutons sur la page de profil.",
+        "Correction de l'apparence du classement AstrArena."
+      ],
+      "why": "Il s'agissait d'une version de correction de bugs, corrigeant les problèmes d'inscription, de navigation et d'AstrArena, améliorant directement le flux et l'interaction de l'utilisateur."
+    },
+    {
+      "version": "1.7.15",
+      "date": "8 février 2025",
+      "newFeatures": [
+        "Toutes les pages de politique (comme les conditions d'utilisation) ont maintenant la même apparence, et il y a un bouton de retour.",
+        "Certains textes du site web ont un effet 3D sympa, et les boutons de la barre de navigation supérieure ont également un effet 3D au survol.",
+        "Les fenêtres pop-up ont maintenant une animation amusante, comme dans un jeu.",
+        "Vous pouvez voir un aperçu d'un jeu en cours d'ajout à AstrArena.",
+        "Vous pouvez maintenant répondre aux commentaires, et vous pouvez voter pour ou contre les réponses."
+      ],
+      "improvements": [
+        "Correction de l'apparence des commentaires sur la page de l'école.",
+        "Le site web fonctionne mieux en mode sombre et sur mobile.",
+        "Votre nom d'utilisateur sera le même que votre nom de profil."
+      ],
+      "why": "Cette mise à jour visait à améliorer l'interaction et l'attrait visuel de l'utilisateur, en ajoutant des fonctionnalités telles que les réponses aux commentaires et un style amélioré, tout en maintenant la cohérence sur l'ensemble du site."
+    },
+    {
+      "version": "1.7.20",
+      "date": "8 février 2025",
+      "improvements": [
+        "Correction de quelques problèmes visuels et du fonctionnement du mode sombre.",
+        "Correction de quelques erreurs de traduction.",
+        "Clarification de la mission du site : aider les élèves à obtenir de meilleures notes."
+      ],
+      "why": "Cette version a corrigé les incohérences visuelles et de traduction et a explicitement renforcé la mission principale du site web."
+    },
+    {
+      "version": "1.7.31",
+      "date": "13 février 2025",
+      "newFeatures": [
+        "La barre de recherche est plus belle et possède un bouton à bascule.",
+        "Une liste d'écoles a été ajoutée pour faciliter la recherche de la vôtre."
+      ],
+      "improvements": [
+        "La police a été mise à jour pour un look plus propre et plus moderne.",
+        "Correction de quelques problèmes avec l'aperçu d'AstrArena."
+      ],
+      "why": "La recherche et la navigation dans les écoles ont été améliorées pour permettre aux utilisateurs de trouver plus facilement ce dont ils ont besoin. La mise à jour de la police a amélioré la lisibilité et l'esthétique du site."
+    },
+    {
+      "version": "1.8.7",
+      "date": "8 mars 2025",
+      "newFeatures": [
+        "Amélioration de la zone d'entraînement dans AstrArena.",
+        "Amélioration du système de gain de points.",
+        "Les pages des écoles sont plus détaillées et plus faciles à utiliser.",
+        "Ajout de nouvelles icônes et de nouveaux badges pour les compétitions d'enseignants.",
+        "L'animation de la barre de recherche est plus fluide.",
+        "Amélioration des notifications par cloche pour afficher des extraits de commentaires populaires.",
+        "Vous pouvez maintenant voter pour ou contre les commentaires sur les pages des écoles, comme pour les commentaires des enseignants.",
+        "Ajout d'une section \"Attention\" pour les enseignants (le bouton est encore en cours de développement).",
+        "Ajout d'un bouton \"i\" utile qui explique comment évaluer les enseignants.",
+        "Vos points apparaissent maintenant sur votre profil."
+      ],
+      "why": "Il s'agissait d'une mise à jour importante axée sur les fonctionnalités. AstrArena, les pages des écoles et le système de points ont tous été considérablement améliorés, et de nouvelles fonctionnalités ont été ajoutées pour améliorer l'engagement des utilisateurs et fournir des informations utiles."
+    },
+    {
+      "version": "1.8.8",
+      "date": "9 mars 2025",
+      "improvements": [
+        "Ajout d'une animation fluide à la section Foire Aux Questions (FAQ)."
+      ],
+      "why": "Une petite amélioration pour améliorer l'expérience utilisateur dans la section FAQ."
+    },
+    {
+      "version": "1.8.12",
+      "date": "15 mars 2025",
+      "improvements": [
+        "Correction de la traduction dans la fenêtre d'inscription.",
+        "Les fenêtres pop-up apparaissent de manière plus fluide.",
+        "Correction de la fenêtre qui demande si vous êtes sûr de vouloir supprimer votre profil.",
+        "Ajout d'un message sur votre profil pour vous rappeler de laisser un commentaire si vous avez évalué un enseignant.",
+        "Correction de la réaction des commentaires et des réponses au survol de la souris."
+      ],
+      "why": "Cette mise à jour a corrigé divers bugs liés à la traduction, aux interactions de l'interface utilisateur et à la gestion du profil utilisateur, améliorant ainsi la convivialité générale."
+    },
+    {
+      "version": "1.8.14",
+      "date": "16 mars 2025",
+      "newFeatures": [
+        "Vous pouvez maintenant signaler les commentaires ou les réponses inappropriés.",
+        "Un nouveau bouton dans vos notifications vous permet de marquer toutes les notifications comme lues.",
+        "Le site web garde une trace de vos 10 dernières notifications."
+      ],
+      "improvements": [
+        "Amélioration de l'apparence des petites boîtes d'information qui apparaissent lorsque vous survolez les boutons.",
+        "Correction d'un problème qui affichait deux fois le même message lorsque vous votiez sur un commentaire d'école.",
+        "Les directives pour l'évaluation sont plus claires et plus intéressantes.",
+        "Le tutoriel de la FAQ s'ouvre dans un nouvel onglet pour faciliter la navigation."
+      ],
+      "why": "De nouvelles fonctionnalités ont été ajoutées pour améliorer la modération de la communauté (signalement) et la gestion des notifications. La convivialité a été améliorée grâce à de meilleures infobulles, des directives plus claires et un meilleur accès à la FAQ."
+    },
+    {
+      "version": "1.8.23",
+      "date": "17 mars 2025",
+      "newFeatures": [
+        "Bouton d'écran partagé : permet de comparer facilement deux sections !",
+        "Chargement dynamique du profil : vous verrez un cercle en rotation pendant le chargement de votre profil.",
+        "Page d'historique des points : votre historique de points s'ouvrira dans une nouvelle page."
+      ],
+      "improvements": [
+        "Correction de problèmes d'affichage des infobulles.",
+        "Correction de problèmes de style des boutons.",
+        "Correction d'un bug sérieux qui empêchait les utilisateurs de voter pour les enseignants."
+      ],
+      "bugFixes": [
+        "Nombreuses autres corrections de bugs"
+      ],
+      "why": "De nouvelles fonctionnalités majeures, notamment la comparaison en écran partagé, le chargement dynamique du profil et une page d'historique des points dédiée, ont été introduites. Plusieurs bugs, dont un problème de vote critique, ont également été résolus."
+    },
+    {
+      "version": "1.8.25",
+      "date": "18 mars 2025",
+      "newFeatures": [
+        "Page de journal des modifications : après avoir testé 16 styles différents, nous avons enfin un journal des modifications propre et fonctionnel !",
+        "Bouton de comparaison amélioré : meilleure logique et conception plus élégante pour des comparaisons sans effort.",
+        "Améliorations de la page de profil : bouton de didacticiel amélioré et ajout d'un lien direct vers le journal des modifications."
+      ],
+      "why": "Cette mise à jour a introduit un journal des modifications dédié pour une meilleure transparence, a amélioré la fonctionnalité de comparaison pour une meilleure convivialité et a permis aux utilisateurs d'accéder plus facilement à l'aide et aux mises à jour depuis leur page de profil."
+    },
+    {
+      "version": "1.9.0",
+      "date": "23 mars 2025",
+      "newFeatures": [
+        "Le bouton de comparaison est réparé et ne se fige plus.",
+        "Les noms d'utilisateur et les icônes apparaissent désormais à côté des commentaires.  Les nouveaux utilisateurs reçoivent des noms d'utilisateur aléatoires (modifiables ultérieurement), et les utilisateurs existants restent anonymes s'ils le souhaitent.",
+        "Vous pouvez maintenant afficher/masquer les critères détaillés des votes sur les commentaires.",
+        "Les traductions de la page de profil ont été améliorées.",
+        "Les réponses aux commentaires s'affichent désormais correctement.",
+        "Amélioration des animations, des couleurs de police et de la compatibilité avec le mode sombre sur l'ensemble du site."
+      ],
+      "improvements": [
+        "Amélioration du style sur mobile dans la fenêtre modale de tous les commentaires d'un enseignant.",
+        "Barre de navigation plus fluide et intuitive."
+      ],
+      "why": "Cette mise à jour vise à améliorer l'expérience utilisateur avec une fonction de comparaison plus stable, une attribution plus claire des commentaires, une page de profil améliorée, ainsi que de nombreuses améliorations visuelles et fonctionnelles sur ordinateur et mobile."
+    }
+  ]
+}

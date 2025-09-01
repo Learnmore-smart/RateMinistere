@@ -1,0 +1,140 @@
+.container {
+    border: 0.7px solid #0066ff;
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.bigContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.gridContainer {
+    display: grid;
+    width: 100%;
+    min-width: 600px;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem 0.7rem;
+    border: 0.7px solid #0066ff;
+    box-sizing: border-box;
+    position: relative;
+    transition: background-color 0.1s ease;
+    width: 100%;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.headerRow {
+    background-color: rgb(90, 142, 255);
+    color: white;
+}
+
+.headerRow:hover {
+    background-color: rgb(74, 132, 255);
+}
+
+.stickyColumn {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+
+.rateMinistere {
+    background-color: #c3e7ff;
+    color: black;
+}
+
+.rateMyProfessor,
+.featureLabel {
+    background-color: #fffaf4;
+    color: #333;
+}
+
+.rateMinistere:hover {
+    background-color: #9dd8ff;
+}
+
+.rateMyProfessor:hover,
+.featureLabel:hover {
+    background-color: #fff3e5;
+}
+
+.featureDescription {
+    font-size: 0.9rem;
+    color: #555555;
+    width: 100%;
+    text-align: left;
+}
+
+.availability {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.available {
+    color: #4caf50;
+}
+
+.notAvailable {
+    color: #f44336;
+}
+
+.gridContainer> :first-child,
+.featureLabel>span {
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+    height: 100%;
+}
+
+.disclaimer {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .gridContainer {
+        min-width: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .gridItem,
+    .stickyHeader,
+    .stickyColumn {
+        position: static;
+    }
+
+    .headerRow {
+        text-align: center;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .disclaimer {
+        color: #999;
+    }
+
+}

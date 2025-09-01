@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin: 0 auto;
+  z-index: 50;
+}
+
+.transparentbar {
+  position: relative;
+  justify-self: center;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.progressBar {
+  height: 2rem;
+  background: rgba(179, 179, 179, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(212, 191, 6, 0.3);
+  position: relative;
+  backdrop-filter: blur(4px);
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(to right, #f59e0b, #f97316, #9333ea);
+  border-radius: inherit;
+  position: relative;
+  width: 100%;
+  left: 0;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.progressFill::after {
+  content: '';
+  position: absolute;
+  top: 32%;
+  left: 0;
+  right: 0;
+  height: 20%;
+  width: auto;
+  margin: 0 12px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-50%);
+  clip-path: inset(0 0 0 0 round 20px);
+}

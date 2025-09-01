@@ -1,0 +1,75 @@
+.footercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.footerbuttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Contactbutton,
+.footerbutton {
+    display: block;
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: rgba(240, 240, 240, 0.3);
+    border: 1px solid rgba(166, 166, 166, 0.8);
+    color: rgb(74, 74, 74);
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Contactbutton {
+    background-color: rgba(129, 204, 255, 0.6);
+}
+
+.Contactbutton:hover {
+    background-color: rgb(129, 205, 255);
+}
+
+.footerbutton:hover {
+    background-color: rgba(224, 224, 224, 0.8);
+}
+
+.footerbutton:active {
+    transform: scale(0.95);
+}
+
+.footercopyright {
+    font-size: 18px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footerversion {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 216, 18);
+}
+
+@media (max-width: 768px) {
+
+    .Contactbutton,
+    .footerbutton {
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+
+    .footercopyright {
+        font-size: 12px;
+    }
+
+    .footerversion {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,76 @@
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  opacity: 1;
+}
+
+.logoContainer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.loadingText {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center; /* Center the text */
+}
+
+.loadingSpinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinIcon {
+  width: 35px;
+  height: 35px;
+  color: #888; /* Default spinner color for light mode */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .loadingText {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .loadingContainer {
+      background-color: #1a1a1a; /* Dark background for dark mode */
+  }
+
+    .loadingText {
+        color: #f0f0f0; /* Text color for dark mode */
+    }
+
+    .spinIcon {
+        color: #ccc; /* Spinner color for dark mode */
+    }
+}

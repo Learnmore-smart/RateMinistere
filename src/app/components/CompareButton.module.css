@@ -1,0 +1,172 @@
+.compareButton {
+    --button-size: 50px;
+    --button-padding: 8px 12px;
+    width: var(--button-size);
+    height: var(--button-size);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1000;
+    background: linear-gradient(135deg, #87a3ff, #fb8aff);
+    border: 1px solid rgb(191, 134, 255);
+    box-shadow: 0 4px 6px rgba(137, 126, 255, 0.5);
+}
+
+
+.compareButton:hover {
+    box-shadow: 0 0 10px rgba(137, 126, 255, 0.5),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.compareButton:hover .compareIcon {
+    transform: scale(1.1);
+}
+
+.closeIcon,
+.compareIcon {
+    transition: transform 0.3s ease;
+    color: rgb(255, 255, 255);
+    width: 24px;
+    height: 24px;
+}
+
+.closeIcon {
+    color: rgb(43, 43, 43);
+}
+
+.splitContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 8px;
+    padding: 6px;
+    z-index: 1001;
+    background: white;
+}
+
+.splitView {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 1002;
+    box-shadow: 0 0 0 1px rgb(220, 220, 220);
+    transition: all 0.3s ease;
+}
+
+.splitView.active {
+    box-shadow: 0 0 0 2px #4568DC;
+}
+
+
+.splitFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    pointer-events: auto;
+}
+
+.splitFrame:hover {
+    overflow-y: scroll;
+}
+
+
+.closeCompare {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1002;
+    opacity: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.closeCompare:active {
+    transform: scale(0.9);
+}
+
+.splitView:hover .closeCompare {
+    opacity: 1;
+}
+
+.closeCompare:hover .closeIcon {
+    transform: rotate(180deg);
+}
+
+.messageContainer {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 1003;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+    .compareButton {
+        --button-size: 40px;
+        --button-padding: 6px 9px;
+        width: var(--button-size);
+        height: var(--button-size);
+
+    }
+
+    .closeIcon,
+    .compareIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .compareButton.active .compareIcon {
+        transform: scale(0.8);
+    }
+
+    .splitContainer {
+        flex-direction: column;
+    }
+
+    .splitView {
+        width: 100%;
+        height: 50%;
+    }
+
+    .messageContainer {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .compareButton.active {
+        transform: scale(0.9);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

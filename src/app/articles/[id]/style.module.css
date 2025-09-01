@@ -1,0 +1,222 @@
+.fullscreenArticle {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 6rem;
+    height: 100%;
+    z-index: 0;
+}
+
+.container {
+    z-index: 0;
+}
+
+.articleTitle {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: rgb(33, 144, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+.articleDate {
+    color: #666;
+    margin-bottom: 0.5rem;
+    padding: 0 100px;
+    font-style: italic;
+}
+
+.topContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 100px 80px;
+    background-color: #9dd8ff;
+    border-bottom-right-radius: 100px;
+    margin-top: -140px;
+}
+
+
+.topText {
+    flex: 1;
+    text-align: left;
+    max-width: 600px;
+}
+
+.topText h3 {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+.topImage {
+    flex: 1;
+    max-width: 400px;
+    filter: drop-shadow(0 8px 24px rgba(255, 230, 0, 0.9));
+    transition: filter 1s ease, transform 0.5s ease;
+}
+
+.topImage:hover {
+    transform: scale(0.9);
+    filter: drop-shadow(0 8px 80px rgb(255, 230, 0)) drop-shadow(0 0 10px rgba(255, 255, 255, 0.5)) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2)) drop-shadow(-5px -5px 10px rgba(255, 255, 255, 0.8));
+}
+
+.tryButton2,
+.tryButton {
+    padding: 20px 28px;
+    background-color: rgba(0, 110, 255, 0.8);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-right: auto;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(44, 97, 255, 0.6),
+        0 0 0 1px rgba(0, 38, 255, 0.5);
+}
+
+.tryButton2 {
+    padding: 15px 21px;
+    font-size: 1rem;
+    border-radius: 17px;
+    margin-right: 0;
+    margin: 0 auto;
+}
+
+.tryButton2:hover,
+.tryButton:hover {
+    box-shadow: 0 4px 12px rgba(44, 97, 255, 0.8),
+        0 0 0 10px rgba(0, 38, 255, 0),
+        5px 5px 10px rgba(0, 0, 0, 0.2),
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tryButton2:active,
+.tryButton:active {
+    transform: scale(0.9);
+}
+
+.bottomContainer {
+    padding: 40px;
+    padding-bottom: 60px;
+    background-color: #9dd8ff;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.bottomContent {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomContainer h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(33, 144, 255);
+    text-align: center;
+}
+
+.bottomContainer span {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+    max-width: 700px;
+}
+
+@media (max-width: 1024px) {
+    .bottomContainer {
+        padding: 60px 30px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+    }
+
+    .bottomContainer h2 {
+        font-size: 1.8rem;
+    }
+
+    .bottomContainer p {
+        font-size: 1rem;
+    }
+
+    .topContainer {
+        padding: 180px 40px 60px;
+        text-align: center;
+    }
+
+    .topText {
+        text-align: center;
+        max-width: none;
+    }
+
+    .topText h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    .tryButton {
+        margin: 0 auto;
+    }
+
+    .topImage {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fullscreenArticle {
+        padding: 1rem;
+    }
+
+    .articleTitle {
+        font-size: 2rem;
+    }
+
+    .topContainer {
+        flex-direction: column;
+    }
+
+    .topText h3 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        color: #1a1a1a;
+    }
+
+    .bottomContainer {
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+
+    .topImage {
+        flex: 1;
+        max-width: 250px;
+    }
+
+    .articleDate {
+        padding: 0.5rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .bottomContainer {
+        padding: 40px 20px;
+    }
+
+    .bottomContainer h2 {
+        font-size: 1.5rem;
+    }
+}

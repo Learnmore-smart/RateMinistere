@@ -11,7 +11,7 @@ const nextConfig = {
         MONGODB_URI: '',
         GEMINI_API_KEY: '',
         NEXTAUTH_SECRET: '',
-        NEXTAUTH_URL: process.env.NEXTAUTH_URL || '',
+        NEXTAUTH_URL: process.env.NEXTAUTH_URL || 'http://localhost:3000/rateministere',
         NotAPassword: "",
         discourseSsoUrl: '',
         sso: "",

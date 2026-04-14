@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+    basePath: '/rateministere',
+    assetPrefix: '/rateministere',
     // delete this line if you are doing prod - never deploy secrets on Github!!!
     // This is all secrets that you will need!!!
     env: {

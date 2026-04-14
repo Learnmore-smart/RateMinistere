@@ -29,7 +29,7 @@ const Canvas = () => {
     <div className={styles.loadingContainer}>
       <div className={styles.logoContainer}>
         <Image
-          src="/images/Rateministere.png"
+          src="/rateministere/images/Rateministere.png"
           alt="Rateministere Logo"
           width={150}
           height={150}

@@ -146,7 +146,7 @@ export function CustomCursor() {
       }}
     >
       <Image
-        src="/images/cursors/cursor.png"
+        src="/rateministere/images/cursors/cursor.png"
         style={{
           position: 'fixed',
           left: `${mousePosition.x}px`,

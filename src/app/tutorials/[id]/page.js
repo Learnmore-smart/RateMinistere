@@ -46,7 +46,7 @@ const TutorialPage = () => {
                                 <div key={index} className={styles.screenshotItem}>
                                     <div className={styles.stepNumber}><span>{t("FAQ.step")} {index + 1}</span></div>
                                     <Image
-                                        src={`/images/tutorials/${id}/${screenshot}`}
+                                        src={`/rateministere/images/tutorials/${id}/${screenshot}`}
                                         alt={`${item.question}-Step${index + 1}`}
                                         width={800}
                                         height={600}

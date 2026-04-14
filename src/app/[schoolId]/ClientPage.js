@@ -24,15 +24,27 @@ import 'react-toastify/dist/ReactToastify.css';
 import SchoolCommentGrid from "./SchoolCommentGrid";
 
 const fetchSchool = async (schoolId) => {
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schools?sid=${schoolId}`);
-  const school = await res.json();
-  return school.dbResults;
+  try {
+    const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schools?sid=${schoolId}`);
+    if (!res.ok) return null;
+    const school = await res.json();
+    return school?.dbResults;
+  } catch (error) {
+    console.error("Error fetching school:", error);
+    return null;
+  }
 };
 
 const fetchComments = async (schoolId) => {
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schoolcomments?sid=${schoolId}`);
-  const comments = await res.json();
-  return comments.dbResults;
+  try {
+    const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schoolcomments?sid=${schoolId}`);
+    if (!res.ok) return [];
+    const comments = await res.json();
+    return comments?.dbResults || [];
+  } catch (error) {
+    console.error("Error fetching comments:", error);
+    return [];
+  }
 };
 
 
@@ -442,7 +454,7 @@ const TeacherRating = ({ params }) => {
                   >
                     <div>
                       <Image
-                        src="/images/Rateministere.png"
+                        src="/rateministere/images/Rateministere.png"
                         alt="Rateministere.png"
                         fill
                         style={{

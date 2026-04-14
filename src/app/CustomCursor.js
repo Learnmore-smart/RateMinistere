@@ -81,7 +81,7 @@ export function CustomCursor() {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
-        const response = await fetch('/api/user/settings');
+        const response = await fetch('/rateministere/api/user/settings');
 
         if (!response.ok) {
           console.error('Failed to fetch user settings:', response.status, response.statusText);

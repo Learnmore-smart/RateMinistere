@@ -25,7 +25,7 @@ const FAQ = () => {
 
     const handleOpenTutorial = (key) => {
         // Use window.open to open in a new tab/window
-        window.open(`/tutorials/${key}`, '_blank');
+        window.open(`/rateministere/tutorials/${key}`, '_blank');
     };
 
     const toggleExpanded = (index) => {

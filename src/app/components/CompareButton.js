@@ -76,7 +76,13 @@ const CompareButton = () => {
         }
     };
 
-    const isInIframe = new URL(window.location.href).searchParams.get('inIframe') === 'true';
+    const [isInIframe, setIsInIframe] = useState(false);
+
+    useEffect(() => {
+        const inIframe = new URL(window.location.href).searchParams.get('inIframe') === 'true';
+        setIsInIframe(inIframe);
+    }, []);
+
     if (isInIframe) {
         return null;
     }

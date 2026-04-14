@@ -197,7 +197,7 @@ export default function Home() {
                         <div className={styles["image-container"]}>
                             <div className={styles["image-box"]}>
                                 <Image
-                                    src="/images/Homepage/1. Anonymous.png"
+                                    src="/rateministere/images/Homepage/1. Anonymous.png"
                                     alt="1. Anonymous"
                                     fill
                                     priority
@@ -208,7 +208,7 @@ export default function Home() {
                         <div className={styles["image-container"]}>
                             <div className={styles["image-box"]}>
                                 <Image
-                                    src="/images/Homepage/2. Thumbs up.png"
+                                    src="/rateministere/images/Homepage/2. Thumbs up.png"
                                     alt="2. Thumbs up"
                                     fill
                                     priority
@@ -219,7 +219,7 @@ export default function Home() {
                         <div className={styles["image-container"]}>
                             <div className={styles["image-box"]}>
                                 <Image
-                                    src="/images/Homepage/3. Erase and edit.png"
+                                    src="/rateministere/images/Homepage/3. Erase and edit.png"
                                     alt="3. Erase and edit"
                                     fill
                                     priority
@@ -233,7 +233,7 @@ export default function Home() {
                     <div className={styles["featured-section"]}>
                         <div className={styles["featured-image-container"]}>
                             <Image
-                                src="/images/Homepage/1st.png"
+                                src="/rateministere/images/Homepage/1st.png"
                                 alt="Featured Image"
                                 fill
                                 style={{ objectFit: 'cover' }}

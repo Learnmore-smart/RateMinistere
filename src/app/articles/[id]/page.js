@@ -32,7 +32,7 @@ export default function ArticlePage() {
                 </div>
                 <div className={styles.topImage}>
                     <Image
-                        src="/images/Rateministere.png"
+                        src="/rateministere/images/Rateministere.png"
                         alt="Rateministere"
                         width={400}
                         height={400}

@@ -218,7 +218,7 @@ const StudentCompetition = () => {
                             <div className={styles.arenaContainer}>
                                 <div className={styles.arenaPicture}>
                                     <Image
-                                        src="/images/Arenas/Arena 1.png"
+                                        src="/rateministere/images/Arenas/Arena 1.png"
                                         alt="Arena 1"
                                         width={1024}
                                         height={1024}

@@ -2,9 +2,15 @@ import React from "react";
 import ClientPage from "./ClientPage"
 
 const fetchSchool = async (schoolId) => {
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schools?sid=${schoolId}`)
-  const school = await res.json()
-  return school.dbResults
+  try {
+    const res = await fetch(`${process.env.NEXTAUTH_URL}/api/schools?sid=${schoolId}`)
+    if (!res.ok) return null;
+    const school = await res.json()
+    return school?.dbResults
+  } catch (error) {
+    console.error("Error fetching school:", error);
+    return null;
+  }
 }
 
 export async function generateMetadata(

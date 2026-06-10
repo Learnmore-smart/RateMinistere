@@ -214,6 +214,22 @@ export default function Navbar() {
             <Link href="/" className={styles["home-button"]} onClick={(e) => handleButtonClick(e)}>
               <House className={styles.homeIcon} />
             </Link>
+            <a 
+              href="https://www.rateministere.com" 
+              className={styles["home-button"]}
+              style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)', width: 'auto', borderRadius: '15px', padding: '0 15px', color: '#fff', fontSize: '11px', fontWeight: 'bold', textDecoration: 'none', gap: '5px', display: 'flex', alignItems: 'center', height: '40px' }}
+            >
+              Portfolio
+            </a>
+            <a 
+              href="https://github.com/Learnmore-smart/RateMinistere" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={styles["home-button"]}
+              style={{ background: '#24292e', width: 'auto', borderRadius: '15px', padding: '0 15px', color: '#fff', fontSize: '11px', fontWeight: 'bold', textDecoration: 'none', gap: '5px', display: 'flex', alignItems: 'center', height: '40px' }}
+            >
+              GitHub
+            </a>
             {/*             <Link href="/astrarena" className={styles.rankingButton} onClick={(e) => handleButtonClick(e)}>
               <Ranking weight="duotone" className={styles.rankingIcon} />
               <p className={styles.now}>battle!</p>
